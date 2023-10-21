@@ -32,8 +32,8 @@ export function FaqSection() {
 
   return (
     <>
-      <div className="container mx-auto px-3 md:px-5 pt-[71px] pb-[126px]">
-        <h1 className="font-Lato text-light-blackE mb-4 font-bold text-5xl text-center">
+      <div className="container mx-auto px-3 md:px-5 pt-8 sm:pt-12 lg:pt-[71px] pb-8 sm:pb-12 lg:pb-[126px]">
+        <h1 className="font-Lato text-light-blackE mb-3  sm:mb-4 font-bold text-[40px] sm:text-5xl text-center">
           FAQ
         </h1>
         <p className="font-Lato text-base text-light-black text-center mx-auto max-w-[788px] leading-[150%] pb-4  ">
