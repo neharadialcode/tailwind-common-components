@@ -43,7 +43,7 @@ export function FaqSection() {
         </p>
         <div className="max-w-[834px] mx-auto">
           <Accordion
-            className="flex flex-col justify-between   px-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden relative"
+            className="flex flex-col justify-between px-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden relative"
             open={open === 1}
             icon={<Icon id={1} open={open} />}
           >
@@ -66,7 +66,7 @@ export function FaqSection() {
           </Accordion>
 
           <Accordion
-            className="flex flex-col justify-between  px-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
+            className="flex flex-col justify-betweenpx-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
             open={open === 2}
             icon={<Icon id={2} open={open} />}
           >
@@ -88,7 +88,7 @@ export function FaqSection() {
             </AccordionBody>
           </Accordion>
           <Accordion
-            className="flex flex-col justify-between  px-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
+            className="flex flex-col justify-betweenpx-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
             open={open === 3}
             icon={<Icon id={3} open={open} />}
           >
@@ -111,7 +111,7 @@ export function FaqSection() {
           </Accordion>
 
           <Accordion
-            className="flex flex-col justify-between  px-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
+            className="flex flex-col justify-betweenpx-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
             open={open === 4}
             icon={<Icon id={4} open={open} />}
           >
@@ -133,7 +133,7 @@ export function FaqSection() {
             </AccordionBody>
           </Accordion>
           <Accordion
-            className="flex flex-col justify-between  px-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
+            className="flex flex-col justify-betweenpx-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
             open={open === 5}
             icon={<Icon id={5} open={open} />}
           >

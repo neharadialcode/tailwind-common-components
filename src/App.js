@@ -1,12 +1,13 @@
 import './App.css';
+import FaqSecond from './components/FaqSecond';
 import FaqSection from './components/FaqSection';
-import OurTeam1 from './components/OurTeam1';
 
 function App() {
   return (
     <>
-      {/* <OurTeam1 /> */}
       <FaqSection/>
+      {/* <FaqSecond /> */}
+      
     </>
   );
 }
