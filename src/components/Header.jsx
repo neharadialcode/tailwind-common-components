@@ -175,9 +175,7 @@ const Header = () => {
           officia id animi, qui provident veritatis natus libero labore
           repellendus necessitatibus placeat sapiente corporis, itaque quae
           explicabo aspernatur deserunt sunt, eum accusamus voluptatibus quidem
-          dolore eaque. Hic similique accusamus beatae animi at. Veritatis animi
-          minus quis neque, perferendis nemo, ullam, eaque rerum amet commodi
-          sint.
+          dolore eaque. Hic similique accusamus beatae animi at.
         </header>
       </div>
     </>
