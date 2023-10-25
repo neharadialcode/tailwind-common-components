@@ -1,18 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+}
+
+
 .h_mobile{
     height: calc(100vh - 60px);
 }
-/* mobile nav  */
-/* .animated-content {
-  transition: transform 0.5s;
-  transform: translateX(-100%);
-}
-
-.slide-in {
-  transform: translateX(0);
-}
-button span {
-  font-size: 20px;
-  line-height: 1;
-  padding: 0;
-  margin: 0;
-} */
