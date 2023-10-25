@@ -1,33 +1,31 @@
-const withMT = require("@material-tailwind/react/utils/withMT");
-
 /** @type {import('tailwindcss').Config} */
-
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    content: [
-      "./index.html",
-      "./src/**/*.{js,ts,jsx,tsx}",
-      "path-to-your-node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
-      "path-to-your-node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
-    ],
-    // fontSize: {
-    //   xs: "16px",
-    //   xm: "20px",
-    //   xl: "56px",
-     
-    // },
+    fontSize: {
+      sm: "16px",
+      md: "20px",
+      lg: "56px",
+    },
+    container: {
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "5rem",
+        "2xl": "6rem",
+      },
+    },
     fontFamily: {
       Inter: ["Inter", "sans-serif"],
-      Lato: ["Lato", "sans-serif"],
     },
+
     extend: {
       colors: {
-        "light-blue": "#3C278D",
-        "light-blackE": "#1E1E1E",
-        "light-black": "#4D4D4D",
-        "light-black2": "#484848",
-        "light-grey": "#EDEDED",
+        "card-bg": "#ededed",
+        gray: "#484848",
+        "dark-gray": "#4d4d4d",
+        blue: "#3c278d",
       },
     },
   },
