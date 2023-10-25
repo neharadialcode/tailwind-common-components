@@ -10,9 +10,9 @@ import FaqSecond from "./components/FaqSecond";
 function App() {
   return (
     <>
-      {/* <Header />
+      <Header />
       <HeaderMiddle />
-      <HeaderLast/> */}
+      <HeaderLast/>
       <OurTeam />
       <FaqSection />
       <FaqSecond />

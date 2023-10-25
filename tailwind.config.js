@@ -1,8 +1,7 @@
-
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-     fontFamily: {
+    fontFamily: {
       inter: ["Inter", "sans-serif"],
     },
     fontSize: {
@@ -25,7 +24,7 @@ module.exports = {
 
     extend: {
       colors: {
-        "light-blue":"#3C278D",
+        "light-blue": "#3C278D",
         "card-bg": "#ededed",
         gray: "#484848",
         "dark-gray": "#4d4d4d",
