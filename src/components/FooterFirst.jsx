@@ -13,7 +13,7 @@ const FooterFirst = () => {
             </button>
             <p className="pt-[26px] text-opacity-80 text-[#4D4D4D] sm:sm:text-[16px] text-[14px] font-normal leading-normal font-Inter">
               Discover Stellar blockchain's unrivaled speed, security, &
-              scalability with Volag. Revolutionize finance.
+              scalability with volag. Revolutionize finance.
             </p>
           </div>
           <div className="lg:w-[75%] w-full flex sm:flex-row flex-col justify-between">
