@@ -15,7 +15,7 @@ const HeaderMiddle = () => {
   return (
     <>
       <div>
-        <nav className="bg-gray-800">
+        <nav className="bg-blue">
           <div className="max-w-[1188px] mx-auto px-6">
             <div className="flex items-center md:justify-center justify-between h-16">
               <div className="hidden md:block">
