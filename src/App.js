@@ -17,11 +17,11 @@ import FooterFirst from "./components/FooterFirst";
 function App() {
   return (
     <>
-      {/* <Header /> */}
-      {/* <HeaderMiddle /> */}
-      {/* <HeaderLast/> */}
-      {/* <HeroFirst/> */}
-      {/* <HeroSecond/> */}
+      <Header />
+      <HeaderMiddle />
+      <HeaderLast/>
+      <HeroFirst/>
+      <HeroSecond/>
       <HeroThird/>
       <OurTeam />
       <FaqSection />
@@ -29,7 +29,7 @@ function App() {
       <AboutUsFirst />
       <AboutUsSecond />
       <FooterFirst/>
-      {/* <FooterSecond/> */}
+      <FooterSecond/>
     </>
   );
 }
