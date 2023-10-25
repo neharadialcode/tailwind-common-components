@@ -8,13 +8,17 @@ import FaqSection from "./components/FaqSection";
 import FaqSecond from "./components/FaqSecond";
 import AboutUsFirst from "./components/AboutUsFirst";
 import AboutUsSecond from "./components/AboutUsSecond";
+import HeroFirst from "./components/HeroFirst";
+import HeroSecond from "./components/HeroSecond";
 
 function App() {
   return (
     <>
-      <Header />
-      <HeaderMiddle />
-      <HeaderLast/>
+      {/* <Header /> */}
+      {/* <HeaderMiddle /> */}
+      {/* <HeaderLast/> */}
+      {/* <HeroFirst/> */}
+      <HeroSecond/>
       <OurTeam />
       <FaqSection />
       <FaqSecond />

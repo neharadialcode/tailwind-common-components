@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <>
-      <div>
+      <div className="flex-grow-0">
         <nav className="bg-blue">
           <div className="max-w-[1188px] mx-auto px-6">
             <div className="flex items-center justify-between h-16">
@@ -170,13 +170,7 @@ const Header = () => {
             )}
           </Transition>
         </nav>
-        <header className="bg-white shadow max-w-[1188px] mx-auto px-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores
-          officia id animi, qui provident veritatis natus libero labore
-          repellendus necessitatibus placeat sapiente corporis, itaque quae
-          explicabo aspernatur deserunt sunt, eum accusamus voluptatibus quidem
-          dolore eaque. Hic similique accusamus beatae animi at.
-        </header>
+       
       </div>
     </>
   );
