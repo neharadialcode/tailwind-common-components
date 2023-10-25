@@ -47,7 +47,7 @@ export function FaqSection() {
             open={open === 1}
             icon={<Icon id={1} open={open} />}
           >
-            <AccordionHeader onClick={() => handleOpen(1)} className="py-4 ">
+            <AccordionHeader onClick={() => handleOpen(1)} className="py-4 items-center">
               <h2 className="font-Inter text-light-blue  text-base md:text-xl font-semibold leading-[140%] md:leading-[150%] text-start mb-0  ">
                 <span className="font-normal">1.</span> What is a cryptocurrency
                 token?
@@ -66,7 +66,7 @@ export function FaqSection() {
           </Accordion>
 
           <Accordion
-            className="flex flex-col justify-betweenpx-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
+            className="flex flex-col justify-between px-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
             open={open === 2}
             icon={<Icon id={2} open={open} />}
           >
@@ -88,7 +88,7 @@ export function FaqSection() {
             </AccordionBody>
           </Accordion>
           <Accordion
-            className="flex flex-col justify-betweenpx-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
+            className="flex flex-col justify-between px-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
             open={open === 3}
             icon={<Icon id={3} open={open} />}
           >
@@ -111,7 +111,7 @@ export function FaqSection() {
           </Accordion>
 
           <Accordion
-            className="flex flex-col justify-betweenpx-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
+            className="flex flex-col justify-between px-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
             open={open === 4}
             icon={<Icon id={4} open={open} />}
           >
@@ -130,10 +130,10 @@ export function FaqSection() {
                 arcu cum. Gravida massa scelerisque sociis nulla diam nisl
                 ligula.bh{" "}
               </p>
-            </AccordionBody>
+            </AccordionBody>  
           </Accordion>
           <Accordion
-            className="flex flex-col justify-betweenpx-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
+            className="flex flex-col justify-between px-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
             open={open === 5}
             icon={<Icon id={5} open={open} />}
           >
