@@ -12,6 +12,7 @@ import HeroFirst from "./components/HeroFirst";
 import HeroSecond from "./components/HeroSecond";
 import HeroThird from "./components/HeroThird";
 import FooterSecond from "./components/FooterSecond";
+import FooterFirst from "./components/FooterFirst";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       <FaqSecond />
       <AboutUsFirst />
       <AboutUsSecond />
-      <FooterSecond/>
+      <FooterFirst/>
+      {/* <FooterSecond/> */}
     </>
   );
 }
