@@ -20,7 +20,7 @@ const HeaderLast = () => {
           <div className="max-w-[1188px] mx-auto px-6">
             <div className="flex items-center justify-between h-16">
               <div className="flex-shrink-0">
-                <button className="text-gray-300 border text-base leading-normal font-semibold font-inter py-2 px-4 md:py-4 md:px-6">
+                <button className="text-gray-300 border sm:text-[16px] text-[14px] leading-normal font-semibold font-inter py-2 px-4 md:py-4 md:px-6">
                   Logo
                 </button>
               </div>
@@ -54,12 +54,12 @@ const HeaderLast = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
                     >
                       Reports
                     </a>
                   </li>
-                  <button className="md:block hidden border rounded-xl py-2 px-4 font-inter text-base leading-normal font-semibold md:py-3 md:px-6 text-[#fff]">
+                  <button className="md:block hidden border rounded-xl py-2 px-4 font-inter sm:text-[16px] text-[14px] leading-normal font-semibold md:py-3 md:px-6 text-[#fff]">
                     Button
                   </button>
                 </ul>
@@ -130,7 +130,7 @@ const HeaderLast = () => {
                   <li onClick={() => setIsOpen(!isOpen)}>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
                     >
                       Team
                     </a>
@@ -138,7 +138,7 @@ const HeaderLast = () => {
                   <li onClick={() => setIsOpen(!isOpen)}>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
                     >
                       Projects
                     </a>
@@ -146,7 +146,7 @@ const HeaderLast = () => {
                   <li onClick={() => setIsOpen(!isOpen)}>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
                     >
                       Calendar
                     </a>
@@ -154,12 +154,12 @@ const HeaderLast = () => {
                   <li onClick={() => setIsOpen(!isOpen)}>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
                     >
                       Reports
                     </a>
                   </li>
-                  <button className="md:hidden border block rounded-xl py-2 px-4 font-inter text-base leading-normal font-semibold md:py-3 md:px-6 text-[#fff]">
+                  <button className="md:hidden border block rounded-xl py-2 px-4 font-inter sm:text-[16px] text-[14px] leading-normal font-semibold md:py-3 md:px-6 text-[#fff]">
                     Button
                   </button>
                 </ul>

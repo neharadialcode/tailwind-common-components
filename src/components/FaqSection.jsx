@@ -36,7 +36,7 @@ export function FaqSection() {
         <h1 className="font-Lato text-light-blackE mb-3  sm:mb-4 font-bold sm:text-[40px] text-[36px] sm:text-5xl text-center">
           FAQ
         </h1>
-        <p className="font-Lato text-base text-light-black text-center mx-auto max-w-[788px] leading-[150%] pb-4  ">
+        <p className="font-Lato sm:text-[16px] text-[14px] text-light-black text-center mx-auto max-w-[788px] leading-[150%] pb-4  ">
           Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
           consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac
           posuere eget nam diam velit urna adipiscing diam.
@@ -47,14 +47,17 @@ export function FaqSection() {
             open={open === 1}
             icon={<Icon id={1} open={open} />}
           >
-            <AccordionHeader onClick={() => handleOpen(1)} className="py-4 items-center">
-              <h2 className="font-Inter text-light-blue  text-base md:text-xl font-semibold leading-[140%] md:leading-[150%] text-start mb-0  ">
+            <AccordionHeader
+              onClick={() => handleOpen(1)}
+              className="py-4 items-center"
+            >
+              <h2 className="font-Inter text-light-blue  sm:text-[16px] text-[14px] md:text-xl font-semibold leading-[140%] md:leading-[150%] text-start mb-0  ">
                 <span className="font-normal">1.</span> What is a cryptocurrency
                 token?
               </h2>
             </AccordionHeader>
             <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-              <p className="font-Inter text-sm md:text-base font-normal text-light-black max-w-[786px]  leading-[150%] ">
+              <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px]  leading-[150%] ">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
@@ -71,13 +74,13 @@ export function FaqSection() {
             icon={<Icon id={2} open={open} />}
           >
             <AccordionHeader onClick={() => handleOpen(2)} className="py-4 ">
-              <h2 className="font-Inter text-light-blue text-base md:text-xl font-semibold leading-[140%] md:leading-[150%] text-start mb-0  ">
+              <h2 className="font-Inter text-light-blue sm:text-[16px] text-[14px] md:text-xl font-semibold leading-[140%] md:leading-[150%] text-start mb-0  ">
                 <span className="font-normal">2.</span> How can I buy
                 cryptocurrency tokens?
               </h2>
             </AccordionHeader>
             <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-              <p className="font-Inter text-sm md:text-base font-normal text-light-black  max-w-[786px] leading-[150%]">
+              <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black  max-w-[786px] leading-[150%]">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
@@ -93,13 +96,13 @@ export function FaqSection() {
             icon={<Icon id={3} open={open} />}
           >
             <AccordionHeader onClick={() => handleOpen(3)} className="py-4 ">
-              <h2 className="font-Inter text-light-blue text-base md:text-xl font-semibold leading-[140%] md:leading-[150%] text-start mb-0  ">
+              <h2 className="font-Inter text-light-blue sm:text-[16px] text-[14px] md:text-xl font-semibold leading-[140%] md:leading-[150%] text-start mb-0  ">
                 <span className="font-normal">3.</span> What is a token wallet,
                 why do I need one?
               </h2>
             </AccordionHeader>
             <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-              <p className="font-Inter text-sm md:text-base font-normal text-light-black max-w-[786px] leading-[150%]">
+              <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px] leading-[150%]">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
@@ -116,13 +119,13 @@ export function FaqSection() {
             icon={<Icon id={4} open={open} />}
           >
             <AccordionHeader onClick={() => handleOpen(4)} className="py-4 ">
-              <h2 className="font-Inter text-light-blue text-base md:text-xl font-semibold leading-[140%] md:leading-[150%] text-start mb-0  ">
+              <h2 className="font-Inter text-light-blue sm:text-[16px] text-[14px] md:text-xl font-semibold leading-[140%] md:leading-[150%] text-start mb-0  ">
                 <span className="font-normal">4.</span> Are cryptocurrency
                 tokens secure?
               </h2>
             </AccordionHeader>
             <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-              <p className="font-Inter text-sm md:text-base font-normal text-light-black max-w-[786px] leading-[150%]">
+              <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px] leading-[150%]">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
@@ -130,7 +133,7 @@ export function FaqSection() {
                 arcu cum. Gravida massa scelerisque sociis nulla diam nisl
                 ligula.bh{" "}
               </p>
-            </AccordionBody>  
+            </AccordionBody>
           </Accordion>
           <Accordion
             className="flex flex-col justify-between px-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden"
@@ -138,13 +141,13 @@ export function FaqSection() {
             icon={<Icon id={5} open={open} />}
           >
             <AccordionHeader onClick={() => handleOpen(5)} className="py-4 ">
-              <h2 className="font-Inter text-light-blue text-base md:text-xl font-semibold leading-[140%] md:leading-[150%] text-start mb-0  ">
+              <h2 className="font-Inter text-light-blue sm:text-[16px] text-[14px] md:text-xl font-semibold leading-[140%] md:leading-[150%] text-start mb-0  ">
                 <span className="font-normal">5.</span> What is a token wallet,
                 and why do I need one?
               </h2>
             </AccordionHeader>
             <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-              <p className="font-Inter text-sm md:text-base font-normal text-light-black max-w-[786px] leading-[150%]">
+              <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px] leading-[150%]">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare

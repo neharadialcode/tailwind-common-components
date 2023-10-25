@@ -37,7 +37,7 @@ const HeaderMiddle = () => {
                       Projects
                     </a>
                   </li>
-                  <button className="text-gray-300 md:block hidden border text-base leading-normal font-semibold font-inter py-2 px-4 md:py-4 md:px-6">
+                  <button className="text-gray-300 md:block hidden border sm:text-[16px] text-[14px] leading-normal font-semibold font-inter py-2 px-4 md:py-4 md:px-6">
                     Logo
                   </button>
                   <li>
@@ -51,14 +51,14 @@ const HeaderMiddle = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
                     >
                       Reports
                     </a>
                   </li>
                 </ul>
               </div>
-              <button className="text-gray-300 md:hidden border block text-base leading-normal font-semibold font-inter py-2 px-4 md:py-4 md:px-6">
+              <button className="text-gray-300 md:hidden border block sm:text-[16px] text-[14px] leading-normal font-semibold font-inter py-2 px-4 md:py-4 md:px-6">
                 Logo
               </button>
               <div className="-mr-2 flex md:hidden">
@@ -126,7 +126,7 @@ const HeaderMiddle = () => {
                   <li onClick={() => setIsOpen(!isOpen)}>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
                     >
                       Team
                     </a>
@@ -134,7 +134,7 @@ const HeaderMiddle = () => {
                   <li onClick={() => setIsOpen(!isOpen)}>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
                     >
                       Projects
                     </a>
@@ -142,7 +142,7 @@ const HeaderMiddle = () => {
                   <li onClick={() => setIsOpen(!isOpen)}>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
                     >
                       Calendar
                     </a>
@@ -151,7 +151,7 @@ const HeaderMiddle = () => {
                   <li onClick={() => setIsOpen(!isOpen)}>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
                     >
                       Reports
                     </a>
@@ -166,7 +166,7 @@ const HeaderMiddle = () => {
           officia id animi, qui provident veritatis natus libero labore
           repellendus necessitatibus placeat sapiente corporis, itaque quae
           explicabo aspernatur deserunt sunt, eum accusamus voluptatibus quidem
-          dolore eaque. Hic similique accusamus beatae animi at. 
+          dolore eaque. Hic similique accusamus beatae animi at.
         </header>
       </div>
     </>

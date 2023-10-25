@@ -18,18 +18,18 @@ const AboutUsSecond = () => {
               <h3 className="text-[#1E1E1E] sm:text-[48px] text-[36px] font-Inter font-semibold leading-normal">
                 Lorem ipsum
               </h3>
-              <p className="pt-4 lg:max-w-[536px] text-[#4A4A4A] text-base font-normal leading-normal font-Inter">
+              <p className="pt-4 lg:max-w-[536px] text-[#4A4A4A] sm:text-[16px] text-[14px] font-normal leading-normal font-Inter">
                 Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
                 consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
                 Hac posuere eget nam diam velit urna adipiscing diam. Dis velit
                 nam vitae hendrerit at egestas.
               </p>
-              <p className="pt-4 lg:max-w-[536px] text-[#4A4A4A] text-base font-normal leading-normal font-Inter">
+              <p className="pt-4 lg:max-w-[536px] text-[#4A4A4A] sm:text-[16px] text-[14px] font-normal leading-normal font-Inter">
                 Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
                 consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
                 Hac posuere eget nam diam velit urna adipiscing diam.
               </p>
-              <button className="text-white mt-8 hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal text-base bg-blue py-3 px-14 rounded-xl">
+              <button className="text-white mt-8 hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal sm:text-[16px] text-[14px] bg-blue py-3 px-14 rounded-xl">
                 Button
               </button>
             </div>

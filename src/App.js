@@ -11,6 +11,7 @@ import AboutUsSecond from "./components/AboutUsSecond";
 import HeroFirst from "./components/HeroFirst";
 import HeroSecond from "./components/HeroSecond";
 import HeroThird from "./components/HeroThird";
+import FooterSecond from "./components/FooterSecond";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       <FaqSection />
       <FaqSecond />
       <AboutUsFirst />
-      <AboutUsSecond/>
+      <AboutUsSecond />
+      <FooterSecond/>
     </>
   );
 }
