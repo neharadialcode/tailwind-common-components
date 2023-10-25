@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Header />
-      <HeaderMiddle />
+      {/* <HeaderMiddle /> */}
       <HeaderLast/>
       <HeroFirst/>
       <HeroSecond/>
