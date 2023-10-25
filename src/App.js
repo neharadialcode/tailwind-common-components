@@ -10,6 +10,7 @@ import AboutUsFirst from "./components/AboutUsFirst";
 import AboutUsSecond from "./components/AboutUsSecond";
 import HeroFirst from "./components/HeroFirst";
 import HeroSecond from "./components/HeroSecond";
+import HeroThird from "./components/HeroThird";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <HeaderMiddle /> */}
       {/* <HeaderLast/> */}
       {/* <HeroFirst/> */}
-      <HeroSecond/>
+      {/* <HeroSecond/> */}
+      <HeroThird/>
       <OurTeam />
       <FaqSection />
       <FaqSecond />
