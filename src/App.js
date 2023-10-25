@@ -7,6 +7,7 @@ import OurTeam from "./components/OurTeam";
 import FaqSection from "./components/FaqSection";
 import FaqSecond from "./components/FaqSecond";
 import AboutUsFirst from "./components/AboutUsFirst";
+import AboutUsSecond from "./components/AboutUsSecond";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <OurTeam />
       <FaqSection />
       <FaqSecond />
-      <AboutUsFirst/>
+      <AboutUsFirst />
+      <AboutUsSecond/>
     </>
   );
 }

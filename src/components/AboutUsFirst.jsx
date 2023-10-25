@@ -16,7 +16,7 @@ const AboutUsFirst = () => {
               nam vitae hendrerit at egestas. Tellus velit turpis at sed lorem
               vitae sed.
             </p>
-            <button className="text-white mt-8 font-Inter font-semibold leading-normal text-base bg-blue py-3 px-14 rounded-xl">
+            <button className="text-white mt-8 hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal text-base bg-blue py-3 px-14 rounded-xl">
               Button
             </button>
           </div>
