@@ -35,7 +35,7 @@ export function FaqSecond() {
     <div className="container mx-auto px-3 md:px-5 pt-8 sm:pt-12 lg:pt-[71px] pb-8 sm:pb-12 lg:pb-[126px]">
       <div className="flex gap-5">
         <div>
-          <h1 className="font-Lato text-light-blackE mb-3  sm:mb-4 font-bold text-[40px] sm:text-5xl text-center">
+          <h1 className="font-Lato text-light-blackE mb-3  sm:mb-4 font-bold sm:text-[40px] text-[36px] sm:text-5xl text-center">
             FAQ
           </h1>
           <p className="font-Lato text-base text-light-black text-center mx-auto max-w-[788px] leading-[150%] pb-4  ">

@@ -6,6 +6,7 @@ import HeaderLast from "./components/HeaderLast";
 import OurTeam from "./components/OurTeam";
 import FaqSection from "./components/FaqSection";
 import FaqSecond from "./components/FaqSecond";
+import AboutUsFirst from "./components/AboutUsFirst";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <OurTeam />
       <FaqSection />
       <FaqSecond />
+      <AboutUsFirst/>
     </>
   );
 }

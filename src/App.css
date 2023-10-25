@@ -9,7 +9,12 @@
   box-sizing: border-box !important;
 }
 
-
 .h_mobile{
     height: calc(100vh - 60px);
+}
+.aboutus_bg{
+  background-image: url("./assets/images/png/aboutus_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
