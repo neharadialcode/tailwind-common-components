@@ -5,7 +5,7 @@ import OurTeam from './components/OurTeam';
 function App() {
   return (
     <>
-    <OurTeam/>  
+      <OurTeam />  
     </>
   );
 }
