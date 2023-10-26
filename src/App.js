@@ -10,6 +10,8 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import HeaderMiddle from "./components/HeaderMiddle";
 import HeaderLast from "./components/HeaderLast";
+import AbsoluteHeroFirst from "./components/AbsoluteHeroFirst";
+import Video from "./components/Video";
 
 function App() {
   return (
@@ -22,8 +24,8 @@ function App() {
         <Route path="/faqs" element={<AllFaqs />} />
         <Route path="/aboutus" element={<AllAboutUs />} />
         <Route path="/footer" element={<AllFooter />} />
+        <Route path="/video" element={<Video />} />
       </Routes>
-    
     </>
   );
 }
