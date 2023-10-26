@@ -5,8 +5,12 @@ import hero_main_img from "../assets/images/png/hero_third_img.png";
 const HeroThird = () => {
   return (
     <>
-      <section>
-        <Header />
+      <section className="mb-12">
+        <div className="flex justify-center items-center">
+          <button className="bg-[#C5C2C2] h-[48px] text-blue w-[87px] flex justify-center items-center sm:text-[16px] text-[14px] leading-normal font-semibold font-inter">
+            Logo
+          </button>
+        </div>
         <div className="max-w-[1188px] mx-auto px-6 h-full">
           <div className="lg:py-24 py-14">
             <div className="flex justify-center items-center flex-col">

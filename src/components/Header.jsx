@@ -17,67 +17,67 @@ const Header = () => {
   return (
     <>
       <div className="flex-grow-0">
-        <nav className="bg-blue">
+        <nav className="bg-white">
           <div className="max-w-[1188px] mx-auto px-6">
-            <div className="flex items-center justify-between h-16">
+            <div className="flex items-center justify-between py-[26px]">
               <div className="flex-shrink-0">
-                <button className="text-gray-300 border sm:text-[16px] text-[14px] leading-normal font-semibold font-inter py-2 px-4 md:py-4 md:px-6">
+                <button className="bg-[#C5C2C2] h-[48px] text-blue w-[87px] flex justify-center items-center sm:text-[16px] text-[14px] leading-normal font-semibold font-inter">
                   Logo
                 </button>
               </div>
               <div className="hidden md:block">
-                <ul className="ml-10 flex items-baseline space-x-4">
+                <ul className="flex items-baseline space-x-4">
                   <li>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
-                      Team
+                      TAB NAME
                     </a>
                   </li>
 
                   <li>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium "
+                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
-                      Projects
+                      TAB NAME
                     </a>
                   </li>
 
                   <li>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
-                      Calendar
+                      TAB NAME
                     </a>
                   </li>
                   <li>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
+                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal block px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
-                      Reports
+                      TAB NAME
                     </a>
                   </li>
                 </ul>
               </div>
-              <button className="md:block hidden border rounded-xl py-2 px-4 font-inter sm:text-[16px] text-[14px] leading-normal font-semibold md:py-3 md:px-6 text-[#fff]">
+              <button className="md:flex hidden rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal bg-blue  hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-semibold text-[#fff]">
                 Button
               </button>
               <div className="-mr-2 flex md:hidden">
                 <button
                   onClick={() => setIsOpen(!isOpen)}
                   type="button"
-                  className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                  className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-black hover:text-white "
                   aria-controls="mobile-menu"
                   aria-expanded="false"
                 >
                   <span className="sr-only">Open main menu</span>
                   {!isOpen ? (
                     <svg
-                      className="block h-6 w-6"
+                      className="block h-6 w-6 text-black"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -93,7 +93,7 @@ const Header = () => {
                     </svg>
                   ) : (
                     <svg
-                      className="block h-6 w-6"
+                      className="block h-6 w-6 text-black"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -131,38 +131,38 @@ const Header = () => {
                   <li onClick={() => setIsOpen(!isOpen)}>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
+                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
-                      Team
+                      TAB NAME
                     </a>
                   </li>
 
                   <li onClick={() => setIsOpen(!isOpen)}>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
+                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
-                      Projects
+                      TAB NAME
                     </a>
                   </li>
                   <li onClick={() => setIsOpen(!isOpen)}>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
+                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
-                      Calendar
+                      TAB NAME
                     </a>
                   </li>
 
                   <li onClick={() => setIsOpen(!isOpen)}>
                     <a
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md sm:text-[16px] text-[14px] font-medium"
+                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
-                      Reports
+                      TAB NAME
                     </a>
                   </li>
-                  <button className="md:hidden border block rounded-xl py-2 px-4 font-inter sm:text-[16px] text-[14px] leading-normal font-semibold md:py-3 md:px-6 text-[#fff]">
+                  <button className="lg:hidden flex rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal  hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue bg-blue font-semibold text-[#fff]">
                     Button
                   </button>
                 </ul>

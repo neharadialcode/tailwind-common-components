@@ -1,35 +1,29 @@
-import logo from "./logo.svg";
 import "./App.css";
+import AllHeader from "./components/view/AllHeader";
+import AllHero from "./components/view/AllHero";
+import AllOurTeam from "./components/view/AllOurTeam";
+import AllFaqs from "./components/view/AllFaqs";
+import AllAboutUs from "./components/view/AllAboutUs";
+import AllFooter from "./components/view/AllFooter";
+import ViewButtons from "./components/view/ViewButtons";
+import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import HeaderMiddle from "./components/HeaderMiddle";
 import HeaderLast from "./components/HeaderLast";
-import OurTeam from "./components/OurTeam";
-import FaqSection from "./components/FaqSection";
-import FaqSecond from "./components/FaqSecond";
-import AboutUsFirst from "./components/AboutUsFirst";
-import AboutUsSecond from "./components/AboutUsSecond";
-import HeroFirst from "./components/HeroFirst";
-import HeroSecond from "./components/HeroSecond";
-import HeroThird from "./components/HeroThird";
-import FooterSecond from "./components/FooterSecond";
-import FooterFirst from "./components/FooterFirst";
 
 function App() {
   return (
     <>
-      <Header />
-      {/* <HeaderMiddle /> */}
-      <HeaderLast/>
-      <HeroFirst/>
-      <HeroSecond/>
-      <HeroThird/>
-      <OurTeam />
-      <FaqSection />
-      <FaqSecond />
-      <AboutUsFirst />
-      <AboutUsSecond />
-      <FooterFirst/>
-      <FooterSecond/>
+      <Routes>
+        <Route path="/" element={<ViewButtons />} />
+        <Route path="/header" element={<AllHeader />} />
+        <Route path="/hero" element={<AllHero />} />
+        <Route path="/ourteam" element={<AllOurTeam />} />
+        <Route path="/faqs" element={<AllFaqs />} />
+        <Route path="/aboutus" element={<AllAboutUs />} />
+        <Route path="/footer" element={<AllFooter />} />
+      </Routes>
+    
     </>
   );
 }

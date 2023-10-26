@@ -19,42 +19,42 @@ const FooterFirst = () => {
           <div className="lg:w-[75%] w-full flex sm:flex-row flex-col justify-between">
             <div className="sm:w-[20%] w-full sm:pt-0 pt-5">
               <ul>
-                <li className="text-black font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
+                <li className="text-black font-Inter sm:text-[16px] text-[14px] font-semibold leading-normal">
                   Quick links
                 </li>
-                <li className="pt-[14px] text-[#4D4D4D] font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
-                  Home
+                <li className="pt-[14px] text-[#4D4D4D] hover_li transition-all duration-300 font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
+                  <a href="#">Home</a>
                 </li>
-                <li className="pt-[14px] text-[#4D4D4D] font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
-                  About
+                <li className="pt-[14px] text-[#4D4D4D] hover_li transition-all duration-300 font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
+                  <a href="#"> About</a>
                 </li>
-                <li className="pt-[14px] text-[#4D4D4D] font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
-                  Community
+                <li className="pt-[14px] text-[#4D4D4D] hover_li transition-all duration-300 font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
+                  <a href="#"> Community</a>
                 </li>
-                <li className="pt-[14px] text-[#4D4D4D] font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
-                  RoadMap
+                <li className="pt-[14px] text-[#4D4D4D] hover_li transition-all duration-300 font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
+                  <a href="#"> RoadMap</a>
                 </li>
-                <li className="pt-[14px] text-[#4D4D4D] font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
-                  Faqs
+                <li className="pt-[14px] text-[#4D4D4D] hover_li transition-all duration-300 font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
+                  <a href="#"> Faqs</a>
                 </li>
               </ul>
             </div>
             <div className="sm:w-[20%] w-full sm:pt-0 pt-5">
               <ul>
-                <li className="text-black font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
+                <li className="text-black font-Inter sm:text-[16px] text-[14px] font-semibold leading-normal">
                   Links
                 </li>
-                <li className="pt-[14px] text-[#4D4D4D] font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
-                  Terms & conditions
+                <li className="pt-[14px] text-[#4D4D4D] hover_li transition-all duration-300 font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
+                  <a href="#"> Terms & conditions</a>
                 </li>
-                <li className="pt-[14px] text-[#4D4D4D] font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
-                  Privacy Policy
+                <li className="pt-[14px] text-[#4D4D4D] hover_li transition-all duration-300 font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
+                  <a href="#"> Privacy Policy</a>
                 </li>
               </ul>
             </div>
             <div className="sm:w-[35%] w-full sm:pt-0 pt-5">
               <ul>
-                <li className="text-black font-Inter sm:text-[16px] text-[14px] font-normal leading-normal">
+                <li className="text-black font-Inter sm:text-[16px] text-[14px] font-semibold leading-normal">
                   Get in Touch
                 </li>
               </ul>
@@ -62,9 +62,9 @@ const FooterFirst = () => {
                 <input
                   type="email"
                   placeholder="Type Your Mail"
-                  className="bg-[#EAE7F3] placeholder:text-black placeholder:sm:text-[16px] placeholder:text-[14px] placeholder:font-normal placeholder:leading-normal rounded-xl py-3 w-full outline-none ps-3"
+                  className="bg-[#EAE7F3] h-[45px] placeholder:text-black placeholder:sm:text-[16px] placeholder:text-[14px] placeholder:font-normal placeholder:leading-normal rounded-xl py-3 w-full outline-none ps-3"
                 />
-                <button className="bg-blue px-[10px] h-[39px] flex justify-center items-center font-Inter sm:text-[16px] text-[14px] text-white rounded-xl font-normal leading-normal me-1">
+                <button className="bg-blue px-[16px] hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue h-[39px] flex justify-center items-center font-Inter sm:text-[16px] text-[14px] text-white rounded-xl font-normal leading-normal me-1">
                   Search
                 </button>
               </div>
@@ -72,7 +72,11 @@ const FooterFirst = () => {
                 Follow us now
               </p>
               <div className="pt-4 flex items-center gap-1">
-                <a href="https://twitter.com/" target="_blank">
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  className="hover:translate-y-[-4px] hover:scale-105 transition-all duration-300"
+                >
                   <svg
                     width="36"
                     height="34"
@@ -93,7 +97,11 @@ const FooterFirst = () => {
                     />
                   </svg>
                 </a>
-                <a href="https://www.facebook.com/login/" target="_blank">
+                <a
+                  href="https://www.facebook.com/login/"
+                  target="_blank"
+                  className="hover:translate-y-[-4px] hover:scale-105 transition-all duration-300"
+                >
                   <svg
                     width="39"
                     height="35"
@@ -126,7 +134,11 @@ const FooterFirst = () => {
                     </defs>
                   </svg>
                 </a>
-                <a href="https://www.behance.net/" target="_blank" className="ms-[2px]">
+                <a
+                  href="https://www.behance.net/"
+                  target="_blank"
+                  className="ms-[2px] hover:translate-y-[-4px] hover:scale-105 transition-all duration-300"
+                >
                   <svg
                     width="34"
                     height="32"

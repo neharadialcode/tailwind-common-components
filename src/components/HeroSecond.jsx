@@ -5,13 +5,17 @@ import hero_col_img from "../assets/images/png/hero_col_img.png";
 const HeroSecond = () => {
   return (
     <>
-      <section className="lg:min-h-screen flex flex-col justify-center">
-        <Header />
+      <section className="lg:min-h-screen flex flex-col justify-center mb-12">
+        <div className="flex justify-center items-center">
+          <button className="bg-[#C5C2C2] h-[48px] text-blue w-[87px] flex justify-center items-center sm:text-[16px] text-[14px] leading-normal font-semibold font-inter">
+            Logo
+          </button>
+        </div>
         <div className="lg:flex-grow flex py-12 h-full items-center">
           <div className="max-w-[1188px] mx-auto px-6 h-full">
             <div className="flex justify-center items-center lg:gap-[73px] gap-12  lg:flex-row flex-col">
               <div className="lg:w-[42%] w-[80%]">
-                <h3 className="text-[#4D4D4D] font-inter font-bold md:text-[58px] text-[40px] md:leading-normal leading-[1.2]">
+                <h3 className="text-[#4D4D4D] font-Inter font-bold md:text-[58px] text-[40px] md:leading-normal leading-[1.2]">
                   Lorem ipsum dolor sit
                 </h3>
                 <p className="pt-4 text-[#4A4A4A] sm:text-[16px] text-[14px] font-normal leading-normal font-Inter">

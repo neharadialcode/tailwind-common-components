@@ -24,3 +24,7 @@
   background-size: 100% 100%;
   background-position: center;
 }
+.hover_li:hover{
+  -webkit-text-stroke-width: 0.5px;
+  color: blue;
+}

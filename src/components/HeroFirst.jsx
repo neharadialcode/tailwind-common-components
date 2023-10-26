@@ -4,8 +4,8 @@ import Header from "./Header";
 const HeroFirst = () => {
   return (
     <>
-      <section className="lg:min-h-screen flex flex-col justify-center">
-        <Header />
+      <section className="lg:min-h-screen flex flex-col justify-center mb-12">
+      <Header/>
         <div className="hero_first_bg lg:flex-grow flex md:py-48 py-24 lg:py-0 h-full items-center">
           <div className="max-w-[1188px] mx-auto px-6 h-full">
             <div className="flex justify-center items-center flex-col">

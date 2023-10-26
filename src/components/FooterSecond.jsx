@@ -12,20 +12,20 @@ const FooterSecond = () => {
           </button>
         </div>
         <ul className="flex justify-between items-center sm:gap-5 pt-6">
-          <li className="text-[#4D4D4D] font-Inter font-semibold sm:text-[16px] text-[14px] leading-normal">
-            Home
+          <li className="text-[#4D4D4D] font-Inter hover_li transition-all duration-300 font-semibold sm:text-[16px] text-[14px] leading-normal">
+            <a href="#"> Home</a>
           </li>
-          <li className="text-[#4D4D4D] font-Inter font-semibold sm:text-[16px] text-[14px] leading-normal">
-            About
+          <li className="text-[#4D4D4D] font-Inter hover_li transition-all duration-300 font-semibold sm:text-[16px] text-[14px] leading-normal">
+            <a href="#"> About</a>
           </li>
-          <li className="text-[#4D4D4D] font-Inter font-semibold sm:text-[16px] text-[14px] leading-normal">
-            Community
+          <li className="text-[#4D4D4D] font-Inter hover_li transition-all duration-300 font-semibold sm:text-[16px] text-[14px] leading-normal">
+            <a href="#">Community</a>
           </li>
-          <li className="text-[#4D4D4D] font-Inter font-semibold sm:text-[16px] text-[14px] leading-normal">
-            RoadMap
+          <li className="text-[#4D4D4D] font-Inter hover_li transition-all duration-300 font-semibold sm:text-[16px] text-[14px] leading-normal">
+            <a href="#"> RoadMap</a>
           </li>
-          <li className="text-[#4D4D4D] font-Inter font-semibold sm:text-[16px] text-[14px] leading-normal">
-            Faqs
+          <li className="text-[#4D4D4D] font-Inter hover_li transition-all duration-300 font-semibold sm:text-[16px] text-[14px] leading-normal">
+            <a href="#">Faqs</a>
           </li>
         </ul>
       </div>
