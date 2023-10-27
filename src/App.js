@@ -12,16 +12,18 @@ import Video from "./components/Video";
 function App() {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<ViewButtons />} />
-        <Route path="/header" element={<AllHeader />} />
-        <Route path="/hero" element={<AllHero />} />
-        <Route path="/ourteam" element={<AllOurTeam />} />
-        <Route path="/faqs" element={<AllFaqs />} />
-        <Route path="/aboutus" element={<AllAboutUs />} />
-        <Route path="/footer" element={<AllFooter />} />
-        <Route path="/video" element={<Video />} />
-      </Routes>
+      <div className="overflow-x-hidden">
+        <Routes>
+          <Route path="/" element={<ViewButtons />} />
+          <Route path="/header" element={<AllHeader />} />
+          <Route path="/hero" element={<AllHero />} />
+          <Route path="/ourteam" element={<AllOurTeam />} />
+          <Route path="/faqs" element={<AllFaqs />} />
+          <Route path="/aboutus" element={<AllAboutUs />} />
+          <Route path="/footer" element={<AllFooter />} />
+          <Route path="/video" element={<Video />} />
+        </Routes>
+      </div>
     </>
   );
 }

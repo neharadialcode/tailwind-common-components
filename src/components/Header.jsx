@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex-grow-0">
+      <div className="">
         <nav className="bg-white">
           <div className="max-w-[1188px] mx-auto px-6">
             <div className="flex items-center justify-between py-[26px]">

@@ -3,6 +3,7 @@ import HeroFirst from "../HeroFirst";
 import HeroSecond from "../HeroSecond";
 import HeroThird from "../HeroThird";
 import AbsoluteHeroFirst from "../AbsoluteHeroFirst";
+import AbsoluteHeroSecond from "../AbsoluteHeroSecond";
 
 const AllHero = () => {
   return (
@@ -18,6 +19,7 @@ const AllHero = () => {
       <HeroThird />
       <p className="text-center text-[48px] font-bold py-12">absolute hero</p>
       <AbsoluteHeroFirst />
+      <AbsoluteHeroSecond/>
     </>
   );
 };
