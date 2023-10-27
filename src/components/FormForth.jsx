@@ -76,11 +76,13 @@ const FormForth = () => {
                   value={typicalForm.email}
                 />
                 <p className="">
-                  {error && typicalForm.email === "" ? (
+                  {error &&
+                  typicalForm.email ===
+                    "text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]" ? (
                     "Email is required"
                   ) : error && regex.test(typicalForm.email) === false ? (
                     <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
-                      Email Not Valid
+                      Email is required
                     </p>
                   ) : (
                     ""

@@ -7,15 +7,13 @@ import AllAboutUs from "./components/view/AllAboutUs";
 import AllFooter from "./components/view/AllFooter";
 import ViewButtons from "./components/view/ViewButtons";
 import { Route, Routes } from "react-router-dom";
-import FormFirst from "./components/FormFirst";
-import FormThird from "./components/FormThird";
-import FormSecond from "./components/FormSecond";
-import FormForth from "./components/FormForth";
+import AllForms from "./components/view/AllForms";
+import Video from "./components/Video";
 
 function App() {
   return (
     <>
-      {/* <div className="overflow-x-hidden">
+      <div className="overflow-x-hidden">
         <Routes>
           <Route path="/" element={<ViewButtons />} />
           <Route path="/header" element={<AllHeader />} />
@@ -25,10 +23,10 @@ function App() {
           <Route path="/aboutus" element={<AllAboutUs />} />
           <Route path="/footer" element={<AllFooter />} />
           <Route path="/video" element={<Video />} />
+          <Route path="/form" element={<AllForms />} />
         </Routes>
-      </div> */}
-    {/* <FormForth/> */}
-    <FormSecond/>
+      
+      </div>
     </>
   );
 }
