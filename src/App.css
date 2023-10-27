@@ -28,3 +28,12 @@
   -webkit-text-stroke-width: 0.5px;
   color: blue;
 }
+.form_bg{
+  background-image: url('./assets/images/png/form_bg_img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form_shadow{
+  box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.15);
+}

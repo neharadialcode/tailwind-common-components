@@ -60,7 +60,7 @@ const HeaderLast = () => {
                       TAB NAME
                     </a>
                   </li>
-                  <button className="md:flex hidden  hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal bg-blue font-semibold text-[#fff]">
+                  <button className="md:flex hidden hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal bg-blue font-semibold text-[#fff]">
                     Button
                   </button>
                 </ul>
