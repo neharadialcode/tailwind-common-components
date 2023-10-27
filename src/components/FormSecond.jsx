@@ -41,52 +41,76 @@ const FormSecond = () => {
               <div className="w-full">
                 <input
                   type="text"
-                  className={`border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl ${
-                    error && touchForm.name === ""
-                      ? "border-danger"
-                      : touchForm !== ""
-                  }`}
                   placeholder="Name"
+                  className="border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl"
                   onChange={(e) =>
                     setTouchForm({ ...touchForm, name: e.target.value })
                   }
                   value={touchForm.name}
                 />
+                <p className="requiredHeight mb-2">
+                  {error && touchForm.name === "" ? (
+                    <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
+                      Name is required
+                    </p>
+                  ) : (
+                    touchForm !== ""
+                  )}
+                </p>
               </div>
               <input
                 type="email"
                 placeholder="Email address"
                 className="border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl mt-4"
                 onChange={(e) =>
-                  setTouchForm({ ...touchForm, email: e.target.value })
+                  setTouchForm({ ...touchForm, name: e.target.value })
                 }
-                value={touchForm.email}
+                value={touchForm.name}
               />
+              <p className="requiredHeight mb-2">
+                {error && touchForm.name === "" ? (
+                  <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
+                    Name is required
+                  </p>
+                ) : (
+                  touchForm !== ""
+                )}
+              </p>
               <input
                 type="number"
                 placeholder="Contact"
-                className={`border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl mt-4 ${
-                  error && touchForm.contact === "w-full"
-                    ? "border-danger"
-                    : touchForm !== ""
-                }`}
+                className="border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl mt-4"
                 onChange={(e) =>
-                  setTouchForm({ ...touchForm, contact: e.target.value })
+                  setTouchForm({ ...touchForm, name: e.target.value })
                 }
-                value={touchForm.contact}
+                value={touchForm.name}
               />
+              <p className="requiredHeight mb-2">
+                {error && touchForm.name === "" ? (
+                  <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
+                    Name is required
+                  </p>
+                ) : (
+                  touchForm !== ""
+                )}
+              </p>
               <textarea
-                className={`border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl mt-4 h-[90px] ${
-                  error && touchForm.message === ""
-                    ? "border-danger"
-                    : touchForm !== ""
-                }`}
                 placeholder="Message"
+                className="border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl mt-4 h-[90px]"
                 onChange={(e) =>
                   setTouchForm({ ...touchForm, message: e.target.value })
                 }
                 value={touchForm.message}
               />
+              <p className="requiredHeight mb-1 text-danger font-medium text-end">
+                {error && touchForm.message === "" ? (
+                  <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
+                    Text is required
+                  </p>
+                ) : (
+                  touchForm !== ""
+                )}
+              </p>
               <button className="mt-8 bg-blue h-[43px] w-[103px] flex justify-center items-center rounded-xl text-white font-Inter sm:text-[16px] text-[14px] hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-semibold leading-normal">
                 Submit
               </button>
