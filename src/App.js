@@ -7,10 +7,6 @@ import AllAboutUs from "./components/view/AllAboutUs";
 import AllFooter from "./components/view/AllFooter";
 import ViewButtons from "./components/view/ViewButtons";
 import { Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import HeaderMiddle from "./components/HeaderMiddle";
-import HeaderLast from "./components/HeaderLast";
-import AbsoluteHeroFirst from "./components/AbsoluteHeroFirst";
 import Video from "./components/Video";
 
 function App() {
