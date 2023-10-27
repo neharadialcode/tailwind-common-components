@@ -9,12 +9,13 @@ import ViewButtons from "./components/view/ViewButtons";
 import { Route, Routes } from "react-router-dom";
 import AllForms from "./components/view/AllForms";
 import Video from "./components/Video";
+import CustomSlider from "./components/CustomSlider";
 
 function App() {
   return (
     <>
       <div className="overflow-x-hidden">
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<ViewButtons />} />
           <Route path="/header" element={<AllHeader />} />
           <Route path="/hero" element={<AllHero />} />
@@ -24,8 +25,8 @@ function App() {
           <Route path="/footer" element={<AllFooter />} />
           <Route path="/video" element={<Video />} />
           <Route path="/form" element={<AllForms />} />
-        </Routes>
-      
+        </Routes> */}
+      <CustomSlider/>
       </div>
     </>
   );
