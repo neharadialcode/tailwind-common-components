@@ -1,4 +1,6 @@
 import "./App.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import AllHeader from "./components/view/AllHeader";
 import AllHero from "./components/view/AllHero";
 import AllOurTeam from "./components/view/AllOurTeam";
