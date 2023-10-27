@@ -40,35 +40,35 @@ class CustomSlider extends Component {
                 <img
                   src={slider_img_1}
                   alt="Image 1"
-                  className="w-full max-w-[531px]"
+                  className="w-full max-w-[531px] mx-auto"
                 />
               </div>
               <div>
                 <img
                   src={slider_img_2}
                   alt="Image 2"
-                  className="w-full max-w-[531px]"
+                  className="w-full max-w-[531px] mx-auto"
                 />
               </div>
               <div>
                 <img
                   src={slider_img_3}
                   alt="Image 3"
-                  className="w-full max-w-[531px]"
+                  className="w-full max-w-[531px] mx-auto"
                 />
               </div>
               <div>
                 <img
                   src={slider_img_4}
                   alt="Image 4"
-                  className="w-full max-w-[531px]"
+                  className="w-full max-w-[531px] mx-auto"
                 />
               </div>
               <div>
                 <img
                   src={slider_img_5}
                   alt="Image 5"
-                  className="w-full max-w-[531px]"
+                  className="w-full max-w-[531px] mx-auto"
                 />
               </div>
             </Slider>

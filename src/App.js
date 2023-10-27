@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <div className="overflow-x-hidden">
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<ViewButtons />} />
           <Route path="/header" element={<AllHeader />} />
           <Route path="/hero" element={<AllHero />} />
@@ -27,8 +27,8 @@ function App() {
           <Route path="/footer" element={<AllFooter />} />
           <Route path="/video" element={<Video />} />
           <Route path="/form" element={<AllForms />} />
-        </Routes> */}
-      <CustomSlider/>
+          <Route path="/slider" element={<CustomSlider />} />
+        </Routes>
       </div>
     </>
   );
