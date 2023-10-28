@@ -12,9 +12,9 @@ const AllHeader = () => {
       >
         home
       </a>
-      <Header />
+      {/* <Header /> */}
       <HeaderMiddle />
-      <HeaderLast />
+      {/* <HeaderLast /> */}
     </>
   );
 }
