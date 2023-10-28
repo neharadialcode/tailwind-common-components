@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap");
 
 * {
   padding: 0;
@@ -9,22 +9,22 @@
   box-sizing: border-box !important;
 }
 
-.h_mobile{
-    height: calc(100vh - 60px);
+.h_mobile {
+  height: calc(100vh - 60px);
 }
-.aboutus_bg{
+.aboutus_bg {
   background-image: url("./assets/images/png/aboutus_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.hero_first_bg{
+.hero_first_bg {
   background-image: url("./assets/images/png/hero_first_bg.png");
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
 }
-.hover_li:hover{
+.hover_li:hover {
   -webkit-text-stroke-width: 0.5px;
   color: blue;
 }

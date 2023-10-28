@@ -1,5 +1,6 @@
-import React from 'react'
-import OurTeam from '../OurTeam';
+import React from "react";
+import OurTeam from "../OurTeam";
+import RoadMap from "../RoadMap";
 
 const AllOurTeam = () => {
   return (
@@ -11,8 +12,9 @@ const AllOurTeam = () => {
         home
       </a>
       <OurTeam />
+      <RoadMap />
     </>
   );
-}
+};
 
 export default AllOurTeam;
