@@ -6,7 +6,7 @@ const OurTeam = () => {
     <div className="bg-white">
       <div className="container xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 lg:pt-[109px] md:pt-20 pt-14 pb-14 md:pb-32 lg:pb-[157px]">
         <div className="flex justify-center">
-          <h3 className="text-black text-lg font-semibold font-Inter">
+          <h3 className="text-black sm:text-lg text-[36px] font-semibold font-Inter">
             Our Team
           </h3>
         </div>
@@ -21,11 +21,11 @@ const OurTeam = () => {
         <div className="flex justify-center flex-row flex-wrap mx-[-12px]">
           {card.map((data) => {
             return (
-              <div className=" px-4 lg:w-1/4 sm:w-2/4">
-                <div className="max-w-[345px] px-2 bg-card-bg mt-8 lg:mt-11 pt-5 pb-[34px] rounded-xl cursor-pointer hover:scale-105 duration-300">
+              <div className=" px-4 lg:w-1/4 sm:w-2/4 group">
+                <div className="max-w-[345px] px-2 bg-card-bg mt-8 lg:mt-11 pt-5 pb-[34px] rounded-xl cursor-pointer hover:scale-105 duration-300 transition-all">
                   <div className="flex justify-center">
                     <img
-                      className="xl:w-[120px] lg:w-[90px] xl:h-[120px] lg:h-[90px] md:w-[120px] md:h-[120px] w-[80px] h-[80px]"
+                      className="xl:w-[120px] lg:w-[90px] xl:h-[120px] lg:h-[90px] md:w-[120px] md:h-[120px] w-[80px] h-[80px] min-w-[80px] min-h-[80px] group-hover:scale-90 duration-300 transition-all"
                       src={data.img}
                       alt="men-1"
                     />
