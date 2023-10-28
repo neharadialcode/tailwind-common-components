@@ -44,50 +44,50 @@ const FormFirst = () => {
               <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
                 Your name
               </p>
-              <input
-                type="text"
-                placeholder="Edward SnowDen"
-                className="w-full bg-[#EBEBEB] mt-[10px] px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747] sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%]"
-                onChange={(e) =>
-                  setTypicalForm({ ...typicalForm, name: e.target.value })
-                }
-                value={typicalForm.name}
-              />
-              {error && typicalForm.name === "" ? (
-                <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
-                  Name is required
-                </p>
-              ) : (
-                typicalForm !== ""
-              )}
+              <div className="relative">
+                <input
+                  type="text"
+                  placeholder="Edward SnowDen"
+                  className="w-full bg-[#EBEBEB] mt-[10px] mb-5 px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747] sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%]"
+                  onChange={(e) =>
+                    setTypicalForm({ ...typicalForm, name: e.target.value })
+                  }
+                  value={typicalForm.name}
+                />
+                {error && typicalForm.name === "" ? (
+                  <p className="text-red-600 absolute bottom-[-10%] left-0 font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
+                    Name is required
+                  </p>
+                ) : (
+                  typicalForm !== ""
+                )}
+              </div>
             </div>
             <div className="md:w-1/2 w-full">
               <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
                 Your email
               </p>
-              <input
-                type="email"
-                placeholder="itanexample@gamil.com"
-                className="w-full bg-[#EBEBEB] mt-[10px] px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747] sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%]"
-                onChange={(e) =>
-                  setTypicalForm({
-                    ...typicalForm,
-                    email: e.target.value,
-                  })
-                }
-                value={typicalForm.email}
-              />
-              <p className="mb-0 text-danger font-medium pointer-events-none position-absolute ps-1">
-                {error && typicalForm.email === "" ? (
-                  "Email is required"
-                ) : error && regex.test(typicalForm.email) === false ? (
-                  <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
-                    Email Not Valid
-                  </p>
-                ) : (
-                  ""
-                )}
-              </p>
+              <div className="relative">
+                <input
+                  type="email"
+                  placeholder="itanexample@gamil.com"
+                  className="w-full bg-[#EBEBEB] mt-[10px] mb-5 px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747] sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%]"
+                  onChange={(e) =>
+                    setTypicalForm({
+                      ...typicalForm,
+                      email: e.target.value,
+                    })
+                  }
+                  value={typicalForm.email}
+                />
+                <p className="text-red-600 font-Inter absolute bottom-[-10%] left-0 font-medium leading-[157%] sm:text-[16px] text-[14px]">
+                  {error && typicalForm.email === ""
+                    ? "Email is required"
+                    : error && regex.test(typicalForm.email) === false
+                    ?  ""
+                    : ""}
+                </p>
+              </div>
             </div>
           </div>
           {/* input 2 */}
