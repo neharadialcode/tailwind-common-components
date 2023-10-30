@@ -12,6 +12,8 @@ import { Route, Routes } from "react-router-dom";
 import AllForms from "./components/view/AllForms";
 import Video from "./components/Video";
 import CustomSlider from "./components/CustomSlider";
+import RoadMap from "./components/RoadMap";
+import AllRoadmap from "./components/view/AllRoadmap";
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
           <Route path="/video" element={<Video />} />
           <Route path="/form" element={<AllForms />} />
           <Route path="/slider" element={<CustomSlider />} />
+          <Route path="/roadmap" element={<AllRoadmap/>} />
         </Routes>
       </div>
     </>
