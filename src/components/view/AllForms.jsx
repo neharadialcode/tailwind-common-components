@@ -1,7 +1,10 @@
 import React from "react";
-import OurTeam from "../OurTeam";
+import FormFirst from "../FormFirst";
+import FormSecond from "../FormSecond";
+import FormThird from "../FormThird";
+import FormForth from "../FormForth";
 
-const AllOurTeam = () => {
+const AllForms = () => {
   return (
     <>
       <a
@@ -10,9 +13,12 @@ const AllOurTeam = () => {
       >
         home
       </a>
-      <OurTeam />
+      <FormFirst />
+      <FormSecond />
+      <FormThird />
+      <FormForth />
     </>
   );
 };
 
-export default AllOurTeam;
+export default AllForms;
