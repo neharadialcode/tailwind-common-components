@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Transition } from "@headlessui/react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -63,16 +62,16 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-              <button className="md:flex hidden rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal bg-blue  hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-semibold text-[#fff]">
+              <button className="md:flex hidden rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal bg-blue  hover.bg-white border-transparent hover.border-blue border-2 transition-all duration-300 hover.text-blue font-semibold text-[#fff]">
                 Button
               </button>
               <div className="-mr-2 flex md:hidden">
                 <button
                   onClick={() => setIsOpen(!isOpen)}
                   type="button"
-                  className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-black hover:text-white "
+                  className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-black hover.text-white "
                   aria-controls="mobile-menu"
-                  aria-expanded="false"
+                  aria-expanded={isOpen ? "true" : "false"}
                 >
                   <span className="sr-only">Open main menu</span>
                   {!isOpen ? (
@@ -113,62 +112,49 @@ const Header = () => {
             </div>
           </div>
 
-          <Transition
-            show={isOpen}
-            enter="transition ease-out duration-100 transform"
-            enterFrom="opacity-0 scale-95"
-            enterTo="opacity-100 scale-100"
-            leave="transition ease-in duration-75 transform"
-            leaveFrom="opacity-100 scale-100"
-            leaveTo="opacity-0 scale-95"
-          >
-            {(ref) => (
-              <div className="md:hidden" id="mobile-menu">
-                <ul
-                  ref={ref}
-                  className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col justify-center items-center h_mobile"
-                >
-                  <li onClick={() => setIsOpen(!isOpen)}>
-                    <a
-                      href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
-                    >
-                      TAB NAME
-                    </a>
-                  </li>
+          {isOpen && (
+            <div className="md:hidden" id="mobile-menu">
+              <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col justify-center items-center h_mobile">
+                <li onClick={() => setIsOpen(!isOpen)}>
+                  <a
+                    href="#"
+                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                  >
+                    TAB NAME
+                  </a>
+                </li>
 
-                  <li onClick={() => setIsOpen(!isOpen)}>
-                    <a
-                      href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
-                    >
-                      TAB NAME
-                    </a>
-                  </li>
-                  <li onClick={() => setIsOpen(!isOpen)}>
-                    <a
-                      href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
-                    >
-                      TAB NAME
-                    </a>
-                  </li>
+                <li onClick={() => setIsOpen(!isOpen)}>
+                  <a
+                    href="#"
+                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                  >
+                    TAB NAME
+                  </a>
+                </li>
+                <li onClick={() => setIsOpen(!isOpen)}>
+                  <a
+                    href="#"
+                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                  >
+                    TAB NAME
+                  </a>
+                </li>
 
-                  <li onClick={() => setIsOpen(!isOpen)}>
-                    <a
-                      href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
-                    >
-                      TAB NAME
-                    </a>
-                  </li>
-                  <button className="lg:hidden flex rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal  hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue bg-blue font-semibold text-[#fff]">
-                    Button
-                  </button>
-                </ul>
-              </div>
-            )}
-          </Transition>
+                <li onClick={() => setIsOpen(!isOpen)}>
+                  <a
+                    href="#"
+                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                  >
+                    TAB NAME
+                  </a>
+                </li>
+                <button className="lg:hidden flex rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal  hover.bg-white border-transparent hover.border-blue border-2 transition-all duration-300 hover.text-blue bg-blue font-semibold text-[#fff]">
+                  Button
+                </button>
+              </ul>
+            </div>
+          )}
         </nav>
       </div>
     </>

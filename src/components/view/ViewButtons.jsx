@@ -4,7 +4,7 @@ const ViewButtons = () => {
   return (
     <>
       <div className="max-w-[1188px] mx-auto px-6 ">
-        <div className="flex flex-wrap justify-between items-center pt-24">
+        <div className="flex flex-wrap items-center pt-24">
           <a
             href="/header"
             className="bg-blue my-8 mx-3 h-[48px] w-[120px] flex justify-center items-center sm:text-[16px] text-[14px] rounded-xl text-white font-Inter font-semibold"

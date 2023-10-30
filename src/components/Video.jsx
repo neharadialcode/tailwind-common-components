@@ -27,8 +27,8 @@ const Video = () => {
       <div className="py-12">
         <div className="max-w-[1188px] mx-auto px-6 h-[680px]">
           <div className="flex justify-center items-centre h-full ">
-            <div className="relative">
-              <div className="relative w-full h-full">
+            <div className=" w-full h-full">
+              <div className="relative">
                 <video
                   id="videoElement"
                   onClick={handleVideoClick}
@@ -39,11 +39,11 @@ const Video = () => {
                   <source src={sample_video} type="video/mp4" />
                 </video>
                 {!isVideoPlaying && (
-                  <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                  <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full flex items-center justify-center">
                     <img
                       src={play}
                       alt="play button"
-                      className="w-16 h-16 object-contain cursor-pointer"
+                      className="sm:w-16 sm:h-16 w-10 h-10 object-contain cursor-pointer"
                       onClick={handleVideoClick}
                     />
                   </div>
