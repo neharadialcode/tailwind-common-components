@@ -33,12 +33,12 @@ export function FaqSecond() {
 
   return (
     <div className="container mx-auto px-3 md:px-5 pt-8 sm:pt-12 lg:pt-[71px] pb-8 sm:pb-12 lg:pb-[126px]">
-      <div className="flex gap-5">
-        <div>
-          <h1 className="font-Lato text-light-blackE mb-3  sm:mb-4 font-bold sm:text-[40px] text-[36px] sm:text-5xl text-center">
+      <div className="flex items-center justify-center flex-col lg:flex-row gap-5">
+        <div className="lg:w-2/4">
+          <h1 className="font-Lato text-light-blackE mb-3  sm:mb-4 font-bold sm:text-[40px] text-[36px] sm:text-5xl lg:text-start text-center">
             FAQ
           </h1>
-          <p className="font-Lato sm:text-[16px] text-[14px] text-light-black text-center mx-auto max-w-[788px] leading-[150%] pb-4  ">
+          <p className="font-Lato sm:text-[16px] text-[14px] text-light-black lg:text-start text-center mx-auto max-w-[788px] leading-[150%] pb-4  ">
             Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
             consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac
             posuere eget nam diam velit urna adipiscing diam.
@@ -56,13 +56,13 @@ export function FaqSecond() {
                 </h2>
               </AccordionHeader>
               <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-                <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px]  leading-[150%] ">
+                <p className="font-Inter md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px]  leading-[150%] ">
                   Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec. Feugiat nibh ullamcorper egestas lectus risus ornare
                   ullamcorper fames. Cursus libero nec facilisis risus malesuada
                   arcu cum. Gravida massa scelerisque sociis nulla diam nisl
-                  ligula.bh{" "}
+                  ligula.bh
                 </p>
               </AccordionBody>
             </Accordion>
@@ -79,13 +79,13 @@ export function FaqSecond() {
                 </h2>
               </AccordionHeader>
               <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-                <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black  max-w-[786px] leading-[150%]">
+                <p className="font-Inter md:sm:text-[16px] text-[14px] font-normal text-light-black  max-w-[786px] leading-[150%]">
                   Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec. Feugiat nibh ullamcorper egestas lectus risus ornare
                   ullamcorper fames. Cursus libero nec facilisis risus malesuada
                   arcu cum. Gravida massa scelerisque sociis nulla diam nisl
-                  ligula.bh{" "}
+                  ligula.bh
                 </p>
               </AccordionBody>
             </Accordion>
@@ -101,13 +101,13 @@ export function FaqSecond() {
                 </h2>
               </AccordionHeader>
               <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-                <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px] leading-[150%]">
+                <p className="font-Inter md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px] leading-[150%]">
                   Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec. Feugiat nibh ullamcorper egestas lectus risus ornare
                   ullamcorper fames. Cursus libero nec facilisis risus malesuada
                   arcu cum. Gravida massa scelerisque sociis nulla diam nisl
-                  ligula.bh{" "}
+                  ligula.bh
                 </p>
               </AccordionBody>
             </Accordion>
@@ -124,13 +124,13 @@ export function FaqSecond() {
                 </h2>
               </AccordionHeader>
               <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-                <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px] leading-[150%]">
+                <p className="font-Inter md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px] leading-[150%]">
                   Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec. Feugiat nibh ullamcorper egestas lectus risus ornare
                   ullamcorper fames. Cursus libero nec facilisis risus malesuada
                   arcu cum. Gravida massa scelerisque sociis nulla diam nisl
-                  ligula.bh{" "}
+                  ligula.bh
                 </p>
               </AccordionBody>
             </Accordion>
@@ -146,20 +146,26 @@ export function FaqSecond() {
                 </h2>
               </AccordionHeader>
               <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-                <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px] leading-[150%]">
+                <p className="font-Inter md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px] leading-[150%]">
                   Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec. Feugiat nibh ullamcorper egestas lectus risus ornare
                   ullamcorper fames. Cursus libero nec facilisis risus malesuada
                   arcu cum. Gravida massa scelerisque sociis nulla diam nisl
-                  ligula.bh{" "}
+                  ligula.bh lectus risus ornare ullamcorper fames. Cursus libero
+                  nec facilisis risus malesuada arcu cum. Gravida massa
+                  scelerisque sociis nulla diam nisl ligula.bh
                 </p>
               </AccordionBody>
             </Accordion>
           </div>
         </div>
-        <div>
-          <img className="w-100" src={FaqImage} alt="FaqImage" />
+        <div className="lg:w-6/12">
+          <img
+            className=" w-full rounded-[20px]"
+            src={FaqImage}
+            alt="FaqImage"
+          />
         </div>
       </div>
     </div>

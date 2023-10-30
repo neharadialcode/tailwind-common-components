@@ -5,7 +5,7 @@ import Header from './Header';
 const AbsoluteHeroFirst = () => {
   return (
     <>
-      <section className="lg:min-h-screen flex flex-col justify-center mb-12 overflow-x-hidden">
+      <section className="lg:min-h-screen flex flex-col justify-center mb-12">
         <Header />
         <div className="lg:flex-grow flex py-12 h-full items-center relative">
           <div className="max-w-[1188px] mx-auto px-6 h-full ">
