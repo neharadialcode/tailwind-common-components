@@ -33,6 +33,7 @@
 .roadmap_cards:hover .roadmap_heading {
   background-color: #3c278dc2;
   padding: 10px;
+  color: white !important;
 }
 .roadmap_cards:hover .roadmap_para{
   background-color:rgba(30, 30, 30, 0.07);
