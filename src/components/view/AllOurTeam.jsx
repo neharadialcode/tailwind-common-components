@@ -1,5 +1,6 @@
 import React from "react";
 import OurTeam from "../OurTeam";
+import RoadmapTwo from "../RoadmapTwo";
 import RoadMap from "../RoadMap";
 
 const AllOurTeam = () => {
@@ -13,6 +14,7 @@ const AllOurTeam = () => {
       </a>
       <OurTeam />
       <RoadMap />
+      <RoadmapTwo />
     </>
   );
 };
