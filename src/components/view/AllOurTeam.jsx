@@ -1,6 +1,6 @@
-import React from 'react'
-import OurTeam from '../OurTeam';
-import RoadmapTwo from '../RoadmapTwo';
+import React from "react";
+import OurTeam from "../OurTeam";
+import RoadMap from "../RoadMap";
 
 const AllOurTeam = () => {
   return (
@@ -12,9 +12,9 @@ const AllOurTeam = () => {
         home
       </a>
       <OurTeam />
-      <RoadmapTwo/>
+      <RoadMap />
     </>
   );
-}
+};
 
 export default AllOurTeam;
