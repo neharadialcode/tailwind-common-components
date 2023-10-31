@@ -8,9 +8,9 @@ import hero_bottom_right from "../assets/images/png/hero_bottom_right.png";
 const AbsoluteHeroSecond = () => {
   return (
     <>
-      <section className="flex flex-col justify-center mb-12 mt-40">
+      <section className="flex flex-col justify-center mb-12">
         <Header />
-        <div className="flex sm:py-60 py-40 h-full items-center relative">
+        <div className="flex sm:pt-[192px] sm:pb-[259px] py-40 h-full items-center relative overflow-hidden">
           <div className="max-w-[1188px] mx-auto px-6">
             <div className="flex justify-center items-center">
               <div className="lg:w-[48%] w-[80%]">
@@ -45,7 +45,7 @@ const AbsoluteHeroSecond = () => {
               className="w-full xl:max-w-[393px] lg:max-w-[343px] md:max-w-[293px] sm:max-w-[243px] max-w-[143px]"
             />
           </div>
-          <div className="absolute left-0 xl:bottom-[-16px] bottom-0">
+          <div className="absolute left-0 bottom-[10px]">
             <img
               src={hero_bottom_left}
               alt="hero left bottom image"
@@ -59,7 +59,7 @@ const AbsoluteHeroSecond = () => {
               className="w-full xl:max-w-[358px] lg:max-w-[308px] md:max-w-[258px] sm:max-w-[208px] max-w-[143px]"
             />
           </div>
-          <div className="absolute xl:right-[34px] right-0 bottom-0">
+          <div className="absolute xl:right-[34px] right-0 sm:bottom-[-6%] bottom-0">
             <img
               src={hero_bottom_right}
               alt="hero left bottom image"
