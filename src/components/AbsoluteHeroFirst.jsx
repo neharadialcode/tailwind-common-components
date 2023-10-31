@@ -1,16 +1,16 @@
-import React from 'react'
-import macbook_col_img from "../assets/images/png/mackbook_hero.png"
-import Header from './Header';
+import React from "react";
+import macbook_col_img from "../assets/images/png/mackbook_hero.png";
+import Header from "./Header";
 
 const AbsoluteHeroFirst = () => {
   return (
     <>
-      <section className="lg:min-h-screen flex flex-col justify-center mb-12">
+      <section className=" flex flex-col justify-center mb-12">
         <Header />
         <div className="lg:flex-grow flex py-12 h-full items-center relative">
           <div className="max-w-[1188px] mx-auto px-6 h-full ">
-            <div className="flex justify-center lg:gap-[73px] gap-12  lg:flex-row flex-col">
-              <div className="xl:w-[60%] lg:w-[50%] w-[80%]">
+            <div className="flex justify-center items-center lg:gap-[73px] gap-12  lg:flex-row flex-col">
+              <div className="lg:w-[42%] w-[80%]">
                 <h2 className="text-black text-[32px] font-Inter font-normal leading-normal">
                   A nice headline
                 </h2>
@@ -43,7 +43,7 @@ const AbsoluteHeroFirst = () => {
                 <img
                   src={macbook_col_img}
                   alt="hero section macbook image"
-                  className="w-full xl:max-w-[909px] max-w-[700px] lg:absolute xl:right-[-206px] right-[-100px] xl:top-[27%] top-[27%]"
+                  className="w-full xl:max-w-[800px] max-w-[650px] lg:absolute xl:right-[-170px] right-[-100px] xl:bottom-[-10%] bottom-[10%]"
                 />
               </div>
             </div>
@@ -52,6 +52,6 @@ const AbsoluteHeroFirst = () => {
       </section>
     </>
   );
-}
+};
 
 export default AbsoluteHeroFirst;
