@@ -63,7 +63,7 @@ export function FaqSection() {
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
                 ullamcorper fames. Cursus libero nec facilisis risus malesuada
                 arcu cum. Gravida massa scelerisque sociis nulla diam nisl
-                ligula.bh{" "}
+                ligula.bh
               </p>
             </AccordionBody>
           </Accordion>
