@@ -3,7 +3,7 @@ import React from "react";
 const AboutUsFirst = () => {
   return (
     <>
-      <div className="aboutus_bg">
+      <div className="aboutus_bg max-w-[1920px] mx-auto">
         <div className="max-w-[1188px] mx-auto px-6">
           <div className="flex justify-center items-center flex-col md:pt-[118px] pt-[100px] md:pb-[121px] pb-[100px]">
             <h3 className="text-[#1E1E1E] font-Inter sm:text-[48px] text-[36px] font-semibold leading-normal">

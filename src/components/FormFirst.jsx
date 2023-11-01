@@ -48,7 +48,7 @@ const FormFirst = () => {
                 <input
                   type="text"
                   placeholder="Edward SnowDen"
-                  className="w-full bg-[#EBEBEB] mt-[10px] mb-5 px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747] sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%]"
+                  className=" outline-[#00000070] w-full bg-[#EBEBEB] mt-[10px] mb-5 px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747] sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%]"
                   onChange={(e) =>
                     setTypicalForm({ ...typicalForm, name: e.target.value })
                   }
@@ -71,7 +71,7 @@ const FormFirst = () => {
                 <input
                   type="email"
                   placeholder="itanexample@gamil.com"
-                  className="w-full bg-[#EBEBEB] mt-[10px] mb-5 px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747] sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%]"
+                  className="outline-[#00000070] w-full bg-[#EBEBEB] mt-[10px] mb-5 px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747] sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%]"
                   onChange={(e) =>
                     setTypicalForm({
                       ...typicalForm,
@@ -84,7 +84,7 @@ const FormFirst = () => {
                   {error && typicalForm.email === ""
                     ? "Email is required"
                     : error && regex.test(typicalForm.email) === false
-                    ?  ""
+                    ? ""
                     : ""}
                 </p>
               </div>
@@ -92,42 +92,42 @@ const FormFirst = () => {
           </div>
           {/* input 2 */}
           <div className="flex justify-between items-center md:flex-row flex-col pt-8 gap-6">
-            <div className="md:w-1/2 w-full">
+            <div className="md:w-1/2 w-full relative">
               <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
                 What you are interested
               </p>
               <input
                 type="text"
                 placeholder="Design & Branding"
-                className="w-full bg-[#EBEBEB] mt-[10px] px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747] sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%]"
+                className="outline-[#00000070] w-full bg-[#EBEBEB] mt-[10px] px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747] sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%]"
                 onChange={(e) =>
                   setTypicalForm({ ...typicalForm, design: e.target.value })
                 }
                 value={typicalForm.design}
               />
               {error && typicalForm.design === "" ? (
-                <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
+                <p className="text-red-600 absolute bottom-[-30%] left-0 font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
                   Text is required
                 </p>
               ) : (
                 typicalForm !== ""
               )}
             </div>
-            <div className="md:w-1/2 w-full">
+            <div className="md:w-1/2 w-full relative">
               <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
                 Project Budget
               </p>
               <input
                 type="text"
                 placeholder="select your budget"
-                className="w-full bg-[#EBEBEB] mt-[10px] px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747] sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%]"
+                className="outline-[#00000070] w-full bg-[#EBEBEB] mt-[10px] px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747] sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%]"
                 onChange={(e) =>
                   setTypicalForm({ ...typicalForm, budget: e.target.value })
                 }
                 value={typicalForm.budget}
               />
               {error && typicalForm.budget === "" ? (
-                <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
+                <p className="text-red-600 absolute bottom-[-30%] left-0 font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
                   Text is required
                 </p>
               ) : (
@@ -136,21 +136,21 @@ const FormFirst = () => {
             </div>
           </div>
           {/* textarea */}
-          <div className="w-full pt-7">
+          <div className="w-full pt-7 relative">
             <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
               Message
             </p>
             <textarea
               type="text"
               placeholder="Let tell us know your project about"
-              className="w-full bg-[#EBEBEB] mt-[10px] px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747]  sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%] h-[130px]"
+              className="outline-[#00000070] w-full bg-[#EBEBEB] mt-[10px] px-6 pt-3 pb-4 rounded-xl placeholder:text-[#474747]  sm:text-[16px] text-[14px] font-Inter font-normal leading-[157%] h-[130px]"
               onChange={(e) =>
                 setTypicalForm({ ...typicalForm, project: e.target.value })
               }
               value={typicalForm.project}
             />
             {error && typicalForm.project === "" ? (
-              <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
+              <p className="text-red-600 absolute bottom-[-10%] left-0 font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
                 Text is required
               </p>
             ) : (

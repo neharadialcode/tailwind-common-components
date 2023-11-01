@@ -42,11 +42,11 @@ const FormForth = () => {
             className="flex justify-center flex-col"
           >
             <div className="flex justify-center sm:flex-row flex-col sm:gap-6 gap-3 pt-[61px]">
-              <div className="sm:w-1/2 w-full">
+              <div className="sm:w-1/2 w-full relative">
                 <input
                   type="text"
                   placeholder="Your name"
-                  className="border border-[#8F8F8F] w-full px-5 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-[157%] rounded-xl"
+                  className="outline-[#00000070] border border-[#8F8F8F] w-full px-5 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-[157%] rounded-xl"
                   onChange={(e) =>
                     setTypicalForm({ ...typicalForm, name: e.target.value })
                   }
@@ -54,7 +54,7 @@ const FormForth = () => {
                 />
                 <p className="requiredHeight mb-2">
                   {error && typicalForm.name === "" ? (
-                    <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
+                    <p className="absolute bottom-[-30%] left-0 text-red-600 font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
                       Name is required
                     </p>
                   ) : (
@@ -62,11 +62,11 @@ const FormForth = () => {
                   )}
                 </p>
               </div>
-              <div className="sm:w-1/2 w-full">
+              <div className="sm:w-1/2 w-full relative">
                 <input
                   type="email"
                   placeholder="Email"
-                  className="border border-[#8F8F8F] w-full px-5 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-[157%] rounded-xl"
+                  className="outline-[#00000070] border border-[#8F8F8F] w-full px-5 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-[157%] rounded-xl"
                   onChange={(e) =>
                     setTypicalForm({
                       ...typicalForm,
@@ -81,7 +81,7 @@ const FormForth = () => {
                     "text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]" ? (
                     "Email is required"
                   ) : error && regex.test(typicalForm.email) === false ? (
-                    <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
+                    <p className="absolute bottom-[-30%] left-0 text-red-600 font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
                       Email is required
                     </p>
                   ) : (
@@ -90,10 +90,10 @@ const FormForth = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full pt-4">
+            <div className="w-full pt-4 relative">
               <textarea
                 placeholder="Message"
-                className="border border-[#8F8F8F] w-full px-5 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-[157%] rounded-xl h-[107px]"
+                className="outline-[#00000070] border border-[#8F8F8F] w-full px-5 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-[157%] rounded-xl h-[107px]"
                 onChange={(e) =>
                   setTypicalForm({ ...typicalForm, message: e.target.value })
                 }
@@ -101,7 +101,7 @@ const FormForth = () => {
               />
               <p className="requiredHeight mb-1 text-danger font-medium text-end">
                 {error && typicalForm.message === "" ? (
-                  <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
+                  <p className="absolute bottom-[-30%] left-0 text-red-600 font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
                     Text is required
                   </p>
                 ) : (
@@ -109,12 +109,12 @@ const FormForth = () => {
                 )}
               </p>
             </div>
-            <div className="w-full pt-4">
+            <div className="w-full pt-4 relative">
               <div className="flex justify-between items-center border border-[#8F8F8F] rounded-xl">
                 <input
                   type="number"
                   placeholder="2990-8928-78"
-                  className="w-full px-5 py-3 font-inter outline-none rounded-xl text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-[157%]"
+                  className="outline-[#00000070] w-full px-5 py-3 font-inter rounded-xl text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-[157%]"
                   onChange={(e) =>
                     setTypicalForm({ ...typicalForm, number: e.target.value })
                   }
@@ -126,7 +126,7 @@ const FormForth = () => {
               </div>
               <p className="requiredHeight mb-2 text-danger font-medium text-end">
                 {error && typicalForm.number === "" ? (
-                  <p className="text-black font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
+                  <p className="absolute bottom-[-30%] left-0 text-red-600 font-Inter font-medium leading-[157%] sm:text-[16px] text-[14px]">
                     Number is required
                   </p>
                 ) : (

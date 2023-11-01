@@ -6,7 +6,7 @@ const RoadMap = () => {
       <div className="bg-white ">
         <div className="container xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 pb-24">
           <div className="flex justify-center">
-            <h3 className=" font-Inter font-semibold md:text-lg text-3md text-black">
+            <h3 className=" font-Inter font-semibold md:text-lg text-[32px] text-black">
               Road Map
             </h3>
           </div>
@@ -74,7 +74,7 @@ const RoadMap = () => {
                 </div>
               </div>
               <div className="md:w-2/4 w-full">
-                <div className=" md:ps-10 ps-16">
+                <div className=" lg:ps-10 md:ps-6 ps-20">
                   <div className="flex flex-col justify-start">
                     <h4 className="text-black font-Inter max-w-[430px] font-normal md:text-2md text-md leading-normal mb-2">
                       Inception and prepration
@@ -94,7 +94,7 @@ const RoadMap = () => {
             <div className="flex md:flex-row flex-row-reverse ">
               <div className="md:w-2/4 w-full">
                 <div className="flex md:justify-end justify-start">
-                  <div className=" md:pe-10 md:ps-0 ps-16">
+                  <div className=" lg:pe-10 md:pe-6 md:ps-0 ps-20">
                     <div className=" flex md:justify-end justify-start mt-20">
                       <h4 className="text-black font-Inter max-w-[430px] font-normal md:text-2md text-md leading-normal mb-2">
                         Inception and prepration
@@ -136,7 +136,7 @@ const RoadMap = () => {
                 </div>
               </div>
               <div className="md:w-2/4 w-full">
-                <div className=" md:ps-10 ps-16">
+                <div className=" lg:ps-10 md:ps-6 ps-20">
                   <div className="flex flex-col justify-start">
                     <h4 className="text-black font-Inter max-w-[430px] font-normal md:text-2md text-md leading-normal mb-2">
                       Inception and prepration
@@ -156,7 +156,7 @@ const RoadMap = () => {
             <div className="flex md:flex-row flex-row-reverse ">
               <div className="md:w-2/4 w-full">
                 <div className="flex md:justify-end justify-start">
-                  <div className=" md:pe-10 md:ps-0 ps-16">
+                  <div className=" lg:pe-10 md:pe-6 md:ps-0 ps-20">
                     <div className=" flex md:justify-end justify-start mt-20">
                       <h4 className="text-black font-Inter max-w-[430px] font-normal md:text-2md text-md leading-normal mb-2">
                         Inception and prepration

@@ -11,10 +11,10 @@ const HeroThird = () => {
           LOGO
           </a>
         </div>
-        <div className="max-w-[1188px] mx-auto px-6 h-full">
-          <div className="lg:pt-24 pt-14">
+        <div className="container max-w-[1140px] mx-auto xl:px-0 px-3 h-full">
+          <div className="lg:pt-24 md:pt-14 pt-6">
             <div className="flex justify-center items-center flex-col">
-              <h2 className="text-[#1E1E1E] md:text-[58px] text-center text-[40px] font-Inter font-bold leading-[1.2]">
+              <h2 className="text-[#1E1E1E] md:text-[58px] text-center sm:text-[40px] text-[24px] font-Inter font-bold leading-[1.2]">
                 Lorem ipsum Lorem ipsum
               </h2>
               <p className="pt-4 text-center max-w-[777px] text-[#4A4A4A] sm:text-[16px] text-[14px] font-normal leading-normal font-Inter">
@@ -26,11 +26,11 @@ const HeroThird = () => {
                 Button
               </button>
             </div>
-            <div className="lg:pt-16 pt-12">
+            <div className="lg:pt-16 sm:pt-14 pt-6">
               <img
                 src={hero_main_img}
                 alt="hero section main image"
-                className="w-full min-h-[300px]"
+                className="w-full min-h-[200px] object-cover"
               />
             </div>
           </div>

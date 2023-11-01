@@ -5,7 +5,7 @@ const FooterFirst = () => {
       const year = today.getFullYear();
   return (
     <>
-      <div className="max-w-[1188px] mx-auto px-6 h-full ">
+      <div className="max-w-[1140px] 2xl:max-w-[1320px] mx-auto xl:px-0 px-3 h-full ">
         <div className="sm:pt-[77px] sm:pb-[38px] py-12 lg:gap-[127px] sm:gap-12 gap-8 lg:flex-row flex-col flex justify-center">
           <div className="lg:w-[25%] md:w-[50%] w-full">
             <button className="text-blue font-Inter sm:text-[16px] text-[14px] font-semibold leading-normal bg-[#C5C2C2] py-3 px-6">
@@ -16,8 +16,8 @@ const FooterFirst = () => {
               scalability with volag. Revolutionize finance.
             </p>
           </div>
-          <div className="lg:w-[75%] w-full flex sm:flex-row flex-col justify-between">
-            <div className="sm:w-[20%] w-full sm:pt-0 pt-5">
+          <div className="lg:w-[75%] w-full flex flex-wrap justify-between">
+            <div className=" sm:pt-0 pt-5">
               <ul>
                 <li className="text-black font-Inter sm:text-[16px] text-[14px] font-semibold leading-normal">
                   Quick links
@@ -39,7 +39,7 @@ const FooterFirst = () => {
                 </li>
               </ul>
             </div>
-            <div className="sm:w-[20%] w-full sm:pt-0 pt-5">
+            <div className=" sm:pt-0 pt-5">
               <ul>
                 <li className="text-black font-Inter sm:text-[16px] text-[14px] font-semibold leading-normal">
                   Links
@@ -52,22 +52,22 @@ const FooterFirst = () => {
                 </li>
               </ul>
             </div>
-            <div className="sm:w-[35%] w-full sm:pt-0 pt-5">
+            <div className=" sm:pt-0 pt-5">
               <ul>
                 <li className="text-black font-Inter sm:text-[16px] text-[14px] font-semibold leading-normal">
                   Get in Touch
                 </li>
               </ul>
-              <div className="flex justify-between items-center bg-[#EAE7F3] rounded-xl mt-4 max-w-[300px]">
-                <input
+              <form className="flex justify-between items-center bg-[#EAE7F3] rounded-xl mt-4 sm:w-[325px] w-full">
+                <input required
                   type="email"
                   placeholder="Type Your Mail"
-                  className="bg-[#EAE7F3] h-[45px] placeholder:text-black placeholder:sm:text-[16px] placeholder:text-[14px] placeholder:font-normal placeholder:leading-normal rounded-xl py-3 w-full outline-none ps-3"
+                  className="pe-2 bg-[#EAE7F3] h-[45px] placeholder:text-black placeholder:sm:text-[16px] placeholder:text-[14px] placeholder:font-normal placeholder:leading-normal rounded-xl py-3 w-full outline-none ps-3"
                 />
-                <button className="bg-blue px-[16px] hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue h-[39px] flex justify-center items-center font-Inter sm:text-[16px] text-[14px] text-white rounded-xl font-normal leading-normal me-1">
-                  Search
-                </button>
-              </div>
+                <input type="submit" value="Search" className="bg-blue px-[16px] hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue h-[39px] flex justify-center items-center font-Inter sm:text-[16px] text-[14px] text-white rounded-xl font-normal leading-normal me-1"/>
+                 
+                
+              </form>
               <p className="pt-4 font-Inter text-black sm:text-[16px] text-[14px] font-normal leading-normal">
                 Follow us now
               </p>

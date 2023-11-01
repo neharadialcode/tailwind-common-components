@@ -32,8 +32,8 @@ export function FaqSecond() {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <div className="container mx-auto px-3 md:px-5 pt-8 sm:pt-12 lg:pt-[71px] pb-8 sm:pb-12 lg:pb-[126px]">
-      <div className="flex items-center justify-center flex-col lg:flex-row gap-5">
+    <div className="max-w-[1140px] 2xl:max-w-[1320px] mx-auto xl:px-0 px-3 lg:py-16 md:py-14 py-12">
+      <div className="flex items-center justify-center flex-col lg:flex-row lg:gap-10 gap-6">
         <div className="lg:w-2/4">
           <h1 className="font-Lato text-light-blackE mb-3  sm:mb-4 font-bold sm:text-[40px] text-[36px] sm:text-5xl lg:text-start text-center">
             FAQ
@@ -162,7 +162,7 @@ export function FaqSecond() {
         </div>
         <div className="lg:w-6/12">
           <img
-            className=" w-full rounded-[20px]"
+            className="w-full  xl:max-w-[570px] xl:max-h-[594px] rounded-[20px]"
             src={FaqImage}
             alt="FaqImage"
           />
