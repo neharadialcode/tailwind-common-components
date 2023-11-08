@@ -29,7 +29,7 @@ const Header = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
+                      className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                     >
                       TAB NAME
                     </a>
@@ -37,7 +37,7 @@ const Header = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
+                      className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                     >
                       TAB NAME
                     </a>
@@ -45,7 +45,7 @@ const Header = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
+                      className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                     >
                       TAB NAME
                     </a>
@@ -53,7 +53,7 @@ const Header = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm ]"
+                      className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm ]"
                     >
                       TAB NAME
                     </a>
@@ -114,7 +114,7 @@ const Header = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
+                    className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
@@ -122,7 +122,7 @@ const Header = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
+                    className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
@@ -130,7 +130,7 @@ const Header = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
+                    className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
@@ -138,7 +138,7 @@ const Header = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
+                    className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
