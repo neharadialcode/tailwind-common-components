@@ -28,10 +28,10 @@ const AbsoluteHeroSecond = () => {
                   arcu cum.
                 </p>
                 <div className="flex gap-5 justify-center items-center mt-8">
-                  <button className="text-white w-[164px] h-[44px] hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal sm:text-[16px] text-[14px] bg-blue flex justify-center items-center rounded-xl">
+                  <button className="text-white w-[164px] h-[48px] hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal sm:text-[16px] text-[14px] bg-blue flex justify-center items-center rounded-xl">
                     Button
                   </button>
-                  <button className="hover:text-white w-[164px] h-[44px] bg-white hover:border-transparent border-blue border-2 transition-all duration-300 text-blue font-Inter font-semibold leading-normal sm:text-[16px] text-[14px] hover:bg-blue flex justify-center items-center rounded-xl">
+                  <button className="hover:text-white w-[164px] h-[48px] bg-white hover:border-transparent border-blue border-2 transition-all duration-300 text-blue font-Inter font-semibold leading-normal sm:text-[16px] text-[14px] hover:bg-blue flex justify-center items-center rounded-xl">
                     Button
                   </button>
                 </div>

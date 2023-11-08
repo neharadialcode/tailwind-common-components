@@ -29,7 +29,7 @@ const HeaderLast = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
                       TAB NAME
                     </a>
@@ -37,7 +37,7 @@ const HeaderLast = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
                       TAB NAME
                     </a>
@@ -45,7 +45,7 @@ const HeaderLast = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
                       TAB NAME
                     </a>
@@ -53,7 +53,7 @@ const HeaderLast = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal block px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal block px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
                       TAB NAME
                     </a>

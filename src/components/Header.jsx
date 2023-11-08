@@ -25,11 +25,11 @@ const Header = () => {
                 </button>
               </div>
               <div className="hidden md:block">
-                <ul className="flex items-baseline space-x-4">
+                <ul className="flex items-baseline space-x-4 gap-4">
                   <li>
                     <a
                       href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
                     >
                       TAB NAME
                     </a>
@@ -37,7 +37,7 @@ const Header = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
                     >
                       TAB NAME
                     </a>
@@ -45,7 +45,7 @@ const Header = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
                     >
                       TAB NAME
                     </a>
@@ -53,7 +53,7 @@ const Header = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal block px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal block rounded-md sm:text-[16px] text-[14px]"
                     >
                       TAB NAME
                     </a>
@@ -109,14 +109,12 @@ const Header = () => {
               </div>
             </div>
           </div>
-
-          
             <div className={`md:opacity-0 transition-all duration-500 fixed h-screen w-screen z-30 bg-red-300 top-0 ${isOpen ?" translate-x-0":"translate-x-[-100%]"}`} id="mobile-menu">
-              <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col justify-center items-center h_mobile">
+              <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col justify-center items-center h_mobile gap-4">
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
                   >
                     TAB NAME
                   </a>
@@ -124,7 +122,7 @@ const Header = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
                   >
                     TAB NAME
                   </a>
@@ -132,7 +130,7 @@ const Header = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
                   >
                     TAB NAME
                   </a>
@@ -140,7 +138,7 @@ const Header = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
                   >
                     TAB NAME
                   </a>
@@ -150,7 +148,6 @@ const Header = () => {
                 </button>
               </ul>
             </div>
-        
         </nav>
       </div>
     </>

@@ -24,7 +24,7 @@ const HeroSecond = () => {
                   Dis velit nam vitae hendrerit at egestas. Tellus velit turpis
                   at sed lorem vitae sed.
                 </p>
-                <button className="text-white mt-8 w-[164px] h-[44px] hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal sm:text-[16px] text-[14px] bg-blue flex justify-center items-center rounded-xl">
+                <button className="text-white mt-8 w-[164px] h-[48px] hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal sm:text-[16px] text-[14px] bg-blue flex justify-center items-center rounded-xl">
                   Button
                 </button>
               </div>
