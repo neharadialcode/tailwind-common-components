@@ -19,7 +19,7 @@ const AllHero = () => {
       <HeroThird />
       <p className="text-center text-[48px] font-bold py-12">absolute hero</p>
       <AbsoluteHeroFirst />
-      <AbsoluteHeroSecond/>
+      <AbsoluteHeroSecond />
     </>
   );
 };
