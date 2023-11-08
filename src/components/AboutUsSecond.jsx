@@ -14,17 +14,17 @@ const AboutUsSecond = () => {
                 alt="about us section col image"
               />
             </div>
-            <div className="lg:w-1/2  w-[100%]">
+            <div className="lg:w-1/2  w-[100%] flex items-center flex-col">
               <h3 className="text-[#1E1E1E] sm:text-[48px] text-[36px] font-Inter font-semibold leading-normal">
                 Lorem ipsum
               </h3>
-              <p className="pt-4 lg:max-w-[536px] text-[#4A4A4A] sm:text-[16px] text-[14px] font-normal leading-normal font-Inter">
+              <p className="text-center pt-4 lg:max-w-[536px] text-[#4A4A4A] sm:text-[16px] text-[14px] font-normal leading-normal font-Inter">
                 Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
                 consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
                 Hac posuere eget nam diam velit urna adipiscing diam. Dis velit
                 nam vitae hendrerit at egestas.
               </p>
-              <p className="pt-4 lg:max-w-[536px] text-[#4A4A4A] sm:text-[16px] text-[14px] font-normal leading-normal font-Inter">
+              <p className="text-center pt-4 lg:max-w-[536px] text-[#4A4A4A] sm:text-[16px] text-[14px] font-normal leading-normal font-Inter">
                 Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
                 consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
                 Hac posuere eget nam diam velit urna adipiscing diam.

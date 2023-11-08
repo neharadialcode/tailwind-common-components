@@ -64,14 +64,14 @@ const FormSecond = () => {
                   placeholder="Email address"
                   className="outline-[#00000070] border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl mt-4"
                   onChange={(e) =>
-                    setTouchForm({ ...touchForm, name: e.target.value })
+                    setTouchForm({ ...touchForm, email: e.target.value })
                   }
-                  value={touchForm.name}
+                  value={touchForm.email}
                 />
                 <p className="requiredHeight mb-2">
                   {error && touchForm.name === "" ? (
                     <p className="text-red-600 absolute bottom-[-30%] left-0 font-Inter font-medium leading-[157%] text-[14px]">
-                      Name is required
+                      Email is required
                     </p>
                   ) : (
                     touchForm !== ""
@@ -84,14 +84,14 @@ const FormSecond = () => {
                   placeholder="Contact"
                   className="outline-[#00000070] border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl mt-4"
                   onChange={(e) =>
-                    setTouchForm({ ...touchForm, name: e.target.value })
+                    setTouchForm({ ...touchForm, contact: e.target.value })
                   }
-                  value={touchForm.name}
+                  value={touchForm.contact}
                 />
                 <p className="requiredHeight mb-2">
                   {error && touchForm.name === "" ? (
                     <p className="absolute bottom-[-30%] left-0 font-Inter font-medium leading-[157%] text-red-600 text-[14px]">
-                      Name is required
+                      Number is required
                     </p>
                   ) : (
                     touchForm !== ""
