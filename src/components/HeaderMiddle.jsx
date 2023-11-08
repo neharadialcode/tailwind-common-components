@@ -25,11 +25,11 @@ const HeaderMiddle = () => {
                 </button>
               </div>
               <div className="hidden md:block">
-                <ul className="flex items-baseline space-x-4">
+                <ul className="flex items-baseline ">
                   <li>
                     <a
                       href="#"
-                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm  me-9"
                     >
                       TAB NAME
                     </a>
@@ -37,7 +37,7 @@ const HeaderMiddle = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm  me-12"
                     >
                       TAB NAME
                     </a>
@@ -50,7 +50,7 @@ const HeaderMiddle = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal block px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm  ms-14"
                     >
                       TAB NAME
                     </a>
@@ -58,7 +58,7 @@ const HeaderMiddle = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal block px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm  ms-9"
                     >
                       TAB NAME
                     </a>
@@ -118,7 +118,7 @@ const HeaderMiddle = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
@@ -126,7 +126,7 @@ const HeaderMiddle = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
@@ -134,7 +134,7 @@ const HeaderMiddle = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
@@ -142,7 +142,7 @@ const HeaderMiddle = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
