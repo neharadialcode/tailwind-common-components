@@ -58,7 +58,7 @@ const HeaderLast = () => {
                       TAB NAME
                     </a>
                   </li>
-                  <li><button className="md:flex hidden rounded-xl w-[164px] h-[48px] justify-center items-center font-inter text-[5vw] sm:text-[3vw] md:text-sm  leading-normal bg-blue  hover.bg-white  hover.border-blue border-2 transition-all duration-300 hover.text-blue font-semibold text-[#fff] hover:bg-white border-transparent hover:border-blue  hover:text-blue">
+                  <li><button className="md:flex hidden rounded-xl w-[164px] h-[48px] justify-center items-center font-inter text-[5vw] sm:text-[3vw] md:text-sm  leading-normal bg-blue   e border-2 transition-all duration-300 hover.text-blue font-semibold text-[#fff] hover:bg-white border-transparent hover:border-blue  hover:text-blue">
                 Button
               </button></li>
                 </ul>
@@ -146,7 +146,7 @@ const HeaderLast = () => {
                     TAB NAME
                   </a>
                 </li>
-                <button className="lg:hidden flex rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal  hover.bg-white hover.border-blue border-2 transition-all duration-300 hover.text-blue bg-blue font-semibold text-[#fff] hover:bg-white border-transparent hover:border-blue  hover:text-blue">
+                <button className="lg:hidden flex rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal    border-2 transition-all duration-300 hover.text-blue bg-blue font-semibold text-[#fff] hover:bg-white border-transparent hover:border-blue  hover:text-blue">
                   Button
                 </button>
               </ul>

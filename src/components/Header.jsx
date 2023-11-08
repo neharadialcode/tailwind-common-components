@@ -60,7 +60,7 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-              <button className="md:flex hidden rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal bg-blue  hover.bg-white hover.border-blue border-2 transition-all duration-300 hover.text-blue font-semibold text-[#fff] hover:bg-white border-transparent hover:border-blue  hover:text-blue">
+              <button className="md:flex hidden rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal bg-blue border-2 transition-all duration-300 hover.text-blue font-semibold text-[#fff] hover:bg-white border-transparent hover:border-blue  hover:text-blue">
                 Button
               </button>
               <div className="-mr-2 flex md:hidden">
@@ -143,7 +143,7 @@ const Header = () => {
                     TAB NAME
                   </a>
                 </li>
-                <button className="lg:hidden flex rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal  hover.bg-white border-transparent hover.border-blue border-2 transition-all duration-300 hover.text-blue bg-blue font-semibold text-[#fff] ">
+                <button className="lg:hidden flex rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal   border-transparent  border-2 transition-all duration-300 hover.text-blue bg-blue font-semibold text-[#fff] ">
                   Button
                 </button>
               </ul>

@@ -4,7 +4,7 @@ import hero_col_img from "../assets/images/png/hero_col_img.png";
 const HeroSecond = () => {
   return (
     <>
-      <section className="lg:min-h-screen flex flex-col justify-center mb-12 max-w-[1920px] mx-auto">
+      <div className="lg:min-h-screen flex flex-col justify-center mb-12 max-w-[1920px] mx-auto">
         <div className="flex justify-center items-center">
           <button className="bg-[#C5C2C2] h-[48px] text-blue w-[87px] flex justify-center items-center sm:text-[16px] text-[14px] leading-normal font-semibold font-inter">
             Logo
@@ -38,7 +38,7 @@ const HeroSecond = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

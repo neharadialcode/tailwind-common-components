@@ -5,7 +5,7 @@ import hero_main_img from "../assets/images/png/hero_third_img.png";
 const HeroThird = () => {
   return (
     <>
-      <section>
+      <div>
         <div className="flex justify-center items-center mt-[43px]">
           <a href="/" className="sm:text-[16px] text-[14px] leading-normal font-normal font-Inter">
           LOGO
@@ -35,7 +35,7 @@ const HeroThird = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };
