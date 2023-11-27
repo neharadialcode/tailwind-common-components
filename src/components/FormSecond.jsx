@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const FormSecond = () => {
   const [touchForm, setTouchForm] = useState({
@@ -18,7 +20,8 @@ const FormSecond = () => {
       touchForm.email !== "" &&
       touchForm.contact !== "" &&
       touchForm.message !== "" &&
-      regex.test(touchForm.email)
+      regex.test(touchForm.email) &&
+      toast("it's done")
     ) {
       setError(false);
       setTouchForm({
@@ -28,9 +31,11 @@ const FormSecond = () => {
         message: "",
       });
     }
+    
   };
   return (
     <>
+      <ToastContainer />
       <div className="max-w-[1128px] mx-auto px-6 py-[72px]">
         <div className="flex justify-between  md:flex-row flex-col gap-12">
           <div className="md:w-1/2 w-full">
@@ -69,7 +74,7 @@ const FormSecond = () => {
                   value={touchForm.email}
                 />
                 <p className="requiredHeight">
-                  {error && touchForm.name === "" ? (
+                  {error && touchForm.email === "" ? (
                     <p className="text-red-600 absolute bottom-[-30%] left-0 font-Inter font-medium leading-[157%] text-[14px]">
                       Email is required
                     </p>
@@ -89,7 +94,7 @@ const FormSecond = () => {
                   value={touchForm.contact}
                 />
                 <p className="requiredHeight">
-                  {error && touchForm.name === "" ? (
+                  {error && touchForm.contact === "" ? (
                     <p className="absolute bottom-[-30%] left-0 font-Inter font-medium leading-[157%] text-red-600 text-[14px]">
                       Number is required
                     </p>
