@@ -12,6 +12,25 @@
 .h_mobile {
   height: calc(100vh - 60px);
 }
+/* ========== HEADER CSS ============= */
+.under_line{
+  position: relative;
+}
+.under_line::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: -2px;
+  background-color: blue;
+  transform: scaleX(0);
+  transition: all 300ms linear;
+}
+.under_line:hover::after{
+  transform: scaleX(1);
+}
+/* ========== HEADER CSS ============= */
 .aboutus_bg {
   background-image: url("./assets/images/png/aboutus_bg.png");
   background-repeat: no-repeat;
@@ -71,3 +90,6 @@
   margin-left: 2rem;
 }
 /* ============== */
+html{
+  scroll-behavior: smooth;
+}

@@ -32,7 +32,7 @@ export function FaqSection() {
 
   return (
     <>
-      <div className="container mx-auto px-3 md:px-5 pt-8 sm:pt-12 lg:pt-[71px] pb-8 sm:pb-12 lg:pb-[126px]">
+      <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto xl:px-0 px-3 lg:py-16 md:py-14 py-12">
         <h1 className="font-Lato text-light-blackE mb-3  sm:mb-4 font-bold sm:text-[40px] text-[36px] sm:text-5xl text-center">
           FAQ
         </h1>
@@ -41,7 +41,7 @@ export function FaqSection() {
           consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac
           posuere eget nam diam velit urna adipiscing diam.
         </p>
-        <div className="max-w-[834px] mx-auto">
+        <div className="max-w-[834px] 2xl:max-w-[1024px] mx-auto">
           <Accordion
             className="flex flex-col justify-between px-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden relative"
             open={open === 1}
@@ -57,13 +57,13 @@ export function FaqSection() {
               </h2>
             </AccordionHeader>
             <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-              <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px]  leading-[150%] ">
+              <p className="font-Inter text-sm md:sm:text-[16px]  font-normal text-light-black max-w-[786px] 2xl:max-w-[900px]  leading-[150%] ">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
                 ullamcorper fames. Cursus libero nec facilisis risus malesuada
                 arcu cum. Gravida massa scelerisque sociis nulla diam nisl
-                ligula.bh{" "}
+                ligula.bh
               </p>
             </AccordionBody>
           </Accordion>
@@ -80,7 +80,7 @@ export function FaqSection() {
               </h2>
             </AccordionHeader>
             <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-              <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black  max-w-[786px] leading-[150%]">
+              <p className="font-Inter text-sm md:sm:text-[16px] font-normal text-light-black  max-w-[786px] 2xl:max-w-[900px] leading-[150%]">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
@@ -102,7 +102,7 @@ export function FaqSection() {
               </h2>
             </AccordionHeader>
             <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-              <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px] leading-[150%]">
+              <p className="font-Inter text-sm md:sm:text-[16px] font-normal text-light-black max-w-[786px] 2xl:max-w-[900px] leading-[150%]">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
@@ -125,7 +125,7 @@ export function FaqSection() {
               </h2>
             </AccordionHeader>
             <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-              <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px] leading-[150%]">
+              <p className="font-Inter text-sm md:sm:text-[16px] font-normal text-light-black max-w-[786px] 2xl:max-w-[900px] leading-[150%]">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
@@ -147,7 +147,7 @@ export function FaqSection() {
               </h2>
             </AccordionHeader>
             <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-              <p className="font-Inter text-sm md:sm:text-[16px] text-[14px] font-normal text-light-black max-w-[786px] leading-[150%]">
+              <p className="font-Inter text-sm md:sm:text-[16px] font-normal text-light-black max-w-[786px] 2xl:max-w-[900px] leading-[150%]">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare

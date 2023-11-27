@@ -13,6 +13,8 @@ const Video = () => {
       if (video) {
         video.play();
       }
+    }else{
+      setVideoPlaying(false)
     }
   };
 

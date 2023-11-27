@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 
 const HeaderMiddle = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   useEffect(() => {
     if (isOpen) {
       document.body.classList.add("overflow-hidden");
@@ -16,12 +15,12 @@ const HeaderMiddle = () => {
 
   return (
     <>
-      <div className="flex-grow-0">
-        <nav className="bg-white my-12">
-          <div className="max-w-[1188px] mx-auto px-6">
-            <div className="flex items-center justify-between md:justify-center py-[26px]">
-              <div className="flex-shrink-0">
-                <button className="bg-[#C5C2C2] md:hidden h-[48px] text-blue w-[87px] flex justify-center items-center sm:text-[16px] text-[14px] leading-normal font-semibold font-inter">
+      <div>
+        <nav className="bg-white">
+          <div className="max-w-[1140px] 2xl:max-w-[1320px] mx-auto xl:px-0 px-3">
+            <div className="flex items-center md:justify-center justify-between py-[26px]">
+              <div className="flex-shrink-0 md:hidden block">
+                <button className="bg-[#C5C2C2] h-[48px] text-blue w-[87px] flex justify-center items-center sm:text-[16px] text-[14px] leading-normal font-semibold font-inter">
                   Logo
                 </button>
               </div>
@@ -30,27 +29,28 @@ const HeaderMiddle = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
                       TAB NAME
                     </a>
                   </li>
-
                   <li>
                     <a
                       href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
                       TAB NAME
                     </a>
                   </li>
+                  <li>
                   <button className="bg-[#C5C2C2] h-[48px] text-blue w-[87px] flex justify-center items-center sm:text-[16px] text-[14px] leading-normal font-semibold font-inter">
-                    Logo
-                  </button>
+                  Logo
+                </button>
+                  </li>
                   <li>
                     <a
                       href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal block px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
                       TAB NAME
                     </a>
@@ -58,19 +58,20 @@ const HeaderMiddle = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal block px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal block px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
                     >
                       TAB NAME
                     </a>
                   </li>
                 </ul>
               </div>
-
               <div className="-mr-2 flex md:hidden">
                 <button
                   onClick={() => setIsOpen(!isOpen)}
                   type="button"
-                  className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-black hover:text-white"
+                  className="bg-gray-900 inline-flex items-center relative z-50 justify-center p-2 rounded-md text-black hover.text-white transition-opacity duration-500"
+                  aria-controls="mobile-menu"
+                  aria-expanded={isOpen ? "opacity-1" : "opacity-0"}
                 >
                   <span className="sr-only">Open main menu</span>
                   {!isOpen ? (
@@ -111,8 +112,8 @@ const HeaderMiddle = () => {
             </div>
           </div>
 
-          {isOpen && (
-            <div className="md:hidden" id="mobile-menu">
+          
+            <div className={`md:opacity-0 transition-all duration-500 fixed h-screen w-screen z-30 bg-red-300 top-0 ${isOpen ?" translate-x-0":"translate-x-[-100%]"}`} id="mobile-menu">
               <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col justify-center items-center h_mobile">
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
@@ -122,7 +123,6 @@ const HeaderMiddle = () => {
                     TAB NAME
                   </a>
                 </li>
-
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
@@ -139,7 +139,6 @@ const HeaderMiddle = () => {
                     TAB NAME
                   </a>
                 </li>
-
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
@@ -148,9 +147,9 @@ const HeaderMiddle = () => {
                     TAB NAME
                   </a>
                 </li>
-              </ul> 
+              </ul>
             </div>
-          )}
+        
         </nav>
       </div>
     </>
