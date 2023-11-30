@@ -5,7 +5,7 @@ import Header from "./Header";
 const AbsoluteHeroFirst = () => {
   return (
     <>
-      <section className=" flex flex-col justify-center mb-12 max-w-[1920px] mx-auto">
+      <div className=" flex flex-col justify-center mb-12 max-w-[1920px] mx-auto">
         <Header />
         <div className="lg:flex-grow flex py-12 h-full items-center relative">
           <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto xl:px-0 px-3 h-full ">
@@ -49,7 +49,7 @@ const AbsoluteHeroFirst = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

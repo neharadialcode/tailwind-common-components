@@ -1,10 +1,9 @@
 import React from "react";
-import FormFirst from "../FormFirst";
-import FormSecond from "../FormSecond";
-import FormThird from "../FormThird";
-import FormForth from "../FormForth";
+import Header from "./Header";
+import HeaderMiddle from "./HeaderMiddle";
+import HeaderLast from "./HeaderLast";
 
-const AllForms = () => {
+const AllHeader = () => {
   return (
     <>
       <a
@@ -13,12 +12,11 @@ const AllForms = () => {
       >
         home
       </a>
-      <FormFirst />
-      <FormSecond />
-      <FormThird />
-      <FormForth />
+      <Header />
+      <HeaderMiddle />
+      <HeaderLast />
     </>
   );
 };
 
-export default AllForms;
+export default AllHeader;

@@ -1,13 +1,15 @@
 import React from "react";
-import HeroFirst from "../HeroFirst";
-import HeroSecond from "../HeroSecond";
-import HeroThird from "../HeroThird";
-import AbsoluteHeroFirst from "../AbsoluteHeroFirst";
-import AbsoluteHeroSecond from "../AbsoluteHeroSecond";
+import HeroFirst from "./HeroFirst";
+import HeroSecond from "./HeroSecond";
+import HeroThird from "./HeroThird";
+import AbsoluteHeroFirst from "./AbsoluteHeroFirst";
+import AbsoluteHeroSecond from "./AbsoluteHeroSecond";
+import BackToTop from "./BackToTop";
 
 const AllHero = () => {
   return (
     <>
+    <BackToTop/>
       <a
         href="/"
         className="bg-blue my-8 mx-3 h-[48px] w-[120px] flex justify-center items-center sm:text-[16px] text-[14px] rounded-xl text-white font-Inter font-semibold"

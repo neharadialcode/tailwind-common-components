@@ -8,7 +8,7 @@ import hero_bottom_right from "../assets/images/png/hero_bottom_right.png";
 const AbsoluteHeroSecond = () => {
   return (
     <>
-      <section className="flex flex-col justify-center mb-12 max-w-[1920px] mx-auto">
+      <div className="flex flex-col justify-center mb-12 max-w-[1920px] mx-auto">
         <Header />
         <div className="flex md:pt-[192px] sm:pt-[230px] md:pb-[259px] sm:pb-[230px] py-36 h-full items-center relative overflow-hidden">
           <div className="container max-w-[1140px] mx-auto xl:px-0 px-3">
@@ -67,7 +67,7 @@ const AbsoluteHeroSecond = () => {
             />
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

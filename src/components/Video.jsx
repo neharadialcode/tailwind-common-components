@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import sample_video from "../assets/videos/sample_video.mp4";
-import thumbnail from "../assets/images/png/aboutus_col_img.png";
+import thumbnail from "../assets/images/png/colorfull_img.png";
 import play from "../assets/images/png/play_button.png";
 
 const Video = () => {

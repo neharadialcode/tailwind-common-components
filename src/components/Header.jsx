@@ -4,12 +4,12 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
     if (isOpen) {
-      document.body.classList.add("overflow-hidden");
+      document.body.classList.add("overflow_hidden");
     } else {
-      document.body.classList.remove("overflow-hidden");
+      document.body.classList.remove("overflow_hidden");
     }
     return () => {
-      document.body.classList.remove("overflow-hidden");
+      document.body.classList.remove("overflow_hidden");
     };
   }, [isOpen]);
 
@@ -25,11 +25,11 @@ const Header = () => {
                 </button>
               </div>
               <div className="hidden md:block">
-                <ul className="flex items-baseline space-x-4 gap-4">
+                <ul className="flex items-baseline  gap-12">
                   <li>
                     <a
                       href="#"
-                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                     >
                       TAB NAME
                     </a>
@@ -37,7 +37,7 @@ const Header = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                     >
                       TAB NAME
                     </a>
@@ -45,7 +45,7 @@ const Header = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                     >
                       TAB NAME
                     </a>
@@ -53,14 +53,14 @@ const Header = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal block rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm ]"
                     >
                       TAB NAME
                     </a>
                   </li>
                 </ul>
               </div>
-              <button className="md:flex hidden rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal bg-blue  hover.bg-white border-transparent hover.border-blue border-2 transition-all duration-300 hover.text-blue font-semibold text-[#fff]">
+              <button className="md:flex hidden rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal bg-blue border-2 transition-all duration-300 hover.text-blue font-semibold text-[#fff] hover:bg-white border-transparent hover:border-blue  hover:text-blue">
                 Button
               </button>
               <div className="-mr-2 flex md:hidden">
@@ -114,7 +114,7 @@ const Header = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
@@ -122,7 +122,7 @@ const Header = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
@@ -130,7 +130,7 @@ const Header = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
@@ -138,12 +138,12 @@ const Header = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black relative after:content-['']  after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
                 </li>
-                <button className="lg:hidden flex rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal  hover.bg-white border-transparent hover.border-blue border-2 transition-all duration-300 hover.text-blue bg-blue font-semibold text-[#fff]">
+                <button className="lg:hidden flex rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal   border-transparent  border-2 transition-all duration-300 hover.text-blue bg-blue font-semibold text-[#fff] ">
                   Button
                 </button>
               </ul>

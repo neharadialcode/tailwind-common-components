@@ -20,10 +20,6 @@ module.exports = {
         "2xl": "6rem",
       },
     },
-    fontFamily: {
-      Inter: ["Inter", "sans-serif"],
-    },
-
     extend: {
       colors: {
         "light-blue": "#3C278D",

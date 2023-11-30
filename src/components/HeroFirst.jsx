@@ -4,7 +4,7 @@ import Header from "./Header";
 const HeroFirst = () => {
   return (
     <>
-      <section className="lg:min-h-screen flex flex-col justify-center mb-12 max-w-[1920px] mx-auto">
+      <div className="lg:min-h-screen flex flex-col justify-center mb-12 max-w-[1920px] mx-auto">
       <Header/>
         <div className="hero_first_bg lg:flex-grow flex md:py-48 py-24 lg:py-0 h-full items-center">
           <div className="max-w-[1140px] mx-auto xl:px-0 px-3 h-full">
@@ -23,7 +23,7 @@ const HeroFirst = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

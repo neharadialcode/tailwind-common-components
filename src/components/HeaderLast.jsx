@@ -25,11 +25,19 @@ const HeaderLast = () => {
                 </button>
               </div>
               <div className="hidden md:block">
-                <ul className="flex items-baseline space-x-4">
-                  <li>
+                <ul className="flex items-baseline ">
+                  <li >
                     <a
                       href="#"
-                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm  me-12"
+                    >
+                      TAB NAME
+                    </a>
+                  </li>
+                  <li >
+                    <a
+                      href="#"
+                      className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm  me-12"
                     >
                       TAB NAME
                     </a>
@@ -37,7 +45,7 @@ const HeaderLast = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm  me-12"
                     >
                       TAB NAME
                     </a>
@@ -45,20 +53,12 @@ const HeaderLast = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                      className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm  me-8"
                     >
                       TAB NAME
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-black under_line font-inter hover_li transition-all duration-300 font-normal leading-normal block px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
-                    >
-                      TAB NAME
-                    </a>
-                  </li>
-                  <li><button className="md:flex hidden rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal bg-blue  hover.bg-white border-transparent hover.border-blue border-2 transition-all duration-300 hover.text-blue font-semibold text-[#fff]">
+                  <li><button className="md:flex hidden rounded-xl w-[164px] h-[48px] justify-center items-center font-inter text-[5vw] sm:text-[3vw] md:text-sm  leading-normal bg-blue   e border-2 transition-all duration-300 hover.text-blue font-semibold text-[#fff] hover:bg-white border-transparent hover:border-blue  hover:text-blue">
                 Button
               </button></li>
                 </ul>
@@ -117,7 +117,7 @@ const HeaderLast = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
@@ -125,7 +125,7 @@ const HeaderLast = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm  "
                   >
                     TAB NAME
                   </a>
@@ -133,7 +133,7 @@ const HeaderLast = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm "
                   >
                     TAB NAME
                   </a>
@@ -141,12 +141,12 @@ const HeaderLast = () => {
                 <li onClick={() => setIsOpen(!isOpen)}>
                   <a
                     href="#"
-                    className="text-black font-inter hover_li transition-all duration-300 font-normal leading-normal px-3 py-2 rounded-md sm:text-[16px] text-[14px]"
+                    className="text-black relative after:content-['']  after:w-0 after:h-[2px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 after:bg-[blue]  after:absolute after:bottom-[-4px] after:rounded-3xl hover:after:w-full hover:after:left-0 after:left-[50%]  font-inter hover:text-blue font-normal leading-normal rounded-md text-[5vw] sm:text-[3vw] md:text-sm  "
                   >
                     TAB NAME
                   </a>
                 </li>
-                <button className="lg:hidden flex rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal  hover.bg-white border-transparent hover.border-blue border-2 transition-all duration-300 hover.text-blue bg-blue font-semibold text-[#fff]">
+                <button className="lg:hidden flex rounded-xl w-[164px] h-[48px] justify-center items-center font-inter sm:text-[16px] text-[14px] leading-normal    border-2 transition-all duration-300 hover.text-blue bg-blue font-semibold text-[#fff] hover:bg-white border-transparent hover:border-blue  hover:text-blue">
                   Button
                 </button>
               </ul>
