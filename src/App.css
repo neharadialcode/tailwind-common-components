@@ -8,7 +8,7 @@
   text-decoration: none !important;
   box-sizing: border-box !important;
 }
-.custom_container{
+.custom_container {
   max-width: 1140px !important;
 }
 
@@ -81,10 +81,10 @@ html{
   .overflow_hidden{
     overflow: hidden;
   }
-  .height_open_nav{
+  .height_open_nav {
     height: calc(100vh - -80px);
   }
-  .width_height_open_nav{
+  .width_height_open_nav {
     height: calc(100vh - -80px);
     width: 100%;
   }
