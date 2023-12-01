@@ -1,7 +1,4 @@
 import React from "react";
-import Header from "./Header";
-import HeaderMiddle from "./HeaderMiddle";
-import HeaderLast from "./HeaderLast";
 
 const AllHeader = () => {
   return (
@@ -12,9 +9,9 @@ const AllHeader = () => {
       >
         home
       </a>
-      <Header />
+      {/* <Header />
       <HeaderMiddle />
-      <HeaderLast />
+      <HeaderLast /> */}
     </>
   );
 };
