@@ -12,6 +12,7 @@ import { Route, Routes } from "react-router-dom";
 import AllForms from "./components/view/AllForms";
 import Video from "./components/Video";
 import CustomSlider from "./components/CustomSlider";
+import RoadMap from "./components/RoadMap";
 import AllRoadmap from "./components/view/AllRoadmap";
 
 function App() {

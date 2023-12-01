@@ -65,7 +65,6 @@ const ViewButtons = () => {
           >
             roadmap
           </a>
-
         </div>
       </div>
     </>
