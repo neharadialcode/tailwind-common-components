@@ -35,8 +35,8 @@ function App() {
           <Route path="/roadmap" element={<AllRoadmap/>} />
         </Routes>
       </div> */}
-      {/* <NavbarSpaceCenter/> */}
-      {/* <NavbarAlignRight/> */}
+      <NavbarSpaceCenter/>
+      <NavbarAlignRight/>
       <NavbarCentered/>
     </>
   );

@@ -22,7 +22,7 @@ const NavbarCentered = () => {
                 href="/"
                 className="h-48px w-87px relative z-50 bg-bg-gray flex justify-center items-center"
               >
-                <span className="lg:text-16px text-14px text-blue font-bold font-inter leading-normal">
+                <span className="lg:text-sm text-xs text-blue font-bold font-inter leading-normal">
                   Logo
                 </span>
               </a>
@@ -41,7 +41,7 @@ const NavbarCentered = () => {
                 <li className="relative transition-all duration-100">
                   <a
                     onClick={showUl}
-                    className="before:w-0 before:transition-all font-inter before:duration-300 before:ease-linear md:before:content-[''] before:h-2px w-0  md:hover:before:w-full before:absolute before:left-0 before:bottom-[-3%] before:bg-black lg:text-16px text-14px font-normal leading-normal"
+                    className="before:w-0 before:transition-all font-inter before:duration-300 before:ease-linear md:before:content-[''] before:h-2px w-0  md:hover:before:w-full before:absolute before:left-0 before:bottom-[-3%] before:bg-black lg:text-sm text-xs font-normal leading-normal"
                     href="#home"
                   >
                     TAB NAME
@@ -50,7 +50,7 @@ const NavbarCentered = () => {
                 <li className="relative">
                   <a
                     onClick={showUl}
-                    className="before:w-0 before:transition-all font-inter before:duration-300 before:ease-linear md:before:content-[''] lg:text-16px text-14px before:h-2px w-0 transition-all duration-300 md:hover:before:w-full before:absolute before:bottom-[-3%] before:bg-black font-normal leading-normal"
+                    className="before:w-0 before:transition-all font-inter before:duration-300 before:ease-linear md:before:content-[''] lg:text-sm text-xs before:h-2px w-0 transition-all duration-300 md:hover:before:w-full before:absolute before:bottom-[-3%] before:bg-black font-normal leading-normal"
                     href="#features"
                   >
                     TAB NAME
@@ -60,14 +60,14 @@ const NavbarCentered = () => {
                   href="/"
                   className="h-48px w-87px relative z-50 bg-bg-gray md:flex hidden justify-center items-center"
                 >
-                  <span className="lg:text-16px text-14px text-blue font-bold font-inter leading-normal">
+                  <span className="lg:text-sm text-xs text-blue font-bold font-inter leading-normal">
                     Logo
                   </span>
                 </a>
                 <li className="relative">
                   <a
                     onClick={showUl}
-                    className="before:w-0 before:transition-all font-inter before:duration-300 md:before:content-[''] before:ease-linear before:h-2px w-0 transition-all duration-300 md:hover:before:w-full before:absolute before:bottom-[-3%] before:bg-black lg:text-16px text-14px font-normal leading-normal"
+                    className="before:w-0 before:transition-all font-inter before:duration-300 md:before:content-[''] before:ease-linear before:h-2px w-0 transition-all duration-300 md:hover:before:w-full before:absolute before:bottom-[-3%] before:bg-black lg:text-sm text-xs font-normal leading-normal"
                     href="#pricing"
                   >
                     TAB NAME
@@ -76,7 +76,7 @@ const NavbarCentered = () => {
                 <li className="relative">
                   <a
                     onClick={showUl}
-                    className="before:w-0 before:transition-all font-inter before:duration-300 md:before:content-[''] before:ease-linear before:h-2px w-0 transition-all duration-300 md:hover:before:w-full before:absolute before:bottom-[-3%] before:bg-black lg:text-16px text-14px font-normal leading-normal"
+                    className="before:w-0 before:transition-all font-inter before:duration-300 md:before:content-[''] before:ease-linear before:h-2px w-0 transition-all duration-300 md:hover:before:w-full before:absolute before:bottom-[-3%] before:bg-black lg:text-sm text-xs font-normal leading-normal"
                     href="#freetrial"
                   >
                     TAB NAME
