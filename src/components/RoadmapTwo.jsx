@@ -2,7 +2,7 @@ import React from "react";
 
 const RoadmapTwo = () => {
   return (
-    <section>
+    <div>
       <div className="container py-20 xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
         <h1 className="lg:text-lg md:text-[40px] text-[32px] font-Inter font-semibold text-black text-center mb-4">
           Road Map
@@ -107,7 +107,7 @@ const RoadmapTwo = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
