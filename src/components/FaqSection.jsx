@@ -39,7 +39,7 @@ export function FaqSection() {
           {faqData.map((item) => (
             <Accordion
               key={item.id}
-              className="flex flex-col justify-between px-4 md:px-6 border rounded-xl border-light-blue my-4 overflow-hidden relative"
+              className="flex flex-col px-4 md:px-6 border rounded-xl border-light-blue my-4"
               open={open === item.id}
               icon={<Icon id={item.id} open={open} />}
             >
@@ -47,12 +47,12 @@ export function FaqSection() {
                 onClick={() => handleOpen(item.id)}
                 className="py-4 items-center"
               >
-                <h2 className="font-Inter text-light-blue  sm:text-[16px] text-[14px] md:text-xl font-semibold leading-[140%] md:leading-[150%] text-start mb-0  ">
+                <h2 className="font-Inter text-light-blue sm:text-md text-sm xl:text-2md font-semibold leading-[140%] md:leading-[150%] text-start mb-0">
                   <span className="font-normal">{item.id}.</span> {item.title}
                 </h2>
               </AccordionHeader>
               <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-                <p className="font-Inter text-sm md:sm:text-[16px]  font-normal text-light-black max-w-[786px] 2xl:max-w-[900px]  leading-[150%] ">
+                <p className="font-Inter text-xs sm:text-sm  font-normal text-light-black max-w-[786px] 2xl:max-w-[900px]  leading-[150%]">
                   {item.content}
                 </p>
               </AccordionBody>
