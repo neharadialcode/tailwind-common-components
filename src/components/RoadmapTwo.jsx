@@ -18,7 +18,7 @@ const RoadmapTwo = () => {
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
                 <span className="w-1.5px h-120px bg-[#C5C2C2] absolute left-[-17px] top-[50%] sm:hidden"></span>
-                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:bottom-[-60%] lg:left-[50%] lg:translate-x-[-50%] md:right-[-50%] sm:right-[-35.6%] sm:bottom-[8%] sm:translate-y-[-50%] right-[100%] bottom-[20%] translate-y-[-50%]">
+                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:bottom-[-60%] lg:left-[50%] lg:translate-x-[-50%] md:right-[-61%] sm:right-[-45%] sm:bottom-[8%] sm:translate-y-[-50%] right-[100%] bottom-[20%] translate-y-[-50%]">
                   <div className=" w-5 h-5 rounded-full bg-[#3C278D]"></div>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center leading-normal">
@@ -32,7 +32,7 @@ const RoadmapTwo = () => {
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
                 <span className="w-1.5px h-185px bg-[#C5C2C2] absolute left-[-17px] top-0 sm:hidden"></span>
-                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:bottom-[-60%] lg:left-[50%] lg:translate-x-[-50%] md:right-[-50%] sm:right-[-35.6%] sm:bottom-[8%] translate-y-[-50%] right-[100%] bottom-[20%]">
+                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:bottom-[-60%] lg:left-[50%] lg:translate-x-[-50%] md:right-[-61%] sm:right-[-45%] sm:bottom-[8%] translate-y-[-50%] right-[100%] bottom-[20%]">
                   <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center">
@@ -46,7 +46,7 @@ const RoadmapTwo = () => {
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
                 <span className="w-1.5px h-185px bg-[#C5C2C2] absolute left-[-17px] top-0 sm:hidden"></span>
-                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:bottom-[-60%] lg:left-[50%] lg:translate-x-[-50%] md:right-[-50%] sm:right-[-35.6%] sm:bottom-[8%] translate-y-[-50%]  right-[100%] bottom-[20%]">
+                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:bottom-[-60%] lg:left-[50%] lg:translate-x-[-50%] md:right-[-61%] sm:right-[-45%] sm:bottom-[8%] translate-y-[-50%]  right-[100%] bottom-[20%]">
                   <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center">
@@ -63,7 +63,7 @@ const RoadmapTwo = () => {
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
                 <span className="w-1.5px h-185px bg-[#C5C2C2] absolute left-[-17px] top-0 sm:hidden"></span>
-                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:top-[-27%] lg:left-[50%] lg:translate-x-[-50%] md:left-[-50%] sm:left-[-35%] sm:top-[50%] translate-y-[-50%] right-[100%] top-[50%]">
+                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:top-[-27%] lg:left-[50%] lg:translate-x-[-50%] md:left-[-61%] sm:left-[-44%] sm:top-[50%] translate-y-[-50%] right-[100%] top-[50%]">
                   <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center">
@@ -77,7 +77,7 @@ const RoadmapTwo = () => {
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
                 <span className="w-1.5px h-185px bg-[#C5C2C2] absolute left-[-17px] top-0 sm:hidden"></span>
-                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:top-[-27%] lg:left-[50%] lg:translate-x-[-50%] md:left-[-50%] sm:left-[-35%] sm:top-[50%] translate-y-[-50%] right-[100%] top-[50%]">
+                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:top-[-27%] lg:left-[50%] lg:translate-x-[-50%] md:left-[-61%] sm:left-[-44%] sm:top-[50%] translate-y-[-50%] right-[100%] top-[50%]">
                   <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center leading-normal">
@@ -91,7 +91,7 @@ const RoadmapTwo = () => {
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
                 <span className="w-1.5px h-40px bg-[#C5C2C2] absolute left-[-17px] top-0 sm:hidden"></span>
-                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:top-[-27%] lg:left-[50%] lg:translate-x-[-50%] md:left-[-50%] sm:left-[-35%] sm:top-[50%] translate-y-[-50%]  right-[100%] top-[50%]">
+                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:top-[-27%] lg:left-[50%] lg:translate-x-[-50%] md:left-[-61%] sm:left-[-44%] sm:top-[50%] translate-y-[-50%]  right-[100%] top-[50%]">
                   <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center leading-normal">
