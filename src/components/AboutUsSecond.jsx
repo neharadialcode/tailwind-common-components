@@ -6,11 +6,11 @@ const AboutUsSecond = () => {
     <>
       <div className="lg:py-[72px] md:py-16 py-12">
         <div className="max-w-[1140px] 2xl:max-w-[1320px] mx-auto xl:px-0 px-3">
-          <div className="flex xl:items-end items-center lg:flex-row flex-col lg:gap-[50px] gap-6 mx-auto">
-            <div className="lg:w-1/2 md:w-[80%] sm:w-[90%] flex justify-center">
+          <div className="flex items-center lg:flex-row flex-col lg:gap-[50px] gap-6">
+            <div className="lg:w-1/2 w-full flex justify-center">
               <img
                 src={color_img}
-                className="w-full"
+                className="sm:max-w-[558px] sm:max-h-[341px] "
                 alt="about us section col image"
               />
             </div>
