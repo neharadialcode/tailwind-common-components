@@ -8,7 +8,7 @@ const AbsoluteHeroFirst = () => {
       <section className=" flex flex-col justify-center mb-12 max-w-[1920px] mx-auto overflow-x-hidden">
         <NavbarSpaceCenter />
         <div className="lg:flex-grow flex xl:py-40 lg:py-20 py-16 h-full items-center relative">
-          <div className="container custom_container mx-auto  h-full ">
+          <div className="container  mx-auto  h-full ">
             <div className="flex justify-center items-center lg:gap-[73px] gap-12  lg:flex-row flex-col">
               <div className="lg:w-[55%] w-[100%]">
                 <h2 className="text-black text-xl font-Inter font-normal leading-normal">

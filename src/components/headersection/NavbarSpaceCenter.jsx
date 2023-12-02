@@ -15,7 +15,7 @@ const NavbarSpaceCenter = () => {
   return (
     <>
       <section className="relative z-[2]">
-        <div className="container custom_container mx-auto">
+        <div className="container max-w-[1140px] mx-auto">
           <div className="flex justify-between items-center relative z-40 md:py-26px py-4">
             <div className="flex justify-between items-center w-full md:w-87px">
               <a
@@ -27,7 +27,7 @@ const NavbarSpaceCenter = () => {
                 </span>
               </a>
               <div onClick={showUl} className="z-20 md:hidden">
-                <h3 className="text-[30px]">
+                <h3 className="text-xl">
                   {head ? <BiMenu /> : <RxCross1 />}
                 </h3>
               </div>

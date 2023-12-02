@@ -15,7 +15,7 @@ const NavbarAlignRight = () => {
   return (
     <>
       <section className="relative z-[2]">
-        <div className="container custom_container mx-auto">
+        <div className="container max-w-[1140px] mx-auto">
           <div className="flex justify-between items-center relative z-40 md:py-26px py-4">
             <a
               href="/"
@@ -26,7 +26,7 @@ const NavbarAlignRight = () => {
               </span>
             </a>
             <div onClick={showUl} className="z-20 md:hidden">
-              <h3 className="text-[30px]">
+              <h3 className="text-xl">
                 {head ? <BiMenu /> : <RxCross1 />}
               </h3>
             </div>
