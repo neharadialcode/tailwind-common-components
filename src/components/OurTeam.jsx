@@ -5,19 +5,15 @@ const OurTeam = () => {
   return (
     <div className="bg-white min-h-screen flex justify-center items-center">
       <div className="container xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
-        <div className="flex justify-center">
-          <h3 className="text-black sm:text-lg text-3md font-semibold font-Inter">
-            Our Team
-          </h3>
-        </div>
-        <div className="flex justify-center text-center mt-4">
-          <p className="max-w-[934px] text-dark-gray text-sm font-normal font-Inter leading-normal">
-            Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
-            porttitor quam sed aliquet. Sodales vulputate elementum arcu donec.
-            Feugiat nibh ullamcorper egestas lectus risus ornare ullamcorper
-            fames. Cursus libero nec facilisis
-          </p>
-        </div>
+        <h3 className="text-black text-center sm:text-lg text-3md font-semibold font-Inter">
+          Our Team
+        </h3>
+        <p className="max-w-[934px] text-center mt-4 mx-auto text-dark-gray text-sm font-normal font-Inter leading-normal">
+          Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
+          porttitor quam sed aliquet. Sodales vulputate elementum arcu donec.
+          Feugiat nibh ullamcorper egestas lectus risus ornare ullamcorper
+          fames. Cursus libero nec facilisis
+        </p>
         <div className="flex justify-center flex-row flex-wrap sm:mt-11 mt-7">
           {card.map((data) => {
             return (

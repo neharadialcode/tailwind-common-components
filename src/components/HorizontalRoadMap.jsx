@@ -1,6 +1,6 @@
 import React from "react";
 
-const RoadmapTwo = () => {
+const HorizontalRoadMap = () => {
   return (
     <div>
       <div className="container py-20 xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
@@ -109,4 +109,4 @@ const RoadmapTwo = () => {
   );
 };
 
-export default RoadmapTwo;
+export default HorizontalRoadMap;
