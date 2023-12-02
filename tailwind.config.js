@@ -1,10 +1,5 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  variants: {
-    extend: {
-      backgroundColor: ['even', 'odd'],
-    },
-  },
   theme: {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
