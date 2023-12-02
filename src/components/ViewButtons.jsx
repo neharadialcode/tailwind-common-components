@@ -3,7 +3,7 @@ import React from "react";
 const ViewButtons = () => {
   return (
     <>
-      <div className="max-w-[1188px] mx-auto px-6 ">
+      <div className="max-w-[780px] mx-auto px-6 ">
         <div className="flex flex-wrap items-center pt-24">
           <a
             href="/header"
