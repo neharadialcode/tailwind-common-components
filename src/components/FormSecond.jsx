@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const FormSecond = () => {
   const [touchForm, setTouchForm] = useState({
@@ -18,7 +20,8 @@ const FormSecond = () => {
       touchForm.email !== "" &&
       touchForm.contact !== "" &&
       touchForm.message !== "" &&
-      regex.test(touchForm.email)
+      regex.test(touchForm.email) &&
+      toast("it's done")
     ) {
       setError(false);
       setTouchForm({
@@ -28,15 +31,17 @@ const FormSecond = () => {
         message: "",
       });
     }
+    
   };
   return (
     <>
+      <ToastContainer />
       <div className="max-w-[1128px] mx-auto px-6 py-[72px]">
-        <div className="flex justify-between items-center md:flex-row flex-col gap-12">
+        <div className="flex justify-between  md:flex-row flex-col gap-12">
           <div className="md:w-1/2 w-full">
             <form
               onSubmit={(e) => OnsubmitHandler(e)}
-              className="bg-white sm:pt-[54px] pt-6 sm:pb-[46px] pb-6 sm:px-[34px] px-5 form_shadow rounded-xl"
+              className="shadow-[5px_7px_19px_5px] shadow-[#ECECEC] bg-white sm:pt-[54px] pt-6 sm:pb-[46px] pb-6 sm:px-[34px] px-5 form_shadow rounded-xl"
             >
               <div className="w-full relative">
                 <input
@@ -48,7 +53,7 @@ const FormSecond = () => {
                   }
                   value={touchForm.name}
                 />
-                <p className="requiredHeight mb-2">
+                <p className="requiredHeight">
                   {error && touchForm.name === "" ? (
                     <p className=" absolute bottom-[-40%] text-red-600 left-0 font-Inter font-medium leading-[157%] text-[14px]">
                       Name is required
@@ -64,14 +69,14 @@ const FormSecond = () => {
                   placeholder="Email address"
                   className="outline-[#00000070] border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl mt-4"
                   onChange={(e) =>
-                    setTouchForm({ ...touchForm, name: e.target.value })
+                    setTouchForm({ ...touchForm, email: e.target.value })
                   }
-                  value={touchForm.name}
+                  value={touchForm.email}
                 />
-                <p className="requiredHeight mb-2">
-                  {error && touchForm.name === "" ? (
+                <p className="requiredHeight">
+                  {error && touchForm.email === "" ? (
                     <p className="text-red-600 absolute bottom-[-30%] left-0 font-Inter font-medium leading-[157%] text-[14px]">
-                      Name is required
+                      Email is required
                     </p>
                   ) : (
                     touchForm !== ""
@@ -84,14 +89,14 @@ const FormSecond = () => {
                   placeholder="Contact"
                   className="outline-[#00000070] border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl mt-4"
                   onChange={(e) =>
-                    setTouchForm({ ...touchForm, name: e.target.value })
+                    setTouchForm({ ...touchForm, contact: e.target.value })
                   }
-                  value={touchForm.name}
+                  value={touchForm.contact}
                 />
-                <p className="requiredHeight mb-2">
-                  {error && touchForm.name === "" ? (
+                <p className="requiredHeight">
+                  {error && touchForm.contact === "" ? (
                     <p className="absolute bottom-[-30%] left-0 font-Inter font-medium leading-[157%] text-red-600 text-[14px]">
-                      Name is required
+                      Number is required
                     </p>
                   ) : (
                     touchForm !== ""
@@ -122,7 +127,7 @@ const FormSecond = () => {
               </button>
             </form>
           </div>
-          <div className="md:w-1/2 w-full">
+          <div className="md:w-1/2 w-full md:pt-10">
             <div>
               <p className="text-black font-Inter sm:text-[36px] text-[32px] font-semibold leading-normal">
                 Get In Touch

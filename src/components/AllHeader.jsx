@@ -1,8 +1,6 @@
-import React from 'react'
-import AboutUsFirst from '../AboutUsFirst';
-import AboutUsSecond from '../AboutUsSecond';
+import React from "react";
 
-const AllAboutUs = () => {
+const AllHeader = () => {
   return (
     <>
       <a
@@ -11,10 +9,11 @@ const AllAboutUs = () => {
       >
         home
       </a>
-      <AboutUsFirst />
-      <AboutUsSecond />
+      {/* <Header />
+      <HeaderMiddle />
+      <HeaderLast /> */}
     </>
   );
-}
+};
 
-export default AllAboutUs;
+export default AllHeader;

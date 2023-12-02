@@ -1,8 +1,8 @@
 import React from 'react'
-import FaqSection from '../FaqSection';
-import FaqSecond from '../FaqSecond';
+import FooterFirst from './FooterFirst';
+import FooterSecond from './FooterSecond';
 
-const AllFaqs = () => {
+const AllFooter = () => {
   return (
     <>
       <a
@@ -11,10 +11,10 @@ const AllFaqs = () => {
       >
         home
       </a>
-      <FaqSection />
-      <FaqSecond />
+      <FooterFirst />
+      <FooterSecond />
     </>
   );
 }
 
-export default AllFaqs;
+export default AllFooter;

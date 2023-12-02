@@ -1,9 +1,7 @@
 import React from "react";
-import Header from "../Header";
-import HeaderMiddle from "../HeaderMiddle";
-import HeaderLast from "../HeaderLast";
+import OurTeam from "./OurTeam";
 
-const AllHeader = () => {
+const AllOurTeam = () => {
   return (
     <>
       <a
@@ -12,11 +10,9 @@ const AllHeader = () => {
       >
         home
       </a>
-      <Header />
-      <HeaderMiddle />
-      <HeaderLast />
+      <OurTeam />
     </>
   );
 };
 
-export default AllHeader;
+export default AllOurTeam;
