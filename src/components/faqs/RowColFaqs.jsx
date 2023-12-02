@@ -20,7 +20,7 @@ function Icon({ id, open }) {
   );
 }
 
-function FaqSecond() {
+function RowColFaqs() {
   const [open, setOpen] = useState(1);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
@@ -74,4 +74,4 @@ function FaqSecond() {
   );
 }
 
-export default FaqSecond;
+export default RowColFaqs;

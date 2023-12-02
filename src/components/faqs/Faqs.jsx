@@ -1,7 +1,8 @@
 import React from "react";
-import FaqSection from "./FaqSection";
-import FaqSecond from "./FaqSecond";
+
 import BackToTop from "../common/BackToTop";
+import FullScreenFaqs from "./FullScreenFaqs";
+import RowColFaqs from "./RowColFaqs";
 
 const AllFaqs = () => {
   return (
@@ -13,8 +14,8 @@ const AllFaqs = () => {
       >
         home
       </a>
-      <FaqSection />
-      <FaqSecond />
+    <FullScreenFaqs/>
+    <RowColFaqs/>
     </>
   );
 };
