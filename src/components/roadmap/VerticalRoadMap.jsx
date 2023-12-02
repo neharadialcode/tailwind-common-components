@@ -23,7 +23,7 @@ const VerticalRoadMap = () => {
                       1
                     </h3>
                   </div>
-                  <div className="md:block hidden w-85px h-2px bg-black"></div>
+                  <span className="md:block hidden w-85px h-2px bg-black"></span>
                 </div>
               </div>
               <div className="md:hidden block">
@@ -33,7 +33,7 @@ const VerticalRoadMap = () => {
                       2
                     </h3>
                   </div>
-                  <div className="md:block hidden w-85px h-2px bg-black"></div>
+                  <span className="md:block hidden w-85px h-2px bg-black"></span>
                 </div>
               </div>
               <div className="md:hidden block">
@@ -43,7 +43,7 @@ const VerticalRoadMap = () => {
                       3
                     </h3>
                   </div>
-                  <div className="md:block hidden w-85px h-2px bg-black"></div>
+                  <span className="md:block hidden w-85px h-2px bg-black"></span>
                 </div>
               </div>
               <div className="md:hidden block">
@@ -53,7 +53,7 @@ const VerticalRoadMap = () => {
                       4
                     </h3>
                   </div>
-                  <div className="md:block hidden w-85px h-2px bg-black"></div>
+                  <span className="md:block hidden w-85px h-2px bg-black"></span>
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@ const VerticalRoadMap = () => {
                       1
                     </h3>
                   </div>
-                  <div className="md:block hidden w-85px h-2px bg-black"></div>
+                  <span className="md:block hidden w-85px h-2px bg-black"></span>
                 </div>
               </div>
               <div className="md:w-2/4 w-full">
@@ -110,7 +110,7 @@ const VerticalRoadMap = () => {
               </div>
               <div className=" md:w-2/4 md:block hidden relative">
                 <div className="flex items-center absolute md:top-[120px] top-80px left-0">
-                  <div className="md:block hidden w-85px h-2px bg-black"></div>
+                  <span className="md:block hidden w-85px h-2px bg-black"></span>
                   <div className="sm:w-70px w-50px sm:h-70px h-50px bg-white rounded-[50%] border-2 border-black flex justify-center items-center">
                     <h3 className="text-[#3c278d] font-Inter font-semibold md:text-2xl text-xl">
                       2
@@ -127,7 +127,7 @@ const VerticalRoadMap = () => {
                       3
                     </h3>
                   </div>
-                  <div className="md:block hidden w-85px h-2px bg-black"></div>
+                  <span className="md:block hidden w-85px h-2px bg-black"></span>
                 </div>
               </div>
               <div className="md:w-2/4 w-full">
@@ -172,7 +172,7 @@ const VerticalRoadMap = () => {
               </div>
               <div className=" md:w-2/4 md:block hidden relative">
                 <div className="flex items-center absolute md:top-120px top-80px left-0">
-                  <div className="md:block hidden w-85px h-2px bg-black"></div>
+                  <span className="md:block hidden w-85px h-2px bg-black"></span>
                   <div className="sm:w-70px w-50px sm:h-70px h-50px bg-white rounded-[50%] border-2 border-black flex justify-center items-center">
                     <h3 className="text-[#3c278d] font-Inter font-semibold md:text-2xl text-xl">
                       4
