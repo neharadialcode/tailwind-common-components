@@ -8,8 +8,8 @@ const AbsoluteHeroFirst = () => {
       <section className=" flex flex-col justify-center mb-12 max-w-[1920px] mx-auto overflow-x-hidden">
         <NavbarSpaceCenter />
         <div className="lg:flex-grow flex xl:py-40 lg:py-20 py-16 h-full items-center relative">
-          <div className="container  mx-auto  h-full ">
-            <div className="flex justify-center items-center lg:gap-[73px] gap-12  lg:flex-row flex-col">
+          <div className="container mx-auto h-full ">
+            <div className="flex justify-center items-center lg:gap-[73px] gap-12 lg:flex-row flex-col">
               <div className="lg:w-[55%] w-[100%]">
                 <h2 className="text-black text-xl font-Inter font-normal leading-normal">
                   A nice headline
@@ -29,7 +29,6 @@ const AbsoluteHeroFirst = () => {
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec.
                 </p>
-
                 <div className="flex gap-5 items-center">
                   <button className="text-white mt-8 sm:w-164px w-114px sm:h-48px h-38px hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal sm:text-sm text-xs bg-blue flex justify-center items-center rounded-xl">
                     Button

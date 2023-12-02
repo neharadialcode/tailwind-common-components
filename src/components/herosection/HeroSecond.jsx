@@ -17,7 +17,7 @@ const HeroSecond = () => {
         </div>
         <div className="lg:flex-grow flex pb-12 md:pt-12 pt-6 h-full items-center">
           <div className="max-w-[1140px] 2xl:max-w-[1320px] mx-auto xl:px-0 px-3 h-full">
-            <div className="flex justify-center items-center lg:gap-[73px] gap-12  lg:flex-row flex-col">
+            <div className="flex justify-center items-center lg:gap-[73px] gap-12 lg:flex-row flex-col">
               <div className="lg:w-[42%] w-[100%]">
                 <h3 className="text-dark-gray font-Inter font-bold md:text-4xl sm:text-2xl text-xl md:leading-normal leading-[1.2]">
                   Lorem ipsum dolor sit
