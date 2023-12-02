@@ -20,6 +20,7 @@ import HeroFirst from "./components/HeroFirst";
 import HeroSecond from "./components/HeroSecond";
 import HeroThird from "./components/HeroThird";
 import AbsoluteHeroFirst from "./components/AbsoluteHeroFirst";
+import TableTailwind from "./components/TableTailwind";
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
       {/* <HeroFirst/> */}
       {/* <HeroSecond/> */}
       {/* <HeroThird/> */}
-      <AbsoluteHeroFirst/>
+      {/* <AbsoluteHeroFirst/> */}
+      <TableTailwind/>
     </>
   );
 }

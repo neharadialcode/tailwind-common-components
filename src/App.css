@@ -8,6 +8,7 @@
   text-decoration: none !important;
   box-sizing: border-box !important;
 }
+
 .custom_container {
   max-width: 1140px !important;
 }
@@ -23,12 +24,14 @@
   background-size: cover;
   background-position: center;
 }
+
 .hero_first_bg {
   background-image: url("./assets/images/png/hero_first_bg.png");
   background-repeat: no-repeat;
   background-size: 101% 101%;
   background-position: center;
 }
+
 .form_bg {
   background-image: url("./assets/images/png/form_bg_img.png");
   background-repeat: no-repeat;
@@ -42,10 +45,12 @@
   padding: 10px;
   color: white !important;
 }
+
 .roadmap_cards:hover .roadmap_para {
   background-color: rgba(30, 30, 30, 0.07);
   padding: 10px 0px;
 }
+
 /* ===========HORIZONTAL ROADMAP CSS END HERE======== */
 
 /* =======TIMELINE ==== */
@@ -69,18 +74,22 @@
 .timeline-content {
   margin-left: 2rem;
 }
+
 /* ============== */
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;  
 }
+
 
 @media (max-width: 767.98px) {
   .overflow_hidden {
     overflow: hidden;
   }
+
   .height_open_nav {
     height: calc(100vh - -80px);
   }
+
   .width_height_open_nav {
     height: calc(100vh - -80px);
     width: 100%;
