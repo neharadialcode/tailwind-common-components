@@ -12,15 +12,14 @@ import ViewButtons from "./components/ViewButtons";
 import { Route, Routes } from "react-router-dom";
 import Forms from "./view/Forms";
 import Video from "./components/video/Video";
-import CustomSlider from "./components/slider/CustomSlider";
 import TableTailwind from "./components/table/TableTailwind";
-import CssSlider from "./components/slider/CssSlider";
+import Slider from "./view/Slider";
 
 function App() {
   return (
     <>
       <div className="overflow-x-hidden">
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<ViewButtons />} />
           <Route path="/header" element={<AllHeader />} />
           <Route path="/hero" element={<AllHero />} />
@@ -30,11 +29,10 @@ function App() {
           <Route path="/footer" element={<AllFooter />} />
           <Route path="/video" element={<Video />} />
           <Route path="/form" element={<Forms />} />
-          <Route path="/slider" element={<CustomSlider />} />
+          <Route path="/slider" element={<Slider />} />
           <Route path="/roadmap" element={<AllRoadmap />} />
           <Route path="/table" element={<TableTailwind />} />
-        </Routes> */}
-        <CssSlider/>
+        </Routes>
       </div>
     </>
   );
