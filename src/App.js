@@ -20,6 +20,7 @@ import HeroFirst from "./components/HeroFirst";
 import HeroSecond from "./components/HeroSecond";
 import HeroThird from "./components/HeroThird";
 import AbsoluteHeroFirst from "./components/AbsoluteHeroFirst";
+import AbsoluteHeroSecond from "./components/AbsoluteHeroSecond";
 
 function App() {
   return (
@@ -39,13 +40,14 @@ function App() {
           <Route path="/roadmap" element={<AllRoadmap/>} />
         </Routes>
       </div>  */}
-      {/* <NavbarSpaceCenter/>
-      <NavbarAlignRight/>
-      <NavbarCentered/> */}
+      {/* <NavbarSpaceCenter/> */}
+      {/* <NavbarAlignRight/> */}
+      {/* <NavbarCentered/> */}
       {/* <HeroFirst/> */}
       {/* <HeroSecond/> */}
       {/* <HeroThird/> */}
-      <AbsoluteHeroFirst/>
+      {/* <AbsoluteHeroFirst/> */}
+      {/* <AbsoluteHeroSecond/> */}
     </>
   );
 }

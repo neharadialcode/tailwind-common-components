@@ -73,8 +73,8 @@ const NavbarAlignRight = () => {
                   </a>
                 </li>
               </ul>
-              <button className="md:ms-31px lg:text-sm text-xs mt-6 md:mt-0 bg-blue h-48px w-164px flex justify-center items-center rounded-[12px] text-white font-normal hover:bg-black transition-all duration-300 leading-normal">
-                Sign In
+              <button className="md:ms-31px lg:text-sm text-xs mt-6 md:mt-0 bg-blue h-48px w-164px flex justify-center items-center rounded-[12px] text-white font-normal hover:border-blue hover:text-blue hover:bg-white border-2 border-transparent transition-all duration-300 leading-normal">
+                Button
               </button>
             </div>
           </div>

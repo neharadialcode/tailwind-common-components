@@ -74,13 +74,13 @@ const NavbarSpaceCenter = () => {
                     TAB NAME
                   </a>
                 </li>
-                <button className="md:hidden lg:text-sm text-xs mt-6 md:mt-0 bg-blue h-48px w-164px flex justify-center items-center rounded-[12px] text-white font-normal hover:bg-black transition-all duration-300 leading-normal">
-                  Sign In
+                <button className="md:hidden lg:text-sm text-xs mt-6 md:mt-0 bg-blue h-48px w-164px flex justify-center items-center rounded-[12px] text-white font-normal hover:border-blue hover:text-blue hover:bg-white border-2 border-transparent transition-all duration-300 leading-normal">
+                  Button
                 </button>
               </ul>
             </div>
-            <button className="hidden mt-6 md:mt-0 lg:text-sm text-xs bg-blue h-48px w-164px md:flex justify-center items-center rounded-[12px] text-white font-normal hover:bg-black transition-all duration-300 leading-normal">
-              Sign In
+            <button className="hidden mt-6 md:mt-0 lg:text-sm text-xs bg-blue h-48px w-164px md:flex justify-center items-center rounded-[12px] text-white font-normal hover:border-blue hover:text-blue hover:bg-white border-2 border-transparent transition-all duration-300 leading-normal">
+              Button
             </button>
           </div>
         </div>
