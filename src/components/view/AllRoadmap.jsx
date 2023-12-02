@@ -1,7 +1,6 @@
 import React from 'react'
 import RoadMap from '../RoadMap'
 import RoadmapTwo from '../RoadmapTwo'
-import RoadMap from '../RoadMap';
 
 const AllRoadmap = () => {
   return (
