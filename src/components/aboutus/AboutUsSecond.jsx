@@ -10,26 +10,26 @@ const AboutUsSecond = () => {
             <div className="lg:w-1/2 w-full flex justify-center">
               <img
                 src={color_img}
-                className="sm:max-w-[558px] sm:max-h-[341px] "
+                className="xl:max-w-[558px] xl:max-h-[341px] sm:max-w-[500px] sm:max-h-[300px]"
                 alt="about us section col image"
               />
             </div>
-            <div className="lg:w-1/2  w-[100%] flex flex-col lg:items-start items-center">
-              <h3 className="text-[#1E1E1E] sm:text-[48px] lg:text-start text-[36px] font-Inter font-semibold leading-normal">
+            <div className="lg:w-1/2  w-full flex flex-col lg:items-start items-center">
+              <h3 className="text-darkblack sm:text-2xl lg:text-start text-xl font-inter font-semibold leading-normal">
                 Lorem ipsum
               </h3>
-              <p className="text-center pt-4 lg:max-w-[536px] lg:text-start text-[#4A4A4A] sm:text-[16px] text-[14px] font-normal leading-normal font-Inter">
+              <p className="text-center mt-4 lg:max-w-[536px] lg:text-start text-black opacity-70 sm:text-sm text-xs font-normal leading-normal font-inter">
                 Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
                 consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
                 Hac posuere eget nam diam velit urna adipiscing diam. Dis velit
                 nam vitae hendrerit at egestas.
               </p>
-              <p className="text-center pt-4 lg:max-w-[536px] lg:text-start text-[#4A4A4A] sm:text-[16px] text-[14px] font-normal leading-normal font-Inter">
+              <p className="text-center mt-4 lg:max-w-[536px] lg:text-start text-black opacity-70 sm:text-sm text-xs font-normal leading-normal font-inter">
                 Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
                 consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
                 Hac posuere eget nam diam velit urna adipiscing diam.
               </p>
-              <button className="text-white lg:mt-8 mt-6 hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal sm:text-[16px] text-[14px] bg-blue py-3 px-14 rounded-xl">
+              <button className="text-white lg:mt-8 mt-6 hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-inter font-semibold leading-normal text-sm bg-blue py-[10px] px-[53.5px] rounded-xl">
                 Button
               </button>
             </div>

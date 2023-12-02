@@ -24,15 +24,11 @@ const BackToTop = () => {
 
   return (
     <>
-      <section>
-        <div className="">
-          <FiChevronsUp
-            className="fixed w-[40px] md:w-[48px] bottom-[20px] BackToTop_height p-[9px] end-[20px] items-center  justify-center z-[1000] cursor-pointer scrollTop text-white bg-blue rounded-[50%] transition-all duration-200 ease-in-out hover:bg-white hover:text-blue hover:shadow-[0px_2px_20px_0px] hover:shadow-[#EE64A2] sm:bottom-[30px] sm:w-[45px] sm:end-[30px]  md:bottom-[40px] h-[40px] md:h-[48px]  md:end-[40px] backtotop_scale"
-            onClick={scrollTop}
-            style={{ display: showScroll ? "flex" : "none" }}
-          />
-        </div>
-      </section>
+      <FiChevronsUp
+        className="fixed w-10 md:w-12 bottom-[20px] BackToTop_height p-[9px] end-[20px] items-center  justify-center z-[1000] cursor-pointer scrollTop text-white bg-blue rounded-[50%] transition-all duration-200 ease-in-out hover:bg-white hover:text-blue hover:shadow-[0px_2px_20px_0px] hover:shadow-[#EE64A2] sm:bottom-[30px] sm:w-[45px] sm:end-[30px]  md:bottom-[40px] h-10 md:h-12  md:end-[40px] backtotop_scale"
+        onClick={scrollTop}
+        style={{ display: showScroll ? "flex" : "none" }}
+      />
     </>
   );
 };

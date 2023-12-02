@@ -5,7 +5,7 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 import { FaqIcon } from "../common/Icons";
-import { faqData } from "../common/Helper";
+import { faqData} from "../common/Helper";
 
 function Icon({ id, open }) {
   return (
@@ -19,7 +19,7 @@ function Icon({ id, open }) {
   );
 }
 
-function FaqSection() {
+ function FullScreenFaqs() {
   const [open, setOpen] = useState(0);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
@@ -64,4 +64,4 @@ function FaqSection() {
   );
 }
 
-export default FaqSection;
+export default FullScreenFaqs;
