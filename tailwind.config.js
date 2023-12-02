@@ -8,9 +8,13 @@ module.exports = {
       xs: "14px",
       sm: "16px",
       md: "20px",
-      "2md": "24px",
-      "3md": "36px",
-      lg: "56px",
+      lg: "24px",
+      xl: "30px",
+      xxl: "36px",
+      "2xl": "40px",
+      "3xl": "56px",
+      "4xl": "58px",
+      "5xl": "64px",
     },
     container: {
       padding: {
@@ -25,7 +29,9 @@ module.exports = {
       colors: {
         "light-blue": "#3C278D",
         "card-bg": "#ededed",
+        lightgray: "#4A4A4A",
         gray: "#484848",
+        darkblack: "#1E1E1E",
         "bg-gray": "#C5C2C2",
         "dark-gray": "#4d4d4d",
         blue: "#3c278d",

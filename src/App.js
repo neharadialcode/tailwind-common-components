@@ -16,11 +16,15 @@ import AllRoadmap from "./components/AllRoadmap";
 import NavbarSpaceCenter from "./components/NavbarSpaceCenter";
 import NavbarAlignRight from "./components/NavbarAlignRight";
 import NavbarCentered from "./components/NavbarCentered";
+import HeroFirst from "./components/HeroFirst";
+import HeroSecond from "./components/HeroSecond";
+import HeroThird from "./components/HeroThird";
+import AbsoluteHeroFirst from "./components/AbsoluteHeroFirst";
 
 function App() {
   return (
     <>
-      <div className="overflow-x-hidden">
+      {/* <div className="overflow-x-hidden">
         <Routes>
           <Route path="/" element={<ViewButtons />} />
           <Route path="/header" element={<AllHeader />} />

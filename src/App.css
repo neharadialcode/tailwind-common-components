@@ -26,7 +26,7 @@
 .hero_first_bg {
   background-image: url("./assets/images/png/hero_first_bg.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 101% 101%;
   background-position: center;
 }
 .form_bg {
