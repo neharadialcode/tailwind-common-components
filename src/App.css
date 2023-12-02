@@ -36,6 +36,7 @@
   background-position: center;
 }
 
+
 /* ===========HORIZONTAL ROADMAP CSS======== */
 .roadmap_cards:hover .roadmap_heading {
   background-color: #3c278dc2;
@@ -44,9 +45,10 @@
 }
 .roadmap_cards:hover .roadmap_para {
   background-color: rgba(30, 30, 30, 0.07);
-  padding: 10px 0px;
+  padding: 10px;
 }
 /* ===========HORIZONTAL ROADMAP CSS END HERE======== */
+
 
 /* =======TIMELINE ==== */
 .timeline {
@@ -70,12 +72,13 @@
   margin-left: 2rem;
 }
 /* ============== */
-html {
+html{
   scroll-behavior: smooth;
 }
 
-@media (max-width: 767.98px) {
-  .overflow_hidden {
+
+@media (max-width:767.98px) {
+  .overflow_hidden{
     overflow: hidden;
   }
   .height_open_nav {

@@ -39,7 +39,7 @@ function App() {
           <Route path="/slider" element={<CustomSlider />} />
           <Route path="/roadmap" element={<AllRoadmap />} />
         </Routes>
-      </div> 
+      </div>
       {/* <NavbarSpaceCenter/> */}
       {/* <NavbarAlignRight/> */}
       {/* <NavbarCentered/> */}

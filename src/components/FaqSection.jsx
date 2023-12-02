@@ -19,7 +19,7 @@ function Icon({ id, open }) {
   );
 }
 
-export function FaqSection() {
+ function FaqSection() {
   const [open, setOpen] = useState(0);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
@@ -27,10 +27,10 @@ export function FaqSection() {
   return (
     <>
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto xl:px-0 px-3 lg:py-16 md:py-14 py-12">
-        <h1 className="font-Lato text-light-blackE mb-3  sm:mb-4 font-bold sm:text-[40px] text-[36px] sm:text-5xl text-center">
+        <h2 className="font-inter text-light-blackE mb-3  sm:mb-4 font-bold sm:text-2xl text-xl text-center">
           FAQ
-        </h1>
-        <p className="font-Lato sm:text-[16px] text-[14px] text-light-black text-center mx-auto max-w-[788px] leading-[150%] pb-4  ">
+        </h2>
+        <p className="font-inter sm:text-sm text-[14px] text-black opacity-70 text-center mx-auto max-w-[788px] leading-[150%] pb-4  ">
           Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
           consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac
           posuere eget nam diam velit urna adipiscing diam.
@@ -39,7 +39,7 @@ export function FaqSection() {
           {faqData.map((item) => (
             <Accordion
               key={item.id}
-              className="flex flex-col justify-between px-4 md:px-6 border rounded-[12px] border-light-blue my-4 overflow-hidden relative"
+              className="flex flex-col px-4 md:px-6 border rounded-xl border-light-blue my-4"
               open={open === item.id}
               icon={<Icon id={item.id} open={open} />}
             >
@@ -47,12 +47,12 @@ export function FaqSection() {
                 onClick={() => handleOpen(item.id)}
                 className="py-4 items-center"
               >
-                <h2 className="font-Inter text-light-blue  sm:text-[16px] text-[14px] md:text-xl font-semibold leading-[140%] md:leading-[150%] text-start mb-0  ">
+                <h2 className="font-Inter text-light-blue sm:text-md text-sm xl:text-2md font-semibold leading-[140%] md:leading-[150%] text-start mb-0">
                   <span className="font-normal">{item.id}.</span> {item.title}
                 </h2>
               </AccordionHeader>
               <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-                <p className="font-Inter text-sm md:sm:text-[16px]  font-normal text-light-black max-w-[786px] 2xl:max-w-[900px]  leading-[150%] ">
+                <p className="font-Inter text-xs sm:text-sm  font-normal text-black opacity-70 max-w-[786px] 2xl:max-w-[900px]  leading-[150%]">
                   {item.content}
                 </p>
               </AccordionBody>
