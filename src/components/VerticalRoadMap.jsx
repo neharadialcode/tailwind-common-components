@@ -1,6 +1,6 @@
 import React from "react";
 
-const RoadMap = () => {
+const VerticalRoadMap = () => {
   return (
     <>
       <div className="bg-white ">
@@ -194,4 +194,4 @@ const RoadMap = () => {
   );
 };
 
-export default RoadMap;
+export default VerticalRoadMap;

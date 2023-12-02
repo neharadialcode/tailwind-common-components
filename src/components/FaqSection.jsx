@@ -27,7 +27,7 @@ function Icon({ id, open }) {
   return (
     <>
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto xl:px-0 px-3 lg:py-16 md:py-14 py-12">
-        <h2 className="font-inter text-light-blackE mb-3  sm:mb-4 font-bold sm:text-[40px] text-[36px] sm:text-5xl text-center">
+        <h2 className="font-inter text-light-blackE mb-3  sm:mb-4 font-bold sm:text-2xl text-xl text-center">
           FAQ
         </h2>
         <p className="font-inter sm:text-sm text-[14px] text-black opacity-70 text-center mx-auto max-w-[788px] leading-[150%] pb-4  ">

@@ -21,21 +21,21 @@ function Icon({ id, open }) {
 }
 
 function FaqSecond() {
-  const [open, setOpen] =useState(0);
+  const [open, setOpen] =useState(1);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
     <div className="max-w-[1140px] 2xl:max-w-[1320px] mx-auto xl:px-0 px-3 lg:py-16 md:py-14 py-12">
-      <div className="flex items-center justify-center flex-col lg:flex-row lg:gap-10 gap-6">
-        <div className="lg:w-2/4">
-          <h1 className="font-inter text-black opacity-70E mb-3  sm:mb-4 font-bold sm:text-[40px] text-[36px] sm:text-5xl lg:text-start text-center">
+      <div className="flex justify-center flex-col lg:flex-row lg:gap-10 gap-6">
+        <div className="lg:w-2/4 flex flex-col lg:items-start items-center">
+          <h1 className="font-inter text-black opacity-70E mb-3  sm:mb-4 font-bold sm:text-2xl text-xl lg:text-start text-center">
             FAQ
           </h1>
-          <p className="font-inter sm:text-[16px] text-[14px] text-black opacity-70 lg:text-start text-center max-w-[500px] leading-[150%] pb-4 font-normal ">
+          <p className="font-inter sm:text-[16px] text-[14px] text-black opacity-70 lg:text-start text-center lg:max-w-[500px] 2xl:max-w-[631px] leading-[150%] pb-2 font-normal ">
           Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac posuere eget nam diam velit urna adipiscing diam. 
           </p>
-          <div className="max-w-[529px] 2xl:max-w-[631px]">
+          <div className="w-full sm:max-w-10/12 lg:max-w-[529px] 2xl:max-w-[631px]">
             {faqDataSecond.map((item) => (
               <Accordion
                 key={item.id}
@@ -52,7 +52,7 @@ function FaqSecond() {
                   </h2>
                 </AccordionHeader>
                 <AccordionBody className=" border-t-[1px] border-light-blue border-solid pt-3 pb-4">
-                  <p className="font-Inter text-xs sm:text-sm  font-normal text-black opacity-70 max-w-[786px] 2xl:max-w-[900px]  leading-[150%]">
+                  <p className="font-Inter text-xs sm:text-sm  font-normal text-black opacity-70 max-w-[786px] 2xl:max-w-[900px] leading-[150%]">
                     {item.content}
                   </p>
                 </AccordionBody>
@@ -60,9 +60,9 @@ function FaqSecond() {
             ))}
           </div>
         </div>
-        <div className="lg:w-6/12">
+        <div className="lg:w-6/12 flex justify-center">
           <img
-            className="w-full  xl:max-w-[570px] xl:max-h-[594px] rounded-[20px]"
+            className="sm:max-w-[570px] sm:max-h-[594px] rounded-[20px] object-cover"
             src={FaqImage}
             alt="FaqImage"
           />
