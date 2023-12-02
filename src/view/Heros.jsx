@@ -1,10 +1,10 @@
 import React from "react";
-import BackToTop from "./BackToTop";
-import HeroFirst from "./HeroFirst";
-import HeroSecond from "./HeroSecond";
-import HeroThird from "./HeroThird";
-import AbsoluteHeroFirst from "./AbsoluteHeroFirst";
-import AbsoluteHeroSecond from "./AbsoluteHeroSecond";
+import BackToTop from "../components/common/BackToTop";
+import HeroFirst from "../components/herosection/HeroFirst";
+import HeroSecond from "../components/herosection/HeroSecond";
+import HeroThird from "../components/herosection/HeroThird";
+import AbsoluteHeroFirst from "../components/herosection/AbsoluteHeroFirst";
+import AbsoluteHeroSecond from "../components/herosection/AbsoluteHeroSecond";
 
 const AllHero = () => {
   return (

@@ -4,9 +4,9 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
-import FaqImage from "../assets/images/png/Faq-image.png";
-import {faqDataSecond } from "./Helper";
-import { FaqIcon } from "./Icons";
+import FaqImage from "../../assets/images/png/Faq-image.png";
+import { faqDataSecond } from "../common/Helper";
+import { FaqIcon } from "../common/Icons";
 
 function Icon({ id, open }) {
   return (
@@ -21,7 +21,7 @@ function Icon({ id, open }) {
 }
 
 function FaqSecond() {
-  const [open, setOpen] =useState(1);
+  const [open, setOpen] = useState(1);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
@@ -33,7 +33,9 @@ function FaqSecond() {
             FAQ
           </h1>
           <p className="font-inter sm:text-[16px] text-[14px] text-black opacity-70 lg:text-start text-center lg:max-w-[500px] 2xl:max-w-[631px] leading-[150%] pb-2 font-normal ">
-          Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac posuere eget nam diam velit urna adipiscing diam. 
+            Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
+            consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac
+            posuere eget nam diam velit urna adipiscing diam.
           </p>
           <div className="w-full sm:max-w-10/12 lg:max-w-[529px] 2xl:max-w-[631px]">
             {faqDataSecond.map((item) => (

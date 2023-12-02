@@ -1,26 +1,26 @@
 import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import AllHeader from "./components/AllHeader";
-import AllHero from "./components/AllHero";
-import AllOurTeam from "./components/AllOurTeam";
-import AllFaqs from "./components/AllFaqs";
-import AllAboutUs from "./components/AllAboutUs";
-import AllFooter from "./components/AllFooter";
+import AllHeader from "./view/Headers";
+import AllHero from "./view/Heros";
+import AllOurTeam from "./view/OurTeams";
+import AllFaqs from "./components/faqs/Faqs";
+import AllAboutUs from "./view/AboutUs";
+import AllFooter from "./components/footer/Footer";
 import ViewButtons from "./components/ViewButtons";
 import { Route, Routes } from "react-router-dom";
-import AllForms from "./components/AllForms";
-import Video from "./components/Video";
-import CustomSlider from "./components/CustomSlider";
-import AllRoadmap from "./components/AllRoadmap";
-import NavbarSpaceCenter from "./components/NavbarSpaceCenter";
-import NavbarAlignRight from "./components/NavbarAlignRight";
-import NavbarCentered from "./components/NavbarCentered";
-import HeroFirst from "./components/HeroFirst";
-import HeroSecond from "./components/HeroSecond";
-import HeroThird from "./components/HeroThird";
-import AbsoluteHeroFirst from "./components/AbsoluteHeroFirst";
-import AbsoluteHeroSecond from "./components/AbsoluteHeroSecond";
+import AllForms from "./view/Forms";
+import Video from "./components/video/Video";
+import CustomSlider from "./components/slider/CustomSlider";
+import AllRoadmap from "./components/roadmap/Roadmap";
+import NavbarSpaceCenter from "./components/headersection/NavbarSpaceCenter";
+import NavbarAlignRight from "./components/headersection/NavbarAlignRight";
+import NavbarCentered from "./components/headersection/NavbarCentered";
+import HeroFirst from "./components/herosection/HeroFirst";
+import HeroSecond from "./components/herosection/HeroSecond";
+import HeroThird from "./components/herosection/HeroThird";
+import AbsoluteHeroFirst from "./components/herosection/AbsoluteHeroFirst";
+import AbsoluteHeroSecond from "./components/herosection/AbsoluteHeroSecond";
 
 function App() {
   return (

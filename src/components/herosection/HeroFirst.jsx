@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarSpaceCenter from "./NavbarSpaceCenter";
+import NavbarSpaceCenter from "../headersection/NavbarSpaceCenter";
 
 const HeroFirst = () => {
   return (

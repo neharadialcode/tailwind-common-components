@@ -1,9 +1,9 @@
 import React from "react";
-import hero_top_left from "../assets/images/png/hero_top_left.png";
-import hero_bottom_left from "../assets/images/png/hero_bottom_left.png";
-import hero_top_right from "../assets/images/png/hero_top_right.png";
-import hero_bottom_right from "../assets/images/png/hero_bottom_right.png";
-import NavbarSpaceCenter from "./NavbarSpaceCenter";
+import hero_top_left from "../../assets/images/png/hero_top_left.png";
+import hero_bottom_left from "../../assets/images/png/hero_bottom_left.png";
+import hero_top_right from "../../assets/images/png/hero_top_right.png";
+import hero_bottom_right from "../../assets/images/png/hero_bottom_right.png";
+import NavbarSpaceCenter from "../headersection/NavbarSpaceCenter";
 
 const AbsoluteHeroSecond = () => {
   return (

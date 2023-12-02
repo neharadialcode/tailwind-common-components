@@ -1,7 +1,7 @@
 import React from "react";
-import NavbarAlignRight from "./NavbarAlignRight";
-import NavbarCentered from "./NavbarCentered";
-import NavbarSpaceCenter from "./NavbarSpaceCenter";
+import NavbarAlignRight from "../components/headersection/NavbarAlignRight";
+import NavbarCentered from "../components/headersection/NavbarCentered";
+import NavbarSpaceCenter from "../components/headersection/NavbarSpaceCenter";
 
 const AllHeader = () => {
   return (
@@ -14,7 +14,7 @@ const AllHeader = () => {
       </a>
       <NavbarAlignRight />
       <NavbarCentered />
-      <NavbarSpaceCenter/>
+      <NavbarSpaceCenter />
     </>
   );
 };

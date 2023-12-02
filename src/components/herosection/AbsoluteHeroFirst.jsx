@@ -1,12 +1,12 @@
 import React from "react";
-import macbook_col_img from "../assets/images/png/mackbook_hero.png";
-import NavbarSpaceCenter from "./NavbarSpaceCenter";
+import macbook_col_img from "../../assets/images/png/mackbook_hero.png";
+import NavbarSpaceCenter from "../headersection/NavbarSpaceCenter";
 
 const AbsoluteHeroFirst = () => {
   return (
     <>
       <section className=" flex flex-col justify-center mb-12 max-w-[1920px] mx-auto overflow-x-hidden">
-      <NavbarSpaceCenter/>
+        <NavbarSpaceCenter />
         <div className="lg:flex-grow flex xl:py-40 lg:py-20 py-16 h-full items-center relative">
           <div className="container custom_container mx-auto  h-full ">
             <div className="flex justify-center items-center lg:gap-[73px] gap-12  lg:flex-row flex-col">

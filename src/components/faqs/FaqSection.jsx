@@ -4,8 +4,8 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
-import { FaqIcon } from "./Icons";
-import { faqData } from "./Helper";
+import { FaqIcon } from "../common/Icons";
+import { faqData } from "../common/Helper";
 
 function Icon({ id, open }) {
   return (
@@ -19,7 +19,7 @@ function Icon({ id, open }) {
   );
 }
 
- function FaqSection() {
+function FaqSection() {
   const [open, setOpen] = useState(0);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);

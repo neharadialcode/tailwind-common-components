@@ -1,5 +1,4 @@
 import React from "react";
-
 const HorizontalRoadMap = () => {
   return (
     <div>
@@ -108,5 +107,4 @@ const HorizontalRoadMap = () => {
     </div>
   );
 };
-
 export default HorizontalRoadMap;
