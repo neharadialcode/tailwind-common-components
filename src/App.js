@@ -24,7 +24,7 @@ import AbsoluteHeroFirst from "./components/AbsoluteHeroFirst";
 function App() {
   return (
     <>
-      {/* <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden">
         <Routes>
           <Route path="/" element={<ViewButtons />} />
           <Route path="/header" element={<AllHeader />} />
