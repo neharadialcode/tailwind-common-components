@@ -182,11 +182,11 @@ html {
 }
 @media (min-width:1199.98px) {
   .marquee__content {
-    width: 260% !important;
+    width: 290% !important;
   }
 }
 @media (min-width:1441.98px) {
   .marquee__content {
-    width: 200% !important;
+    width: 280% !important;
   }
 }
