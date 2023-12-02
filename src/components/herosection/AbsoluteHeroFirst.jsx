@@ -31,10 +31,10 @@ const AbsoluteHeroFirst = () => {
                 </p>
 
                 <div className="flex gap-5 items-center">
-                  <button className="text-white mt-8 w-164px h-48px hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal sm:text-sm text-xs bg-blue flex justify-center items-center rounded-xl">
+                  <button className="text-white mt-8 sm:w-164px w-114px sm:h-48px h-38px hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal sm:text-sm text-xs bg-blue flex justify-center items-center rounded-xl">
                     Button
                   </button>
-                  <button className="hover:text-white mt-8 w-164px h-48px bg-white hover:border-transparent border-blue border-2 transition-all duration-300 text-blue font-Inter font-semibold leading-normal sm:text-sm text-xs hover:bg-blue flex justify-center items-center rounded-xl">
+                  <button className="hover:text-white mt-8 sm:w-164px w-114px sm:h-48px h-38px bg-white hover:border-transparent border-blue border-2 transition-all duration-300 text-blue font-Inter font-semibold leading-normal sm:text-sm text-xs hover:bg-blue flex justify-center items-center rounded-xl">
                     Button
                   </button>
                 </div>

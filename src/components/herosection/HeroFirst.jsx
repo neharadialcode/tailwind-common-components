@@ -17,7 +17,7 @@ const HeroFirst = () => {
                 consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
                 Hac posuere eget nam diam velit urna adipiscing diam.
               </p>
-              <button className="text-white sm:mt-8 mt-6 w-164px h-48px hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal sm:text-sm text-xs bg-blue flex justify-center items-center rounded-xl">
+              <button className="text-white sm:mt-8 mt-6 sm:w-164px w-114px sm:h-48px h-38px hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal sm:text-sm text-xs bg-blue flex justify-center items-center rounded-xl">
                 Button
               </button>
             </div>

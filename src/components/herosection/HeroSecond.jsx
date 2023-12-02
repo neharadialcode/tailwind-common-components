@@ -8,7 +8,7 @@ const HeroSecond = () => {
         <div className="flex justify-center items-center py-10">
           <a
             href="/"
-            className="h-48px w-87px relative z-50 bg-bg-gray flex justify-center items-center"
+            className="sm:h-48px h-38px sm:w-87px w-67px relative z-50 bg-bg-gray flex justify-center items-center"
           >
             <span className="lg:text-sm text-xs text-blue font-bold font-inter leading-normal">
               Logo
@@ -29,7 +29,7 @@ const HeroSecond = () => {
                   Dis velit nam vitae hendrerit at egestas. Tellus velit turpis
                   at sed lorem vitae sed.
                 </p>
-                <button className="text-white mt-8 w-164px h-48px hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal sm:text-sm text-xs bg-blue flex justify-center items-center rounded-xl">
+                <button className="text-white mt-8 sm:w-164px w-114px sm:h-48px h-38px hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-Inter font-semibold leading-normal sm:text-sm text-xs bg-blue flex justify-center items-center rounded-xl">
                   Button
                 </button>
               </div>

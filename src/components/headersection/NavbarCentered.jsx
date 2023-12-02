@@ -20,7 +20,7 @@ const NavbarCentered = () => {
             <div className="flex justify-between md:hidden items-center w-full md:w-87px">
               <a
                 href="/"
-                className="h-48px w-87px relative z-50 bg-bg-gray flex justify-center items-center"
+                className="sm:h-48px h-38px sm:w-87px w-67px relative z-50 bg-bg-gray flex justify-center items-center"
               >
                 <span className="lg:text-sm text-xs text-blue font-bold font-inter leading-normal">
                   Logo
@@ -35,7 +35,7 @@ const NavbarCentered = () => {
 
             <div
               className={`flex flex-col md:flex-row fixed md:relative width_height_open_nav top-0 left-[-100%] md:left-0 duration-700 md:transition-none justify-center md:justify-between
-           items-center ${head ? "" : "!left-0 backdrop-blur-lg"}`}
+           items-center ${head ? "" : "!left-0 bg-card-bg"}`}
             >
               <ul className="flex gap-6 justify-between flex-col md:flex-row items-center lg:gap-46px">
                 <li className="relative transition-all duration-100">

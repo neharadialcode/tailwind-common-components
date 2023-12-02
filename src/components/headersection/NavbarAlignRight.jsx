@@ -19,7 +19,7 @@ const NavbarAlignRight = () => {
           <div className="flex justify-between items-center relative z-40 md:py-26px py-4">
             <a
               href="/"
-              className="h-48px w-87px relative z-50 bg-bg-gray flex justify-center items-center"
+              className="sm:h-48px h-38px sm:w-87px w-67px relative z-50 bg-bg-gray flex justify-center items-center"
             >
               <span className="lg:text-sm text-xs text-blue font-bold font-inter leading-normal">
                 Logo
@@ -33,7 +33,7 @@ const NavbarAlignRight = () => {
 
             <div
               className={`flex flex-col md:flex-row fixed md:relative w-full height_open_nav top-0 left-[-100%] md:left-0 duration-700 md:transition-none  justify-center md:justify-end
-           items-center ${head ? "" : "!left-0 backdrop-blur-lg"}`}
+           items-center ${head ? "" : "!left-0 bg-card-bg"}`}
             >
               <ul className="flex gap-6 flex-col md:flex-row items-center lg:gap-46px">
                 <li className="relative transition-all duration-100">
