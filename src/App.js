@@ -9,18 +9,18 @@ import AllAboutUs from "./view/AboutUs";
 import AllFooter from "./components/footer/Footer";
 import ViewButtons from "./components/ViewButtons";
 import { Route, Routes } from "react-router-dom";
-import AllForms from "./view/Forms";
-import Video from "./components/video/Video";
-import CustomSlider from "./components/slider/CustomSlider";
-import AllRoadmap from "./components/roadmap/Roadmap";
-import NavbarSpaceCenter from "./components/headersection/NavbarSpaceCenter";
-import NavbarAlignRight from "./components/headersection/NavbarAlignRight";
-import NavbarCentered from "./components/headersection/NavbarCentered";
-import HeroFirst from "./components/herosection/HeroFirst";
-import HeroSecond from "./components/herosection/HeroSecond";
-import HeroThird from "./components/herosection/HeroThird";
-import AbsoluteHeroFirst from "./components/herosection/AbsoluteHeroFirst";
-import AbsoluteHeroSecond from "./components/herosection/AbsoluteHeroSecond";
+import AllForms from "./components/AllForms";
+import Video from "./components/Video";
+import CustomSlider from "./components/CustomSlider";
+import AllRoadmap from "./components/AllRoadmap";
+import NavbarSpaceCenter from "./components/NavbarSpaceCenter";
+import NavbarAlignRight from "./components/NavbarAlignRight";
+import NavbarCentered from "./components/NavbarCentered";
+import HeroFirst from "./components/HeroFirst";
+import HeroSecond from "./components/HeroSecond";
+import HeroThird from "./components/HeroThird";
+import AbsoluteHeroFirst from "./components/AbsoluteHeroFirst";
+import TableTailwind from "./components/TableTailwind";
 
 function App() {
   return (
@@ -47,7 +47,7 @@ function App() {
       {/* <HeroSecond/> */}
       {/* <HeroThird/> */}
       {/* <AbsoluteHeroFirst/> */}
-      {/* <AbsoluteHeroSecond/> */}
+      <TableTailwind/>
     </>
   );
 }
