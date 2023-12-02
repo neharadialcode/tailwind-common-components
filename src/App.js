@@ -25,7 +25,7 @@ import AbsoluteHeroSecond from "./components/AbsoluteHeroSecond";
 function App() {
   return (
     <>
-      {/* <div className="overflow-x-hidden">
+      <div className="overflow-x-hidden">
         <Routes>
           <Route path="/" element={<ViewButtons />} />
           <Route path="/header" element={<AllHeader />} />
@@ -37,9 +37,9 @@ function App() {
           <Route path="/video" element={<Video />} />
           <Route path="/form" element={<AllForms />} />
           <Route path="/slider" element={<CustomSlider />} />
-          <Route path="/roadmap" element={<AllRoadmap/>} />
+          <Route path="/roadmap" element={<AllRoadmap />} />
         </Routes>
-      </div>  */}
+      </div> 
       {/* <NavbarSpaceCenter/> */}
       {/* <NavbarAlignRight/> */}
       {/* <NavbarCentered/> */}
