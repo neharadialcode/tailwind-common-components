@@ -6,7 +6,7 @@ const HorizontalRoadMap = () => {
         <h3 className="font-Inter text-center font-semibold md:text-3xl text-2xl text-black mb-4 leading-normal">
           Road Map
         </h3>
-        <p className="font-Inter text-sm text-center mx-auto font-normal lg:mb-121px mb-80px text-black opacity-70 max-w-[912px] leading-[150%]">
+        <p className="font-Inter text-sm text-center mx-auto font-normal lg:mb-121px sm:mb-0 mb-61px text-black opacity-70 max-w-[912px] leading-[150%]">
           Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
           porttitor quam sed aliquet. Sodales vulputate elementum arcu donec.
           Feugiat nibh ullamcorper egestas lectus risus ornare ullamcorper
