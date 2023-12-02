@@ -1,13 +1,12 @@
 import React from "react";
-
 const HorizontalRoadMap = () => {
   return (
     <div>
       <div className="container py-20 xl:w-[1140px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
-        <h3 className="font-Inter text-center font-semibold md:text-lg text-3md text-black mb-4 leading-normal">
+        <h3 className="font-Inter text-center font-semibold md:text-3xl text-2xl text-black mb-4 leading-normal">
           Road Map
         </h3>
-        <p className="font-Inter text-sm mx-auto font-normal lg:mb-121px sm:m-0  mb-80px text-black opacity-70 max-w-[912px] text-center leading-[150%]">
+        <p className="font-Inter text-sm text-center mx-auto font-normal lg:mb-121px mb-80px text-black opacity-70 max-w-[912px] leading-[150%]">
           Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
           porttitor quam sed aliquet. Sodales vulputate elementum arcu donec.
           Feugiat nibh ullamcorper egestas lectus risus ornare ullamcorper
@@ -19,7 +18,7 @@ const HorizontalRoadMap = () => {
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
                 <span className="w-1.5px h-120px bg-[#C5C2C2] absolute left-[-17px] top-[50%] sm:hidden"></span>
                 <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:bottom-[-60%] lg:left-[50%] lg:translate-x-[-50%] md:right-[-61%] sm:right-[-45%] sm:bottom-[8%] sm:translate-y-[-50%] right-[100%] bottom-[20%] translate-y-[-50%]">
-                  <div className=" w-5 h-5 rounded-full bg-[#3C278D]"></div>
+                  <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center leading-normal">
                   Lorem ipsum{" "}
@@ -46,7 +45,7 @@ const HorizontalRoadMap = () => {
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
                 <span className="w-1.5px h-216px bg-[#C5C2C2] absolute left-[-17px] top-0 sm:hidden"></span>
-                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:bottom-[-60%] lg:left-[50%] lg:translate-x-[-50%] md:right-[-61%] sm:right-[-45%] sm:bottom-[8%] translate-y-[-50%]  right-[100%] bottom-[20%]">
+                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:bottom-[-60%] lg:left-[50%] lg:translate-x-[-50%] md:right-[-61%] sm:right-[-45%] sm:bottom-[8%] translate-y-[-50%] right-[100%] bottom-[20%]">
                   <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center">
@@ -58,7 +57,7 @@ const HorizontalRoadMap = () => {
               </div>
             </div>
           </div>
-          <div className="hidden sm:block absolute lg:top-[51%] z-[-1] lg:left-[8%] lg:w-[75%] 2xl:w-[68%] 2xl:left-[16%] w-1.5px lg:h-1.5px sm:h-[68%] h-[92%] sm:top-[58%] translate-y-[-50%] sm:left-[50%] top-[50%] left-20 bg-[#C5C2C2]"></div>
+          <span className="hidden sm:block absolute lg:top-[51%] z-[-1] lg:left-[8%] lg:w-[75%] 2xl:w-[68%] 2xl:left-[16%] w-1.5px lg:h-1.5px sm:h-[68%] h-[92%] sm:top-[58%] translate-y-[-50%] sm:left-[50%] top-[50%] left-20 bg-[#C5C2C2]"></span>
           <div className="flex lg:mt-0 sm:mt-[265px] mt-16 gap-10 sm:gap-32 lg:gap-80px xl:gap-130px lg:flex-row flex-col items-center xl:ms-8 2xl:ms-0 2xl:me-[175px]">
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
@@ -91,7 +90,7 @@ const HorizontalRoadMap = () => {
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
                 <span className="w-1.5px h-40px bg-[#C5C2C2] absolute left-[-17px] top-0 sm:hidden"></span>
-                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:top-[-27%] lg:left-[50%] lg:translate-x-[-50%] md:left-[-61%] sm:left-[-44%] sm:top-[50%] translate-y-[-50%]  right-[100%] top-[50%]">
+                <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:top-[-27%] lg:left-[50%] lg:translate-x-[-50%] md:left-[-61%] sm:left-[-44%] sm:top-[50%] translate-y-[-50%] right-[100%] top-[50%]">
                   <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center leading-normal">
@@ -108,5 +107,4 @@ const HorizontalRoadMap = () => {
     </div>
   );
 };
-
 export default HorizontalRoadMap;

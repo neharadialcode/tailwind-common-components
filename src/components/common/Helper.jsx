@@ -1,7 +1,7 @@
-import men_1 from "../assets/images/png/men-1.png";
-import men_2 from "../assets/images/png/men-2.png";
-import women_1 from "../assets/images/png/women-1.png";
-import women_2 from "../assets/images/png/women-2.png";
+import men_1 from "../../assets/images/png/men-1.png";
+import men_2 from "../../assets/images/png/men-2.png";
+import women_1 from "../../assets/images/png/women-1.png";
+import women_2 from "../../assets/images/png/women-2.png";
 
 export const card = [
   {

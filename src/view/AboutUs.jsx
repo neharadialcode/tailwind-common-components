@@ -1,12 +1,12 @@
-import React from 'react'
-import AboutUsFirst from './AboutUsFirst';
-import AboutUsSecond from './AboutUsSecond';
-import BackToTop from './BackToTop';
+import React from "react";
+import AboutUsFirst from "../components/aboutus/AboutUsFirst";
+import AboutUsSecond from "../components/aboutus/AboutUsSecond";
+import BackToTop from "../components/common/BackToTop";
 
 const AllAboutUs = () => {
   return (
     <>
-    <BackToTop/>
+      <BackToTop />
       <a
         href="/"
         className="bg-blue my-8 mx-3 h-[48px] w-[120px] flex justify-center items-center sm:text-[16px] text-[14px] rounded-xl text-white font-Inter font-semibold"
@@ -17,6 +17,6 @@ const AllAboutUs = () => {
       <AboutUsSecond />
     </>
   );
-}
+};
 
 export default AllAboutUs;

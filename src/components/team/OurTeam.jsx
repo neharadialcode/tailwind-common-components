@@ -1,5 +1,5 @@
 import React from "react";
-import { card } from "./Helper";
+import { card } from "../common/Helper";
 
 const OurTeam = () => {
   return (

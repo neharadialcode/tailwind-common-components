@@ -1,5 +1,5 @@
 import React from "react";
-import color_img from "../assets/images/png/colorfull_img.png";
+import color_img from "../../assets/images/png/colorfull_img.png";
 
 const AboutUsSecond = () => {
   return (

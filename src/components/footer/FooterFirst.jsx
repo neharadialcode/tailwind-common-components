@@ -1,9 +1,9 @@
 import React from "react";
-import { BehanceIcon, FacebookIcon, TwitterIcon } from "./Icons";
+import { BehanceIcon, FacebookIcon, TwitterIcon } from "../common/Icons";
 
 const FooterFirst = () => {
-      const today = new Date();
-      const year = today.getFullYear();
+  const today = new Date();
+  const year = today.getFullYear();
   return (
     <>
       <div className="max-w-[1140px] 2xl:max-w-[1320px] mx-auto xl:px-0 px-3 h-full ">
@@ -54,20 +54,23 @@ const FooterFirst = () => {
               </ul>
             </div>
             <div className=" sm:pt-0 pt-5">
-              <ul >
+              <ul>
                 <li className="text-black font-Inter sm:text-[16px] text-[14px] font-semibold leading-normal">
                   Get in Touch
                 </li>
               </ul>
               <form className="flex justify-between items-center bg-[#EAE7F3] rounded-xl mt-4 sm:w-[325px] w-full">
-                <input required
+                <input
+                  required
                   type="email"
                   placeholder="Type Your Mail"
                   className="pe-2 bg-[#EAE7F3] h-[45px] placeholder:text-black placeholder:sm:text-[16px] placeholder:text-[14px] placeholder:font-normal placeholder:leading-normal rounded-xl py-3 w-full outline-none ps-3"
                 />
-                <input type="submit" value="Search" className="bg-blue px-[16px] hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue h-[39px] flex justify-center items-center font-Inter sm:text-[16px] text-[14px] text-white rounded-xl font-normal leading-normal me-1"/>
-                 
-                
+                <input
+                  type="submit"
+                  value="Search"
+                  className="bg-blue px-[16px] hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue h-[39px] flex justify-center items-center font-Inter sm:text-[16px] text-[14px] text-white rounded-xl font-normal leading-normal me-1"
+                />
               </form>
               <p className="pt-4 font-Inter text-black sm:text-[16px] text-[14px] font-normal leading-normal">
                 Follow us now
@@ -78,21 +81,21 @@ const FooterFirst = () => {
                   target="_blank"
                   className="hover:translate-y-[-4px] hover:scale-105 transition-all duration-300"
                 >
-                 <TwitterIcon/>
+                  <TwitterIcon />
                 </a>
                 <a
                   href="https://www.facebook.com/login/"
                   target="_blank"
                   className="hover:translate-y-[-4px] hover:scale-105 transition-all duration-300"
                 >
-                 <FacebookIcon/>
+                  <FacebookIcon />
                 </a>
                 <a
                   href="https://www.behance.net/"
                   target="_blank"
                   className="ms-[2px] hover:translate-y-[-4px] hover:scale-105 transition-all duration-300"
                 >
-                 <BehanceIcon/>
+                  <BehanceIcon />
                 </a>
               </div>
             </div>

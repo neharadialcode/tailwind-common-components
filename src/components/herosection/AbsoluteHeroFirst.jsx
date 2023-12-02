@@ -1,14 +1,14 @@
 import React from "react";
-import macbook_col_img from "../assets/images/png/mackbook_hero.png";
-import NavbarSpaceCenter from "./NavbarSpaceCenter";
+import macbook_col_img from "../../assets/images/png/mackbook_hero.png";
+import NavbarSpaceCenter from "../headersection/NavbarSpaceCenter";
 
 const AbsoluteHeroFirst = () => {
   return (
     <>
-      <section className=" flex flex-col justify-center mb-12 max-w-[1920px] mx-auto">
-      <NavbarSpaceCenter/>
-        <div className="lg:flex-grow flex py-16 h-full items-center relative">
-          <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto xl:px-0 px-3 h-full ">
+      <section className=" flex flex-col justify-center mb-12 max-w-[1920px] mx-auto overflow-x-hidden">
+        <NavbarSpaceCenter />
+        <div className="lg:flex-grow flex xl:py-40 lg:py-20 py-16 h-full items-center relative">
+          <div className="container custom_container mx-auto  h-full ">
             <div className="flex justify-center items-center lg:gap-[73px] gap-12  lg:flex-row flex-col">
               <div className="lg:w-[55%] w-[100%]">
                 <h2 className="text-black text-xl font-Inter font-normal leading-normal">
@@ -43,7 +43,7 @@ const AbsoluteHeroFirst = () => {
                 <img
                   src={macbook_col_img}
                   alt="hero section macbook image"
-                  className="w-full xl:max-w-[886px] max-w-[650px] lg:absolute xl:right-[-170px] right-[-100px] xl:bottom-[-40%] bottom-[10%]"
+                  className="w-full xl:max-w-[976px] max-w-[650px] lg:absolute xl:right-[-290px] right-[-100px] xl:bottom-0 bottom-[10%]"
                 />
               </div>
             </div>

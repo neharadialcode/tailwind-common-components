@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import sample_video from "../assets/videos/sample_video.mp4";
-import thumbnail from "../assets/images/png/colorfull_img.png";
-import play from "../assets/images/png/play_button.png";
+import sample_video from "../../assets/videos/sample_video.mp4";
+import thumbnail from "../../assets/images/png/colorfull_img.png";
+import play from "../../assets/images/png/play_button.png";
 
 const Video = () => {
   const [isVideoPlaying, setVideoPlaying] = useState(false);

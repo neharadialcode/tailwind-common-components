@@ -175,7 +175,6 @@ const VerticalRoadMap = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="w-[2px] h-[320px] bg-black "></div> */}
               <div className=" md:w-2/4 md:block hidden relative">
                 <div className="flex items-center  absolute md:top-[120px] top-[80px] left-0">
                   <div className="md:block hidden w-[85px] h-[2px] bg-black"></div>

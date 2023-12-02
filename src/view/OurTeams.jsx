@@ -1,8 +1,7 @@
-import React from 'react'
-import FooterFirst from './FooterFirst';
-import FooterSecond from './FooterSecond';
+import React from "react";
+import OurTeam from "../components/team/OurTeam";
 
-const AllFooter = () => {
+const AllOurTeam = () => {
   return (
     <>
       <a
@@ -11,10 +10,9 @@ const AllFooter = () => {
       >
         home
       </a>
-      <FooterFirst />
-      <FooterSecond />
+      <OurTeam />
     </>
   );
-}
+};
 
-export default AllFooter;
+export default AllOurTeam;

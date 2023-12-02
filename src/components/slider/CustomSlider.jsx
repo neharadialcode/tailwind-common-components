@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import slider_img_1 from "../assets/images/png/slider_img_1.png";
-import slider_img_2 from "../assets/images/png/slider_img_2.png";
-import slider_img_3 from "../assets/images/png/slider_img_3.png";
-import slider_img_4 from "../assets/images/png/slider_img_4.png";
-import slider_img_5 from "../assets/images/png/slider_img_5.png";
+import slider_img_1 from "../../assets/images/png/slider_img_1.png";
+import slider_img_2 from "../../assets/images/png/slider_img_2.png";
+import slider_img_3 from "../../assets/images/png/slider_img_3.png";
+import slider_img_4 from "../../assets/images/png/slider_img_4.png";
+import slider_img_5 from "../../assets/images/png/slider_img_5.png";
 
 
 class CustomSlider extends Component {
