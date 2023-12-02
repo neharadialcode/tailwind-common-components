@@ -5,8 +5,8 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 import FaqImage from "../../assets/images/png/Faq-image.png";
-import { faqDataSecond } from "../common/Helper";
 import { FaqIcon } from "../common/Icons";
+import { faqDataSecond } from "../common/Helper";
 
 function Icon({ id, open }) {
   return (
@@ -32,7 +32,7 @@ function RowColFaqs() {
           <h1 className="font-inter text-black opacity-70E mb-3  sm:mb-4 font-bold sm:text-2xl text-xl lg:text-start text-center">
             FAQ
           </h1>
-          <p className="font-inter sm:text-[16px] text-[14px] text-black opacity-70 lg:text-start text-center lg:max-w-[500px] 2xl:max-w-[631px] leading-[150%] pb-2 font-normal ">
+          <p className="font-inter sm:text-sm text-xs text-black opacity-70 lg:text-start text-center lg:max-w-[500px] 2xl:max-w-[631px] leading-[150%] pb-2 font-normal ">
             Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
             consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac
             posuere eget nam diam velit urna adipiscing diam.

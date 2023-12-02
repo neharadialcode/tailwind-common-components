@@ -6,7 +6,6 @@ import slider_img_3 from "../../assets/images/png/slider_img_3.png";
 import slider_img_4 from "../../assets/images/png/slider_img_4.png";
 import slider_img_5 from "../../assets/images/png/slider_img_5.png";
 
-
 class CustomSlider extends Component {
   constructor(props) {
     super(props);
@@ -28,9 +27,9 @@ class CustomSlider extends Component {
       <>
         <a
           href="/"
-          className="bg-blue my-8 mx-3 h-[48px] w-[120px] flex justify-center items-center sm:text-[16px] text-[14px] rounded-xl text-white font-Inter font-semibold"
+          className="bg-blue my-8 mx-3 h-48px w-120px flex justify-center items-center sm:text-sm text-xs rounded-xl text-white font-Inter font-semibold"
         >
-        home
+          home
         </a>
         <div className="max-w-[1188px] mx-auto px-6 py-[109px]  ">
           <div className="flex justify-between lg:flex-row flex-col-reverse items-center gap-[52px]">
@@ -84,20 +83,20 @@ class CustomSlider extends Component {
               <h2 className="text-[#1E1E1E] font-Inter md:text-[48px] sm:text-[40px] text-[36px] font-semibold leading-normal">
                 Lorem ipsum
               </h2>
-              <p className="pt-4 font-Inter sm:text-[16px] text-[14px] font-normal leading-normal text-[#4D4D4D]">
+              <p className="pt-4 font-Inter sm:text-sm text-xs font-normal leading-normal text-dark-gray">
                 Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
                 consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
                 Hac posuere eget nam diam velit urna adipiscing diam. Dis velit
                 nam vitae hendrerit at egestas.
               </p>
-              <p className="pt-4 font-Inter sm:text-[16px] text-[14px] font-normal leading-normal text-[#4D4D4D]">
+              <p className="pt-4 font-Inter sm:text-sm text-xs font-normal leading-normal text-dark-gray">
                 Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
                 consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
                 Hac posuere eget nam diam velit urna adipiscing diam. Dis velit
                 nam vitae hendrerit at egestas. Tellus velit turpis at sed lorem
                 vitae sed. Proin urna ornare dolor mauris convallis varius nunc.
               </p>
-              <button className="bg-blue h-[48px] mt-8 w-[164px] flex justify-center items-center rounded-xl font-Inter sm:text-[16px] text-[14px] font-semibold leading-[157%] text-white hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue">
+              <button className="bg-blue h-48px mt-8 w-[164px] flex justify-center items-center rounded-xl font-Inter sm:text-sm text-xs font-semibold leading-[157%] text-white hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue">
                 Button
               </button>
             </div>

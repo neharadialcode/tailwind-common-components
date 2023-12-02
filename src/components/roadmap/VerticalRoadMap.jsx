@@ -15,7 +15,7 @@ const VerticalRoadMap = () => {
             fames. Cursus libero nec facilisis
           </p>
           <div className="relative">
-            <div className="bg-[#c5c2c2] w-2px h-[100%] absolute top-[0%] md:left-[50%] left-[5%] md:translate-x-[-50%]">
+            <div className="bg-bg-gray w-2px h-[100%] absolute top-[0%] md:left-[50%] left-[5%] md:translate-x-[-50%]">
               <div className="md:hidden block">
                 <div className="flex items-center absolute top-[0%] left-[-25px] ">
                   <div className="w-50px h-50px bg-white rounded-[50%] border-2 border-black flex justify-center items-center">

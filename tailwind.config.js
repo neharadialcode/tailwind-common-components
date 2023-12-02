@@ -30,6 +30,7 @@ module.exports = {
         "light-blue": "#3C278D",
         "card-bg": "#ededed",
         lightgray: "#4A4A4A",
+        grayblue:"#EAE7F3",
         gray: "#484848",
         darkblack: "#1E1E1E",
         "bg-gray": "#C5C2C2",

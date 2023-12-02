@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const FormSecond = () => {
   const [touchForm, setTouchForm] = useState({
@@ -31,7 +31,6 @@ const FormSecond = () => {
         message: "",
       });
     }
-    
   };
   return (
     <>
@@ -47,7 +46,7 @@ const FormSecond = () => {
                 <input
                   type="text"
                   placeholder="Name"
-                  className="outline-[#00000070] border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl"
+                  className="outline-[#00000070] border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-sm text-xs font-normal leading-normal rounded-xl"
                   onChange={(e) =>
                     setTouchForm({ ...touchForm, name: e.target.value })
                   }
@@ -55,7 +54,7 @@ const FormSecond = () => {
                 />
                 <p className="requiredHeight">
                   {error && touchForm.name === "" ? (
-                    <p className=" absolute bottom-[-40%] text-red-600 left-0 font-Inter font-medium leading-[157%] text-[14px]">
+                    <p className=" absolute bottom-[-40%] text-red-600 left-0 font-Inter font-medium leading-[157%] text-xs">
                       Name is required
                     </p>
                   ) : (
@@ -67,7 +66,7 @@ const FormSecond = () => {
                 <input
                   type="email"
                   placeholder="Email address"
-                  className="outline-[#00000070] border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl mt-4"
+                  className="outline-[#00000070] border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-sm text-xs font-normal leading-normal rounded-xl mt-4"
                   onChange={(e) =>
                     setTouchForm({ ...touchForm, email: e.target.value })
                   }
@@ -75,7 +74,7 @@ const FormSecond = () => {
                 />
                 <p className="requiredHeight">
                   {error && touchForm.email === "" ? (
-                    <p className="text-red-600 absolute bottom-[-30%] left-0 font-Inter font-medium leading-[157%] text-[14px]">
+                    <p className="text-red-600 absolute bottom-[-30%] left-0 font-Inter font-medium leading-[157%] text-xs">
                       Email is required
                     </p>
                   ) : (
@@ -87,7 +86,7 @@ const FormSecond = () => {
                 <input
                   type="number"
                   placeholder="Contact"
-                  className="outline-[#00000070] border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl mt-4"
+                  className="outline-[#00000070] border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-sm text-xs font-normal leading-normal rounded-xl mt-4"
                   onChange={(e) =>
                     setTouchForm({ ...touchForm, contact: e.target.value })
                   }
@@ -95,7 +94,7 @@ const FormSecond = () => {
                 />
                 <p className="requiredHeight">
                   {error && touchForm.contact === "" ? (
-                    <p className="absolute bottom-[-30%] left-0 font-Inter font-medium leading-[157%] text-red-600 text-[14px]">
+                    <p className="absolute bottom-[-30%] left-0 font-Inter font-medium leading-[157%] text-red-600 text-xs">
                       Number is required
                     </p>
                   ) : (
@@ -106,7 +105,7 @@ const FormSecond = () => {
               <div className="relative">
                 <textarea
                   placeholder="Message"
-                  className="outline-[#00000070] border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-[16px] text-[14px] font-normal leading-normal rounded-xl mt-4 h-[90px]"
+                  className="outline-[#00000070] border border-[#8F8F8F] w-full px-3 py-3 font-inter text-[#8F8F8F] sm:text-sm text-xs font-normal leading-normal rounded-xl mt-4 h-[90px]"
                   onChange={(e) =>
                     setTouchForm({ ...touchForm, message: e.target.value })
                   }
@@ -114,7 +113,7 @@ const FormSecond = () => {
                 />
                 <p className="requiredHeight mb-1 text-danger font-medium text-end">
                   {error && touchForm.message === "" ? (
-                    <p className="text-red-600 font-Inter font-medium leading-[157%] absolute bottom-[-20%] left-0 text-[14px]">
+                    <p className="text-red-600 font-Inter font-medium leading-[157%] absolute bottom-[-20%] left-0 text-xs">
                       Text is required
                     </p>
                   ) : (
@@ -122,7 +121,7 @@ const FormSecond = () => {
                   )}
                 </p>
               </div>
-              <button className="mt-8 bg-blue h-[43px] w-[103px] flex justify-center items-center rounded-xl text-white font-Inter sm:text-[16px] text-[14px] hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-semibold leading-normal">
+              <button className="mt-8 bg-blue h-[43px] w-[103px] flex justify-center items-center rounded-xl text-white font-Inter sm:text-sm text-xs hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-semibold leading-normal">
                 Submit
               </button>
             </form>
@@ -132,14 +131,14 @@ const FormSecond = () => {
               <p className="text-black font-Inter sm:text-[36px] text-[32px] font-semibold leading-normal">
                 Get In Touch
               </p>
-              <p className="pt-4 font-Inter sm:text-[16px] text-[14px] max-w-[441px] font-normal leading-normal text-[#4D4D4D]">
+              <p className="pt-4 font-Inter sm:text-sm text-xs max-w-[441px] font-normal leading-normal text-dark-gray">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
                 ullamcorper fames. Cursus libero nec facilisis risus malesuada
                 arcu cum.
               </p>
-              <button className="mt-[28px] bg-blue h-[48px] w-[146px] flex justify-center items-center rounded-xl text-white font-Inter sm:text-[16px] text-[14px]  hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-semibold leading-normal">
+              <button className="mt-[28px] bg-blue h-48px w-[146px] flex justify-center items-center rounded-xl text-white font-Inter sm:text-sm text-xs  hover:bg-white border-transparent hover:border-blue border-2 transition-all duration-300 hover:text-blue font-semibold leading-normal">
                 Get in Touch
               </button>
             </div>

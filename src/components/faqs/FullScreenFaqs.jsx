@@ -5,7 +5,7 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 import { FaqIcon } from "../common/Icons";
-import { faqData} from "../common/Helper";
+import { faqData } from "../common/Helper";
 
 function Icon({ id, open }) {
   return (
@@ -19,7 +19,7 @@ function Icon({ id, open }) {
   );
 }
 
- function FullScreenFaqs() {
+function FullScreenFaqs() {
   const [open, setOpen] = useState(0);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
@@ -30,7 +30,7 @@ function Icon({ id, open }) {
         <h2 className="font-inter text-light-blackE mb-3  sm:mb-4 font-bold sm:text-2xl text-xl text-center">
           FAQ
         </h2>
-        <p className="font-inter sm:text-sm text-[14px] text-black opacity-70 text-center mx-auto max-w-[788px] leading-[150%] pb-4  ">
+        <p className="font-inter sm:text-sm text-xs text-black opacity-70 text-center mx-auto max-w-[788px] leading-[150%] pb-4  ">
           Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
           consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac
           posuere eget nam diam velit urna adipiscing diam.
