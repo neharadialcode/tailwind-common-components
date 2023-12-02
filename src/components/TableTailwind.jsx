@@ -1,5 +1,5 @@
 import React from 'react'
-import { tabledata } from './Helper'
+import { tabledata } from './common/Helper'
 
 const TableTailwind = () => {
     return (
