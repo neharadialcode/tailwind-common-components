@@ -3,7 +3,7 @@ import React from "react";
 const FormThird = () => {
   return (
     <>
-      <div className="form_bg mt-24">
+      <div className="bg-[length:100%_100%] bg-center bg-no-repeat bg-[url('./assets/images/png/form_bg_img.png')] mt-24">
         <div className="max-w-[1188px] mx-auto px-6 pt-[106px] pb-[131px]">
           <div className="flex justify-center items-center flex-col">
             <h2 className="text-white font-Inter font-semibold leading-normal sm:text-[36px] text-[32px]">

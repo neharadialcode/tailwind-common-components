@@ -14,7 +14,7 @@ const NavbarAlignRight = () => {
   }
   return (
     <>
-      <section className="relative z-[2]">
+      <div className="relative z-[2]">
         <div className="container max-w-[1140px] mx-auto">
           <div className="flex justify-between items-center relative z-40 md:py-26px py-4">
             <a
@@ -79,7 +79,7 @@ const NavbarAlignRight = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

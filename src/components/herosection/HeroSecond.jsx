@@ -4,7 +4,7 @@ import hero_col_img from "../../assets/images/png/hero_col_img.png";
 const HeroSecond = () => {
   return (
     <>
-      <section className="lg:min-h-screen flex flex-col justify-center mb-12 max-w-[1920px] mx-auto">
+      <div className="lg:min-h-screen flex flex-col justify-center mb-12 max-w-[1920px] mx-auto">
         <div className="flex justify-center items-center py-10">
           <a
             href="/"
@@ -43,7 +43,7 @@ const HeroSecond = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

@@ -5,7 +5,7 @@ import NavbarSpaceCenter from "../headersection/NavbarSpaceCenter";
 const AbsoluteHeroFirst = () => {
   return (
     <>
-      <section className=" flex flex-col justify-center mb-12 max-w-[1920px] mx-auto overflow-x-hidden">
+      <div className=" flex flex-col justify-center mb-12 max-w-[1920px] mx-auto overflow-x-hidden">
         <NavbarSpaceCenter />
         <div className="lg:flex-grow flex xl:py-40 lg:py-20 py-16 h-full items-center relative">
           <div className="container mx-auto h-full ">
@@ -48,7 +48,7 @@ const AbsoluteHeroFirst = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

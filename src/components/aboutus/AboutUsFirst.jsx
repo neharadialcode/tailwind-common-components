@@ -3,7 +3,7 @@ import React from "react";
 const AboutUsFirst = () => {
   return (
     <>
-      <div className="aboutus_bg">
+      <div className="bg-cover bg-center bg-no-repeat bg-[url('./assets/images/png/aboutus_bg.png')]">
         <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto xl:px-0 px-3">
           <div className="flex justify-center items-center flex-col lg:pt-[118px] md:pt-[100px] lg:pb-[121px] md:pb-[100px] py-12">
             <h3 className="text-darkblack font-Inter text-xl sm:text-2xl font-semibold leading-normal mb-4">

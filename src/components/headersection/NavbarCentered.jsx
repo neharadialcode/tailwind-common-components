@@ -14,7 +14,7 @@ const NavbarCentered = () => {
       }
   return (
     <>
-      <section className="relative z-[2]">
+      <div className="relative z-[2]">
         <div className="container max-w-[1140px] mx-auto">
           <div className="flex justify-between md:justify-center items-center relative z-40 md:py-26px py-4">
             <div className="flex justify-between md:hidden items-center w-full md:w-87px">
@@ -86,7 +86,7 @@ const NavbarCentered = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

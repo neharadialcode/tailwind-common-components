@@ -14,7 +14,7 @@ const NavbarSpaceCenter = () => {
   }
   return (
     <>
-      <section className="relative z-[2]">
+      <div className="relative z-[2]">
         <div className="container max-w-[1140px] mx-auto">
           <div className="flex justify-between items-center relative z-40 md:py-26px py-4">
             <div className="flex justify-between items-center w-full md:w-87px">
@@ -84,7 +84,7 @@ const NavbarSpaceCenter = () => {
             </button>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

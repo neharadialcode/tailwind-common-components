@@ -16,88 +16,88 @@ const HorizontalRoadMap = () => {
           <div className="flex gap-10 sm:gap-32 lg:gap-80px xl:gap-130px xl:ms-[190px] 2xl:ms-[175px] lg:ms-145px lg:flex-row flex-col">
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
-                <span className="w-1.5px h-120px bg-bg-gray absolute left-[-17px] top-[50%] sm:hidden"></span>
+                <span className="w-1.5px h-120px bg-[#C5C2C2] absolute left-[-17px] top-[50%] sm:hidden"></span>
                 <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:bottom-[-60%] lg:left-[50%] lg:translate-x-[-50%] md:right-[-61%] sm:right-[-45%] sm:bottom-[8%] sm:translate-y-[-50%] right-[100%] bottom-[20%] translate-y-[-50%]">
                   <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center leading-normal">
-                  Lorem ipsum{" "}
+                  Lorem ipsum
                 </h2>
-                <p className="roadmap_para duration-300 rounded-b-xl font-Inter text-sm font-normal text-black opacity-70 text-center leading-normal">
-                  Lorem ipsum dolor sit amet consectetur.{" "}
+                <p className="roadmap_para p-[10px] duration-300 rounded-b-xl font-Inter text-sm font-normal text-black opacity-70 text-center leading-normal">
+                  Lorem ipsum dolor sit amet consectetur.
                 </p>
               </div>
             </div>
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
-                <span className="w-1.5px h-216px bg-bg-gray absolute left-[-17px] top-0 sm:hidden"></span>
+                <span className="w-1.5px h-216px bg-[#C5C2C2] absolute left-[-17px] top-0 sm:hidden"></span>
                 <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:bottom-[-60%] lg:left-[50%] lg:translate-x-[-50%] md:right-[-61%] sm:right-[-45%] sm:bottom-[8%] translate-y-[-50%] right-[100%] bottom-[20%]">
                   <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center">
-                  Lorem ipsum{" "}
+                  Lorem ipsum
                 </h2>
-                <p className="roadmap_para duration-300 rounded-b-xl font-Inter text-sm font-normal text-black opacity-70 text-center leading-normal">
-                  Lorem ipsum dolor sit amet consectetur.{" "}
+                <p className="roadmap_para p-[10px] duration-300 rounded-b-xl font-Inter text-sm font-normal text-black opacity-70 text-center leading-normal">
+                  Lorem ipsum dolor sit amet consectetur.
                 </p>
               </div>
             </div>
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
-                <span className="w-1.5px h-216px bg-bg-gray absolute left-[-17px] top-0 sm:hidden"></span>
+                <span className="w-1.5px h-216px bg-[#C5C2C2] absolute left-[-17px] top-0 sm:hidden"></span>
                 <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:bottom-[-60%] lg:left-[50%] lg:translate-x-[-50%] md:right-[-61%] sm:right-[-45%] sm:bottom-[8%] translate-y-[-50%] right-[100%] bottom-[20%]">
                   <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center">
-                  Lorem ipsum{" "}
+                  Lorem ipsum
                 </h2>
-                <p className="roadmap_para duration-300 rounded-b-xl font-Inter text-sm font-normal text-black opacity-70 text-center leading-normal">
-                  Lorem ipsum dolor sit amet consectetur.{" "}
+                <p className="roadmap_para p-[10px] duration-300 rounded-b-xl font-Inter text-sm font-normal text-black opacity-70 text-center leading-normal">
+                  Lorem ipsum dolor sit amet consectetur.
                 </p>
               </div>
             </div>
           </div>
-          <span className="hidden sm:block absolute lg:top-[51%] z-[-1] lg:left-[8%] lg:w-[75%] 2xl:w-[68%] 2xl:left-[16%] w-1.5px lg:h-1.5px sm:h-[68%] h-[92%] sm:top-[58%] translate-y-[-50%] sm:left-[50%] top-[50%] left-20 bg-bg-gray"></span>
+          <span className="hidden sm:block absolute lg:top-[51%] z-[-1] lg:left-[9%] lg:w-[72%] 2xl:w-[63%] xl:w-[72%] xl:left-[11%] 2xl:left-[18%] w-1.5px lg:h-1.5px sm:h-[68%] h-[92%] sm:top-[58%] translate-y-[-50%] sm:left-[50%] top-[50%] left-20 bg-[#C5C2C2]"></span>
           <div className="flex lg:mt-0 sm:mt-[265px] mt-16 gap-10 sm:gap-32 lg:gap-80px xl:gap-130px lg:flex-row flex-col items-center xl:ms-8 2xl:ms-0 2xl:me-[175px]">
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
-                <span className="w-1.5px h-216px bg-bg-gray absolute left-[-17px] top-0 sm:hidden"></span>
+                <span className="w-1.5px h-216px bg-[#C5C2C2] absolute left-[-17px] top-0 sm:hidden"></span>
                 <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:top-[-27%] lg:left-[50%] lg:translate-x-[-50%] md:left-[-61%] sm:left-[-44%] sm:top-[50%] translate-y-[-50%] right-[100%] top-[50%]">
                   <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center">
-                  Lorem ipsum{" "}
+                  Lorem ipsum
                 </h2>
-                <p className="roadmap_para duration-300 rounded-b-xl font-Inter text-sm font-normal text-black opacity-70 text-center leading-normal">
-                  Lorem ipsum dolor sit amet consectetur.{" "}
+                <p className="roadmap_para p-[10px] duration-300 rounded-b-xl font-Inter text-sm font-normal text-black opacity-70 text-center leading-normal">
+                  Lorem ipsum dolor sit amet consectetur.
                 </p>
               </div>
             </div>
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
-                <span className="w-1.5px h-216px bg-bg-gray absolute left-[-17px] top-0 sm:hidden"></span>
+                <span className="w-1.5px h-216px bg-[#C5C2C2] absolute left-[-17px] top-0 sm:hidden"></span>
                 <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:top-[-27%] lg:left-[50%] lg:translate-x-[-50%] md:left-[-61%] sm:left-[-44%] sm:top-[50%] translate-y-[-50%] right-[100%] top-[50%]">
                   <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center leading-normal">
-                  Lorem ipsum{" "}
+                  Lorem ipsum
                 </h2>
-                <p className="roadmap_para duration-300 rounded-b-xl font-Inter text-sm font-normal text-black opacity-70 text-center leading-normal">
-                  Lorem ipsum dolor sit amet consectetur.{" "}
+                <p className="roadmap_para p-[10px] duration-300 rounded-b-xl font-Inter text-sm font-normal text-black opacity-70 text-center leading-normal">
+                  Lorem ipsum dolor sit amet consectetur.
                 </p>
               </div>
             </div>
             <div className="relative sm:ps-0 ps-12">
               <div className="w-194px h-118px roadmap_cards rounded-xl border-transparent hover:border hover:border-[#3C278D38]">
-                <span className="w-1.5px h-40px bg-bg-gray absolute left-[-17px] top-0 sm:hidden"></span>
+                <span className="w-1.5px h-40px bg-[#C5C2C2] absolute left-[-17px] top-0 sm:hidden"></span>
                 <div className="w-34px h-34px rounded-full border border-[#3C278D] flex justify-center items-center absolute lg:top-[-27%] lg:left-[50%] lg:translate-x-[-50%] md:left-[-61%] sm:left-[-44%] sm:top-[50%] translate-y-[-50%] right-[100%] top-[50%]">
                   <span className=" w-5 h-5 rounded-full bg-[#3C278D]"></span>
                 </div>
                 <h2 className="roadmap_heading duration-300 rounded-t-xl font-Inter pb-2 text-[#1E1E1E] font-semibold text-md text-center leading-normal">
-                  Lorem ipsum{" "}
+                  Lorem ipsum
                 </h2>
-                <p className="roadmap_para duration-300 rounded-b-xl font-Inter text-sm font-normal text-black opacity-70 text-center leading-normal">
-                  Lorem ipsum dolor sit amet consectetur.{" "}
+                <p className="roadmap_para p-[10px] duration-300 rounded-b-xl font-Inter text-sm font-normal text-black opacity-70 text-center leading-normal">
+                  Lorem ipsum dolor sit amet consectetur.
                 </p>
               </div>
             </div>
